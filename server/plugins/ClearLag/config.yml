@@ -113,21 +113,21 @@ command-remove:
   world-filter:
     - this_world
   broadcast-removal: false
-  boat: true
+  boat: false
   falling-block: true
   experienceOrb: true
-  painting: true
+  painting: false
   projectile: true
   item: true
   itemframe: false
-  minecart: true
+  minecart: false
   primed-tnt: true
   arrow: true
   snowball: true
   fireball: true
   ender-signal: true
   mobs:
-    - None
+    - bat
     - None
      
 check:
