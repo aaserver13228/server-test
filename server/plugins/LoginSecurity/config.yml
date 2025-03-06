@@ -12,7 +12,7 @@ login:
   # Only allow registered players to join using exactly the same name as registered.
   username-match-exact: true
 password:
-  min-length: 6
+  min-length: 1
 password-max-length: 32
 join:
   # When enabled, player gets a blindness effect when not logged in.
