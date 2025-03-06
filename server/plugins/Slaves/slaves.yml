@@ -1,0 +1,6 @@
+# Slaves and owners are saved like so:
+# #OWNERNAME:
+# #    - SLAVE1
+# #    - SLAVE2
+# #    - ...
+# #More information about configuration: http://dev.bukkit.org/server-mods/slaves

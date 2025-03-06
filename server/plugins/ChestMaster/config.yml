@@ -1,0 +1,27 @@
+storage: sqlite #sqlite or mysql
+mysql: #if you select mysql above
+    hostname: localhost
+    username: root
+    password: bananas
+    database: chestmaster
+
+
+use_uuid: false #Use UUID or Player Name?
+chest_size: 45 #MUST be a multiple of 9!
+migrated: true #DO NOT CHANGE, or the plugin will crash/reset
+sql_version: 4 #DO NOT CHANGE, or the plugin will crash/reset
+disable_dupe_kick: false #Do not kick a player, only block access, if duplciation attemp detected
+block_creative_access: false #Block access to /chest if the player is on creative gamemode
+command_name: chest #Rename the /chest command if you want
+networking:
+    use_metrics: true #Enable/Disable the Metrics system, please avoid disabling this <3
+    use_autoupdate: true #I recommend to keep this active
+
+
+lang:
+    NO_PERMISSION_CHEST_NUMBER: "§cYou cant have this many chests!"
+    NO_PERMISSION: "§cAccess Denied"
+    INVALID_CHEST_NUMBER: "§6That chest number is invalid"
+    ADM_CHEST_USAGE: "§cUse /admchest <player> <chest_number>"
+    CHEST_NAME: "§6ChestMaster"
+    NO_PERMISSION_CREATIVE: "§cYou cant use /chest while in creative gamemode"

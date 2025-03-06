@@ -1,0 +1,7 @@
+slots: 45
+autoupdate: true
+metrics: true
+networking: {}
+lang: {}
+mysql: {}
+sql_version: 3
