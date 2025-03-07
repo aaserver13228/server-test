@@ -1,0 +1,39 @@
+Config:
+  MaxMana: 200
+  ManaPotion: 100
+  switch_to_Invetory_after_Spell_used: false
+Player:
+  HeLLo:
+    Mana: 200
+  Hamzah898933_:
+    Mana: 185
+  LeShaun:
+    Mana: 185
+  the_milk_man:
+    Mana: 190
+  jellybean21:
+    Mana: 40
+  haha1243_:
+    Mana: 60
+  abdullah:
+    Mana: 120
+  Hamzah898933:
+    Mana: 180
+  cdfsfdf:
+    Mana: 15
+  Adam8989333:
+    Mana: 190
+  jack_mehoff:
+    Mana: 30
+  jose:
+    Mana: 140
+  jellybean21_:
+    Mana: 90
+  joh_n_cx:
+    Mana: 30
+  haha1243:
+    Mana: 75
+  hi_:
+    Mana: 0
+  YeerEagl5009:
+    Mana: 140

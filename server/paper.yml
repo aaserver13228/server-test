@@ -54,16 +54,13 @@ world-settings:
     despawn-ranges:
       soft: 32
       hard: 128
-    remove-invalid-mob-spawner-tile-entities: true
+    falling-block-height-nerf: 0
     player-blocking-damage-multiplier: 0.5
-    fast-drain:
-      lava: false
-      water: false
     lava-flow-speed:
       normal: 30
       nether: 10
     disable-teleportation-suffocation-check: false
-    falling-block-height-nerf: 0
+    remove-invalid-mob-spawner-tile-entities: true
     remove-unloaded:
       enderpearls: true
       tnt-entities: true
@@ -78,6 +75,9 @@ world-settings:
       enderpearls: false
       tnt-entities: false
       falling-blocks: false
+    fast-drain:
+      lava: false
+      water: false
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
     fix-cannons: false

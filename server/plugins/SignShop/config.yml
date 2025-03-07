@@ -1,0 +1,356 @@
+# If you need help with this config, view the SignShop Quick Reference PDF located in the SignShop folder
+# You can also visit our Bukkit page at tiny.cc/SignShop
+
+MaxSellDistance: 0
+MaxShopsPerPerson: 0
+ShopCooldownMilliseconds: 0
+MessageCooldownSeconds: 0
+ChunkLoadRadius: 2
+TransactionLog: false
+OPOverride: true
+AllowVariableAmounts: false
+AllowEnchantedRepair: true
+DisableEssentialsSigns: true
+AllowUnsafeEnchantments: false
+EnableSignStacking: false
+AllowMultiWorldShops: false
+EnablePermits: false
+PreventVillagerTrade: false
+ProtectShopsInCreative: true
+fixIncompleteOperations: true
+EnablePriceFromWorth: false
+EnableDynmapSupport: true
+Languages: english
+LinkMaterial: redstone
+UpdateMaterial: ink_sack
+DestroyMaterial: gold_axe
+Blacklisted_items:
+- 0
+signs:
+  Buy: takePlayerMoney,takeShopItems,giveOwnerMoney,givePlayerItems
+  Sell: takeVariablePlayerItems,takeOwnerMoney,giveShopItems,givePlayerMoney
+  Donate: takeVariablePlayerItems,giveShopItems
+  DonateHand: takeItemInHand,giveShopItems{allowemptychest}
+  Slot: takePlayerMoney,giveOwnerMoney,RandomItem,givePlayerItems{oneslot},takeShopItems
+  iSell: takeVariablePlayerItems,givePlayerMoney,playerIsOp
+  iBuy: takePlayerMoney,givePlayerItems,playerIsOp
+  gBuy: takePlayerMoney,givePlayerItems,takeShopItems,playerIsOp
+  gSell: takeVariablePlayerItems,givePlayerMoney,giveShopItems,playerIsOp
+  Day: takePlayerMoney,setDayTime,playerIsOp
+  Night: takePlayerMoney,setNightTime,playerIsOp
+  Rain: takePlayerMoney,setRaining,playerIsOp
+  ClearSkies: takePlayerMoney,setClearSkies,playerIsOp
+  DeviceOn: takePlayerMoney,giveOwnerMoney,setRedstoneOn
+  DeviceOff: takePlayerMoney,giveOwnerMoney,setRedstoneOff
+  Toggle: takePlayerMoney,giveOwnerMoney,toggleRedstone
+  Device: takePlayerMoney,giveOwnerMoney,setRedStoneOnTemp
+  Heal: takePlayerMoney,healPlayer,playerIsOp
+  Repair: takePlayerMoney,repairPlayerHeldItem,playerIsOp
+  Dispose: takeItemInHand
+  DeviceItem: takePlayerItems,giveShopItems,setRedStoneOnTemp
+  iSlot: takePlayerMoney,RandomItem,givePlayerItems{oneslot},playerIsOp
+  Enchant: enchantItemInHand,takePlayerMoney,playerIsOp
+  iBuyXP: givePlayerXP,takePlayerMoney,playerIsOp
+  iSellXP: takePlayerXP,givePlayerMoney,playerIsOp
+  iTrade: Chest{1},takePlayerItems,Chest{2},givePlayerItems,playerIsOp
+  Trade: Chest{1},takePlayerItems,giveShopItems,Chest{2},givePlayerItems,takeShopItems
+  TpToOwner: takePlayerMoney,playerIsOp,runCommand
+  Class: takePlayerInventory{clearArmor},takePlayerMoney,givePlayerItems{ignorefull},playerIsOp
+  Disenchant: disenchantItemInHand,takePlayerMoney,playerIsOp
+  Command: takePlayerMoney, playerIsOp,runCommand
+  Share: ShareSign
+  Restricted: RestrictedSign
+  Bank: BankSign
+  Jukebox: playJukebox,takePlayerMoney
+  Kit: givePlayerItems, takePlayerMoney, oneTime, playerIsOp
+  ResetKit: takePlayerMoney, resetOneTime{Kit}, playerIsOp
+  iXPBuy: takePlayerXP{raw},givePlayerItems,playerIsOp
+  iXPSell: givePlayerXP{raw},takePlayerItems,playerIsOp
+messages:
+  setup:
+    Buy: You have put !items for sale at a price of !price!
+    Sell: You have put a bounty of !price for !items!
+    Donate: You have setup a donation box for !items!
+    DonateHand: You have setup a donation box for all item types
+    Slot: You have setup a !price slot machine offering !items!
+    iBuy: You have put !items infinitely for sale at a price of !price!
+    iSell: You have put an infinite bounty of !price for !items!
+    gBuy: You have setup a ghost shop selling !items for !price! (Note, you will not receive or lose money from this shop)
+    gSell: You have setup a ghost shop buying !items for !price! (Note, you will not receive or lose money from this shop)
+    Day: You have setup a time controller that costs !price!
+    Night: You have setup a time controller that costs !price!
+    Rain: You have setup a weather controller that costs !price!
+    ClearSkies: You have setup a weather controller that costs !price!
+    DeviceOn: You have setup a device activator that costs !price!
+    DeviceOff: You have setup a device deactivator that costs !price!
+    Toggle: You have setup a device toggler that costs !price!
+    Device: You have setup a device temporary activator that costs !price!
+    Heal: You have setup a healing station that costs !price!
+    Repair: You have setup a repair station that costs !price!
+    Dispose: You have setup a dispose sign
+    DeviceItem: You have setup a device temporary activator that costs !items!
+    iSlot: You have setup a !price slot machine offering infinite !items!
+    Enchant: You have setup an Enchanter that costs !price and enchants with !enchantments!
+    iSellXP: You have put a bounty of !price for !xp XP
+    iBuyXP: You have put !xp XP for sale at a price of !price!
+    iTrade: You have setup a trade shop that costs !chest1 for !chest2!
+    Trade: You have setup a trade shop that costs !chest1 for !chest2!
+    TpToOwner: You have setup a command example shop, selling teleports to !owner for !price!
+    Class: You have setup a shop to sell a class of items for !price!
+    Disenchant: You have setup a sign that removes enchantments for !price!
+    Command: You have created a sign that runs commands for !price!
+    Jukebox: You have set up a Jukebox that plays records from the chest for !price!
+    Kit: You have setup a one time use kit (!items) for !price!
+    ResetKit: You have setup a sign that resets !param signs!
+    iXPBuy: You have put !items for sale at the cost of !xp XP points!
+    iXPSell: You have put !items infinitely for sale at a price of !xp XP points!
+  confirm:
+    Buy: Buy !items for !price?
+    Sell: Sell !items for !price?
+    Donate: Donate !items?
+    DonateHand: Donate !items?
+    Slot: Play this slot machine for !price?
+    iBuy: Buy !items for !price?
+    iSell: Sell !items for !price?
+    gBuy: Buy !items for !price?
+    gSell: Sell !items for !price?
+    Day: Set the time to day for !price?
+    Night: Set the time to night for !price?
+    Rain: Set the weather to raining for !price?
+    ClearSkies: Set the weather to clear skies for !price?
+    DeviceOn: Activate this device for !price?
+    DeviceOff: Deactivate this device for !price?
+    Toggle: Toggle this device for !price?
+    Device: Temporarily activate this device for !price?
+    Heal: Heal yourself for !price?
+    Repair: Repair the item held in your hand for !price?
+    Dispose: Dispose of !items?
+    DeviceItem: Temporarily activate this device for !items?
+    iSlot: Play this infinitely stocked slot machine for !price?
+    Enchant: Enchant your item with !enchantments for !price?
+    iSellXP: Sell !xp XP for !price?
+    iBuyXP: Buy !xp XP for !price?
+    iTrade: Buy !chest2 with !chest1?
+    Trade: Buy !chest2 with !chest1?
+    TpToOwner: Teleport to !owner for !price?
+    Class: Buy the class containing !items for !price?
+    Disenchant: Remove enchantments on the item in your hand for !price?
+    Command: Run the commands on this sign for !price?
+    Jukebox: Play a record for !price?
+    Kit: Get this kit (!items) one time for !price?
+    ResetKit: Reset your !param signs for !price!
+    iXPBuy: Buy !items for !xp XP points?
+    iXPSell: Sell !items for !xp XP points?
+  transaction:
+    Buy: You have bought !items for !price!
+    Sell: You have sold !items for !price!
+    Donate: You have donated !items!
+    DonateHand: You have donated !items!
+    Slot: You won !items!
+    iBuy: You have bought !items for !price!
+    iSell: You have sold !items for !price!
+    gBuy: You have bought !items for !price!
+    gSell: You have sold !items for !price!
+    Day: You set the time to day for !price!
+    Night: You set the time to night for !price!
+    Rain: You set the weather to raining for !price!
+    ClearSkies: You set the weather to clear skies for !price!
+    DeviceOn: You activated this device for !price!
+    DeviceOff: You deactivated this !price!
+    Toggle: You toggled this device for !price!
+    Device: You temporarily activated this device for !price!
+    Heal: You healed yourself for !price!
+    Repair: You repaired an item for !price!
+    Dispose: You have disposed of !items!
+    DeviceItem: You temporarily activated this device for !items!
+    iSlot: You won !items!
+    Enchant: Enchanted your item with !enchantments for !price!
+    iSellXP: Sold !xp XP for !price!
+    iBuyXP: Added !xp XP for !price!
+    iTrade: Traded !chest1 for !chest2!
+    Trade: Traded !chest1 for !chest2!
+    TpToOwner: You teleported to !owner for !price!
+    Class: You bought the class containing !items for !price!
+    Disenchant: You removed the enchantments on the item in your hand for !price!
+    Command: You ran the commands in the sign for !price!
+    Jukebox: You've made the Jukebox play a record for !price!
+    Kit: You acquired !items for !price!
+    ResetKit: You reset !param signs for !price!
+    iXPBuy: You have bought !items for !xp XP points!
+    iXPSell: You have sold !items for !xp XP points!
+  transaction_owner:
+    Buy: \!customer bought !items for !price from you!
+    Sell: \!customer sold you !items for !price!
+    Donate: \!customer donated !items to you!
+    DonateHand: \!customer donated !items to you!
+    Slot: \!customer played a slot machine for !price and won !items!
+    iBuy: ''
+    iSell: ''
+    gBuy: \!customer bought !items from your ghost store!
+    gSell: \!customer sold !items to your ghost store!
+    Day: ''
+    Night: ''
+    Rain: ''
+    ClearSkies: ''
+    DeviceOn: \!customer activated your device for !price!
+    DeviceOff: \!customer deactivated your device for !price!
+    Toggle: \!customer toggled your device for !price!
+    Device: \!customer temporarily activated your device for !price!
+    Heal: ''
+    Repair: ''
+    Dispose: ''
+    DeviceItem: \!customer temporarily activated your device for !items!
+    iSlot: ''
+    Enchant: ''
+    iSellXP: ''
+    iBuyXP: ''
+    iTrade: ''
+    Trade: \!customer traded !chest1 for your !chest2!
+    TpToOwner: ''
+    Class: ''
+    Disenchant: ''
+    Command: ''
+    Jukebox: \!customer played a record on your jukebox for !price!
+    Kit: ''
+    ResetKit: ''
+    iXPBuy: ''
+    iXPSell: ''
+  help:
+    Buy: The Buy sign exchanges the customer's money for the chest's items.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Punch the chest(s) using !linkmaterial containing the type and amount of items you want for a single transaction.
+    Sell: The Sell sign exchanges the customer's items for the owner's money. The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Punch the chest(s) using !linkmaterial containing the type and amount of items you want for a single transaction.
+    Donate: The Donate sign will give the chest's items.  You can put whatever you like on lines 2, 3, and 4 of this sign.  Punch the chest(s) with !linkmaterial containing the items you want to accept for donations.
+    DonateHand: The DonateHand sign will take the items from a customer's hand and give it to the chest.  You can put whatever you like on lines 2, 3, and 4 of this sign.  Punch the empty chest(s) with !linkmaterial that will hold the donated items.
+    Slot: The Slot sign exchanges the customer's money for the chest's randomly selected items.  Each slot in the chest has an equal probability of being selected.  The amount of items in each slot of the chest will be the amount of items the customer gets if that chest slot is selected (empty chest slots are ignored).
+    iBuy: The Infinite Buy sign exchanges the customer's money for items.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Punch the chest(s) using !linkmaterial containing the type and amount of items you want for a single transaction.  This shop will never run out of items, so the chest can be destroyed after linking.  Money is not put in the owner's account.
+    iSell: The Infinite Sell sign exchanges the customer's items for money. The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Punch the chest(s) using !linkmaterial containing the type and amount of items you want for a single transaction.  This shop will never run out of space in the chest, so the chest can be destroyed after linking.  Money is not removed from the owner's account.
+    gBuy: The Ghost Buy sign exchanges the customer's money for the chest's items.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Punch the chest(s) using !linkmaterial containing the type and amount of items you want for a single transaction.  Money is not put in the owner's account.
+    gSell: The Ghost Sell sign exchanges the customer's items for money.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Punch the chest(s) using !linkmaterial containing the type and amount of items you want for a single transaction.  Money is not removed from the owner's account.
+    Day: The Day sign exchanges the customer's money for setting the time to sunrise.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Money is not put in the owner's account.
+    Night: The Night sign exchanges the customer's money for setting the time to night.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Money is not put in the owner's account.
+    Rain: The Rain sign exchanges the customer's money for setting the weather to stormy.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Money is not put in the owner's account.
+    ClearSkies: The ClearSkies sign exchanges the customer's money for removing stormy weather.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Money is not put in the owner's account.
+    DeviceOn: The DeviceOn sign exchanges the customer's money for turning on a redstone lever.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Punch the lever(s) you want to turn on using !linkmaterial.
+    DeviceOff: The DeviceOff sign exchanges the customer's money for turning off a redstone lever.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Punch the lever(s) you want to turn off using !linkmaterial.
+    Toggle: The Toggle sign exchanges the customer's money for toggling a redstone lever on/off.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Punch the lever(s) you want to toggle on/off using !linkmaterial.
+    Device: The Device sign exchanges the customer's money for temporarily turning a redstone lever on.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Punch the lever(s) you want to temporarily turn on using !linkmaterial.
+    Heal: The Heal sign exchanges the customer's money for setting their health to full.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Money is not put in the owner's account.
+    Repair: The Repair sign exchanges the customer's money for fully repairing the item in their hands.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Money is not put in the owner's account.
+    Dispose: The Dispose sign will take the items from a customer's hand and destroy them.  You can put whatever you like on lines 2, 3, and 4 of this sign.
+    DeviceItem: The Device sign exchanges the customer's items for temporarily turning a redstone lever on.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Punch the lever(s) you want to temporarily turn on using !linkmaterial.  Punch the chest(s) using !linkmaterial containing the type and amount of items you want for a single transaction.
+    iSlot: The iSlot sign exchanges the customer's money for randomly selected items.  Each slot in the chest has an equal probability of being selected.  The amount of items in each slot of the chest will be the amount of items the customer gets if that chest slot is selected (empty chest slots are ignored).  This shop will never run out of items, so the chest can be destroyed after linking.  Money is not put in the owner's account.
+    Enchant: The Enchant sign exchanges the customer's money for enchanting the item in their hands.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  The enchantment is determined by an enchanted item in the chest.  Money is not put in the owner's account.
+    iSellXP: The Infinite Sell XP sign exchanges the customer's XP levels for money.  The 2nd line of this sign can say whatever you like, the XP levels goes on the 3rd and the price goes on the 4th.  Money is not put in the owner's account.
+    iBuyXP: The Infinite Buy XP sign exchanges the customer's money for XP levels.  The 2nd line of this sign can say whatever you like, the XP levels goes on the 3rd and the price goes on the 4th.  Money is not removed from the owner's account.
+    iTrade: The Infinite Trade sign exchanges the customer's items for the chest's items.  The 2nd, 3rd and 4th lines of this sign can say whatever you like.  Punch the chest of the items you want to give away using !linkmaterial, then punch the chest items you would like to recieve, then punch the sign.  The items will not be added or removed from the chests, so they can be destroyed after linking.
+    Trade: The Trade sign exchanges the customer's items for the chest's items.  The 2nd, 3rd and 4th lines of this sign can say whatever you like.  Punch the chest of the items you want to give away using !linkmaterial, then punch the chest items you would like to recieve, then punch the sign.
+    TpToOwner: The TpToOwner sign exchanges the customer's money for teleporting the themselves to the owner.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Money is not put in the owner's account.  This is an example sign for custom commands, read more in the Quick Reference (found in the plugins/SignShop folder).
+    Class: The Class sign exchanges the customer's money and their inventory for the chest's items.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Punch the chest(s) using !linkmaterial containing the type and amount of items you want for a single transaction.  Money is not put in the owner's account.
+    Disenchant: The Disenchant sign exchanges the customer's money for removing the enchantment on the item in their hands.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Money is not put in the owner's account.
+    Command: The Command sign exchanges the customer's money to run the command on the sign. The 2nd and 3rd lines of this sign have the command written on them (without the "/"), the price goes on the 4th.  SignShop cannot know if the command was successfully completed, so it will take the customer's money even if the command doesn't work.
+    Jukebox: The Jukebox sign exchanges the customer's money to listen to music discs. The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Punch the chest(s) using !linkmaterial containing the music discs you'd like to play.  The sign will play the next disc in the chest when used.
+    Kit: The Kit sign exchanges the customer's money and their inventory for the chest's items.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Punch the chest(s) using !linkmaterial containing the type and amount of items you want for a single transaction.  This sign can only be used once per player before needing to be reset.  Money is not put in the owner's account.
+    ResetKit: The ResetKit sign exchanges the customer's money so they are allowed to use the Kit sign again.  The 2nd and 3rd lines of this sign can say whatever you like, the price goes on the 4th.  Money is not put in the owner's account.
+    iXPBuy: The Infinite XP Buy sign exchanges the customer's XP points for items.  The 2nd and 4th lines of this sign can say whatever you like, the XP points goes on the 3rd line.  Punch the chest(s) using !linkmaterial containing the type and amount of items you want for a single transaction.  This shop will never run out of items, so the chest can be destroyed after linking.
+    iXPSell: The Infinite XP Sell sign exchanges the customer's items for XP points.  The 2nd and 4th lines of this sign can say whatever you like, the XP points goes on the 3rd line.  Punch the chest(s) using !linkmaterial containing the type and amount of items you want for a single transaction.  This shop will never run out of space in the chest, so the chest can be destroyed after linking.
+errors:
+  no_permission: You don't have permission to create this sign!
+  no_permission_use: You don't have permission to use this sign!
+  no_permission_changeowner: You don't have permission to change to the owner of this shop!
+  invalid_operation: The sign you clicked doesnt have a valid operation!
+  chest_empty: The shop is empty!
+  chest_missing: You need to link at least one chest for this shop type!
+  lever_missing: You need to link at least one lever for this shop type!
+  no_player_money: You don't have !price to pay!
+  no_shop_money: The shop doesn't have !price to pay you!
+  out_of_business: This shop appears to have gone out of business!
+  out_of_stock: This shop is out of stock!
+  overstocked: This shop is overstocked!
+  player_doesnt_have_items: You don't have the items! (!items)
+  no_item_in_hand: You need to be holding an item for the shop to be able to take it!
+  player_overstocked: Your inventory is too full!
+  sign_location_stored: Sign location stored!
+  made_day: '!player has made it day!'
+  made_night: '!player has made it night!'
+  made_rain: '!player has made it rain!'
+  made_clear_skies: '!player has cleared the skies!'
+  already_on: Device is already on
+  already_off: Device is already off
+  link_notallowed: You are not allowed to link this!
+  item_already_repair: That item is already fully repaired!
+  already_raining: It is already storming!
+  already_clear_skies: The skies are clear already!
+  already_full_health: Your health is already full!
+  saving: Saving shops...
+  saved: Shops saved!
+  shop_removed: Removed an invalid Shop! It should be in '!world' at (!x, !y, !z).
+  invalid_item_to_repair: That item cannot be repaired!
+  no_item_to_repair: You need to be holding the item you want to repair!
+  backup_fail: Failed to backup Storage!
+  too_far: The distance between the sign and chest is too big. Maximum is !max.
+  too_many_shops: You have reached the maximum amount of shops allowed. Maximum is !max.
+  enchanted_not_allowed: You are not allowed to repair enchanted items.
+  enchantment_missing: At least one enchanted item is needed, please put one in the chest(s)!
+  item_not_enchantable: The item in your hand is not enchantable!
+  no_player_xp: You do not have enough XP to sell (!xp)!
+  no_item_to_disenchant: You need to be holding the item you want to disenchant!
+  nothing_to_disenchant: That item can not be disenchanted!
+  multiworld_not_allowed: MultiWorld shops are not allowed on this server!
+  no_permit_owner: The owner of this shop no longer has a permit!
+  need_permit: You need a permit to set up this shop!
+  villager_trading_disabled: Trading with Villagers is not enabled on this server!
+  not_allowed_to_link_sharesigns: You are not allowed to link Share signs to this shop!
+  no_shop_linked_to_sharesign: This Share sign has not been linked to any shops.
+  share_sign_splits_profit: This Share sign splits profits between !profits for the Shop(s) at !profitshops
+  registered_share_sign: Registered a Share sign, please click the Shop sign next.
+  unlinked_share_sign: Unlinked Share sign from Shop.
+  linked_share_sign: Succesfully linked Share sign to Shop.
+  not_allowed_to_link_restrictedsigns: You are not allowed to link Restricted signs to this shop!
+  no_shop_linked_to_restrictedsign: This Restricted sign has not been linked to any shops.
+  registered_restricted_sign: Registered a Restricted sign, please click the Shop sign next.
+  unlinked_restricted_sign: Unlinked Restricted sign from Shop.
+  linked_restricted_sign: Succesfully linked Restricted sign to Shop.
+  restricted_sign_restricts: This Restricted sign restricts use of the Shop(s) at !restrictedshops
+  towny_insufficient_funds: Insufficient funds in shop account!
+  towny_owner_not_mayor_or_assistant: The shop owner isn't a mayor or assistant of a town.
+  towny_owner_not_belong_to_town: The shop owner likely doesn't belong to a town.
+  towny_bank_withdrawls_not_allowed: The current Towny setup does not allow bank withdrawls!
+  restricted_from_using: You are restricted from using this shop!
+  restricted_but_owner: You are not restricted to use this shop as you are the owner.
+  item_on_blacklist: The item !blacklisted_item is on the blacklist and can not be used with Shops.
+  item_on_blacklist_but_op: The item !blacklisted_item is on the blacklist but you're OP.
+  block_is_protected: This block is protected, you are not allowed to interact with it.
+  updated_shop: The shop has been succesfully updated.
+  failed_to_update_shop: Failed to update the shop due to the error above.
+  price_drawn_from_essentials: Please note that the price was drawn from Essentials and is thus variable.
+  only_one_time: You can only use this shop once.
+  nothing_to_reset_ontime: You are already allowed to use !param signs one time. So there's nothing to reset.
+  shop_on_cooldown: This shop is on cooldown, try again in !cooldownleft seconds.
+  damaged_items_shop_homogeneous: A shop accepting damaged items can only deal in one type of item! Damaged items are not accepted until the shop is fixed.
+  use_item_to_destroy_shop: This shop is protected and can only be destroyed with a(n) !destroymaterial.
+  no_items_defined_for_shop: There are no items defined for this shop, can not complete the operation.
+  notifications_shop_built: \!player just created a(n) !signtype sign at (!x, !y, !z)
+  shop_contains: This shop contains !shopinventory @ !items for !price
+  not_allowed_to_link_banksigns: You are not allowed to link Bank signs to this shop!
+  no_shop_linked_to_banksign: This Bank sign has not been linked to any shops.
+  bank_sign_linked_to_banks: This Bank sign communicates with bank called !bank in the name of the shops at !bankshops
+  registered_bank_sign: Registered a Bank sign, please click the Shop sign next.
+  unlinked_bank_sign: Unlinked Bank sign from Shop.
+  linked_bank_sign: Succesfully linked Bank sign to Shop.
+  not_allowed_to_use_bank: You are not the owner or a member of !bank Bank so the related Bank sign will be ignored.
+  no_bank_available: There is no Bank available to process the request, please contact the shop owner.
+  no_bank_support: The Economy plugin installed on this server does not support Banks.
+  repeated_x_times: (repeated !times times)
+commands:
+  TpToOwner:
+  - tp !player !owner
+  Command:
+  - \!line2 !line3
+pricemultipliers:
+  VIPEx:
+    iBuy: 0.7
+    iSell: 1.2
+  BlacksmithEx:
+    Repair: 0.5
+limits:
+  DefaultEx: 5
+  MemberEx: 10

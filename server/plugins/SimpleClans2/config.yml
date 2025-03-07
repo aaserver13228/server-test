@@ -1,0 +1,102 @@
+# Available options for the 'build-channel' settings are rb and dev. Use 'rb' to update only recommended builds, dev to update to dev versions or beta to update only to beta builds!
+general:
+  elements-per-page: 10
+  help-format: '&b    {0}'
+  server-name: '&8SimpleClans'
+  auto-save: 5
+  language-charset: UTF-8
+  reporting:
+    errors: true
+    email: ''
+    disabled-worlds: []
+    announce-special-events: true
+updater:
+  enabled: true
+  build-channel: stable
+  long-build-report: true
+commands:
+  clan: clan
+  rank: rank
+  bb: bb
+  bank: bank
+database:
+  mode: mysql
+  mysql:
+    host: localhost
+    port: 3306
+    username: root
+    password: ''
+    database: sc
+  sqlite:
+    location: plugins/SimpleClans2/SimpleClans2.db
+teleportation:
+  drop-items-on-teleport: false
+  drop-all-items-on-teleport: false
+  keep-items-on-teleport: []
+  teleport-fuzzyness: 1.5
+  teleport-waiting-time: 10
+pvp:
+  only-pvp-in-war: false
+  save-civilians: true
+  global-ff-forced: false
+  weights:
+    rival: 2
+    neutral: 1
+    civilian: 1
+clan:
+  max-tag-length: 3
+  min-tag-length: 3
+  max-name-length: 15
+  min-name-length: 5
+  disallowed-colors: []
+  set-home-only-once: false
+  minimal-size-to-ally: 1
+  minimal-size-to-rival: 1
+  rival-limit-percent: 20
+  require-verification: true
+  max-clan-size: 200
+  purge:
+    inactive-player-data-days: 30
+    inactive-clan-days: 7
+    unverified-clan-days: 2
+  bb:
+    clan: '&8* +clan: &b+message'
+    clanplayer: '&8* +player: &b+message'
+    default: '&8* &b+message'
+    max-lines: 3000
+    max-display-lines: 10
+  announce:
+    clan: '&8* +clan: &b+message'
+    clanplayer: '&8* +player: &b+message'
+    default: '&8* &b+message'
+  economy:
+    purchase-creation: 20
+    purchase-verification: -1
+    purchase-teleport: -1
+    purchase-teleport-set: -1
+  voting:
+    demote: true
+    promote: true
+  spout:
+    capes:
+      default: http://dl.dropbox.com/u/20831395/simpleclans/cape.png
+      enabled: true
+  motd:
+    bb: true
+    lines: 5
+    format: '&4- -%s'
+  rank:
+    max-tag-length: 3
+    min-tag-length: 3
+    max-name-length: 15
+    min-name-length: 5
+  unrivalable-clans: []
+  modify-tag-completely: false
+paging:
+  colors:
+    heading-color: '8'
+    sub-color: '7'
+    clan-color: b
+    leader-color: '4'
+    trusted-color: f
+    untrusted-color: '8'

@@ -1,0 +1,23 @@
+onlyLocalTrades: true
+TradeDistance: 10
+inviteTimeOut: 30
+Terms:
+  Has Invited: ' Has Been Invited To Trade.'
+  Is Invited: ' Has Invited You To Trade. please use @2trade accept @for @4trade deny.'
+  Accepted: ' Accepted the trade.'
+  Denied: ' Denied the Trade.'
+  Too Far Away: ' is too far away!'
+  Not In Trade: you are not in a trade!
+  Error: Syntax Error use accept deny or invite!
+  NoPerm: You do not have permission to trade!
+  Missing Player: Cannot find player.
+  Same World: This player must be on the same world as you!
+  Complete: Trade Completed.
+  Block Accept: Accept
+  Block Deny: Deny
+  Block Waiting: Waiting.
+  Block Confirmed: Confirm
+  StubMessage: RpgTrades
+  Command Invite: invite
+  Command Accept: accept
+  Command Deny: deny
