@@ -1,0 +1,105 @@
+messages:
+  join: '&b&l%player% &a&lis online'
+  quit: '&b&l%player% &4&lis now offline'
+  staffjoin: '&c&l%player% (Staff) &a&lis online'
+  staffquit: '&c&l%player% (Staff) &4&lis now offline'
+  welcome: '&b&l%player% &1&lis a new player, welcome!'
+  owner: Adam8989333
+options:
+  color: true
+  firework: true
+  only-for-ops-firework: false
+  usercanseetheplugins: false
+  auto-update: true
+  announce-running: true
+  announce-running-only-ops: false
+  play-music-on-join: true
+  play-music-disc-id: 2267
+  language: english
+items:
+  NanoPickaxe: true
+  iTome: true
+  BookoTeleporting: true
+  Dustbin: true
+  Enderbackpack: true
+  Grandpaswalkingstick: true
+  Grandmaswalkingstick: true
+  pEnchanter: true
+  pCrafter: true
+  SuperMeat: true
+  QuantumHelmet: true
+  QuantumChestplate: true
+  QuantumLeggings: true
+  QuantumBoots: true
+  NanoHelmet: true
+  NanoChestplate: true
+  NanoLeggings: true
+  NanoBoots: true
+  NanoHoe: true
+  Nanosaber: true
+  ToolBench: true
+  SlimeHelmet: true
+  SlimeChestplate: true
+  SlimeLeggings: true
+  SlimeBoots: true
+  glowstonehelmet: true
+  glowstonechestplate: true
+  glowstoneleggings: true
+  glowstoneboots: true
+  simplecircuitboard: true
+  pToolbench: true
+  pBookBinder: true
+  tomeofhomeland: true
+  steelingot: true
+  advancedcircuitboard: true
+  steelthruster: true
+  jetpack: true
+  pJukebox: true
+  guide: true
+  nanoaxel: true
+  magic-eye-of-ender: true
+  EnderHelmet: true
+  EnderChestplate: true
+  EnderLeggings: true
+  EnderBoots: true
+  parachute: true
+recipes:
+  3paper=>1book: true
+  1quartzblock=>4quartz: true
+  1wool=>4string: true
+  4stonebricks=>4chiseledstonebricks: true
+  2blazepowder=>1blazerod: true
+durability:
+  infinite-nanoaxel-durability: false
+  infinite-nanosaber-durability: false
+  infinite-nanohoe-durability: false
+  infinite-nanopickaxe-durability: false
+  infinite-nanosuit-durability: false
+  infinite-quantumarmor-durability: true
+armor:
+  nano:
+    can-fly: false
+    fly-speed: 1
+    speed: 4
+    jump: 3
+    regeneration: 1
+  quantum:
+    can-fly: true
+    fly-speed: 3
+    speed: 8
+    jump: 6
+    regeneration: 5
+    strength: 2
+craftable-items:
+  nanosuit-is-craftable: true
+  quantumarmor-is-craftable: true
+  nanosaber-is-craftable: true
+  nanopickaxe-is-craftable: true
+  nanohoe-is-craftable: true
+  nanoaxel-is-craftable: true
+drop-chance:
+  drop-random-donator-sword:
+    percentage: 100
+    chance: 1
+sounds:
+  chat: click

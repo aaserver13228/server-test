@@ -55,12 +55,12 @@ world-settings:
       soft: 32
       hard: 128
     falling-block-height-nerf: 0
+    remove-invalid-mob-spawner-tile-entities: true
     player-blocking-damage-multiplier: 0.5
     lava-flow-speed:
       normal: 30
       nether: 10
     disable-teleportation-suffocation-check: false
-    remove-invalid-mob-spawner-tile-entities: true
     remove-unloaded:
       enderpearls: true
       tnt-entities: true

@@ -1,1 +1,10 @@
-sellers: {}
+sellers:
+  47/5/5/flat:
+    owner: Hamzah898933_
+    activatables: []
+    containables:
+    - 47/4/5/flat
+    shopworld: flat
+    sign: 47/5/5/flat
+    items:
+    - 16&17&0&0&&&1
