@@ -3,7 +3,7 @@ messages:
   quit: '&b&l%player% &4&lis now offline'
   staffjoin: '&c&l%player% (Staff) &a&lis online'
   staffquit: '&c&l%player% (Staff) &4&lis now offline'
-  welcome: '&b&l%player% &1&lis a new player, welcome!'
+  welcome: '&b&l%player% &1&lis a new player, welcome to the Chaos!'
   owner: Adam8989333
 options:
   color: true
