@@ -1,18 +1,1 @@
-[
-  {
-    "uuid": "c32e762f-4ac4-35f3-aa5d-9f57cdd5be94",
-    "name": "John",
-    "created": "2025-03-06 17:52:10 +0000",
-    "source": "Hamzah898933_",
-    "expires": "forever",
-    "reason": "Banned by an operator."
-  },
-  {
-    "uuid": "db07e158-731a-3e8d-b180-436608973bb0",
-    "name": "hio",
-    "created": "2025-03-06 17:54:18 +0000",
-    "source": "Hamzah898933_",
-    "expires": "forever",
-    "reason": "Banned by an operator."
-  }
-]
+[]
