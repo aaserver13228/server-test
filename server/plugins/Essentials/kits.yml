@@ -16,7 +16,7 @@
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
   tools:
-    delay: 10
+    delay: -1
     items:
       - stonesword 1
       - stoneshovel 1
@@ -25,8 +25,8 @@ kits:
   dtools:
     delay: 600
     items:
-      - dpickaxe 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
-      - dshovel 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
+      - ipickaxe 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
+      - ishovel 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
       - lhelm 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
       - daxe:780 1
       - /broadcast {USERNAME} just got some fancy tools!

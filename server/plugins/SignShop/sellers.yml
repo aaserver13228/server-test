@@ -1,1 +1,10 @@
-sellers: {}
+sellers:
+  -9/4/1/shop:
+    owner: Adam8989333
+    activatables: []
+    containables:
+    - -10/4/1/shop
+    shopworld: shop
+    sign: -9/4/1/shop
+    items:
+    - 13&5&0&0&&&1

@@ -13,7 +13,7 @@ AllowEnchantedRepair: true
 DisableEssentialsSigns: true
 AllowUnsafeEnchantments: false
 EnableSignStacking: false
-AllowMultiWorldShops: false
+AllowMultiWorldShops: true
 EnablePermits: false
 PreventVillagerTrade: false
 ProtectShopsInCreative: true

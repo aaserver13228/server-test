@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1742231421023
+  login: 1742231025042
+money: '0'
+last-account-name: haha1243
+lastlocation:
+  world: 8e2ef9ce-2c1a-42d4-8cf2-f969a2915bc1
+  world-name: PVP
+  x: 99.95721868457204
+  y: 74.0
+  z: 22.902760944473066
+  yaw: -204.4501495361328
+  pitch: -31.65000343322754
+logoutlocation:
+  world: 8e2ef9ce-2c1a-42d4-8cf2-f969a2915bc1
+  world-name: PVP
+  x: 103.07712948842834
+  y: 97.0
+  z: 23.498966485301693
+  yaw: -256.2001647949219
+  pitch: 22.05000114440918

@@ -14,11 +14,11 @@ config-version: 8
 settings:
   debug: false
   save-user-cache-on-stop-only: false
-  bungeecord: true
   late-bind: false
   sample-count: 12
   player-shuffle: 0
   filter-creative-items: true
+  bungeecord: true
   user-cache-size: 1000
   int-cache-limit: 1024
   moved-wrongly-threshold: 0.0625

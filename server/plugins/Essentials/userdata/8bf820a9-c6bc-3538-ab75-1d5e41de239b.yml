@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1742234574585
+  login: 1742234465102
+money: '0'
+last-account-name: Adam8989333
+logoutlocation:
+  world: df38e547-0130-4322-ac26-e86cab9e8c14
+  world-name: shop
+  x: 1.2533606498562162
+  y: 6.621000852348138
+  z: 55.149952174482785
+  yaw: -195.15008544921875
+  pitch: 14.249993324279785

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1742214453939
+  login: 1742213728292
+money: '0'
+last-account-name: Isiss
+lastlocation:
+  world: 854cd819-ca61-441a-9eb8-86ecddeac9cb
+  world-name: world
+  x: -167.0024284593734
+  y: 64.0
+  z: 167.2775986028652
+  yaw: 228.89991760253906
+  pitch: 14.399992942810059
+logoutlocation:
+  world: 854cd819-ca61-441a-9eb8-86ecddeac9cb
+  world-name: world
+  x: -232.53548900646385
+  y: 65.0
+  z: 44.876668377244066
+  yaw: -166.19993591308594
+  pitch: 5.699991226196289

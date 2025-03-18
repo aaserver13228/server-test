@@ -4,7 +4,6 @@ worth:
 
   # Items not listed in this file will not be sellable on the server
   # Setting the worth to 0 will sell items for free, delete the item or set to -1 to disable.
-
   # This will set the worth of all logs to '2'
   log: 2.0  
 
@@ -33,7 +32,7 @@ worth:
   storageminecart: 30.0
   feather: 3.0
   goldchestplate: 6.5
-  mushroomsoup: 4.5
+  mushroomsoup: 75.0
   bread: 30.0
   stationarywater: 1.0
   workbench: 2.5
