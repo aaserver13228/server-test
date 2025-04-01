@@ -1,0 +1,26 @@
+icons:
+    signshop_icon_555:
+        label: SignShop
+sets:
+    markers:
+        hide: false
+        circles: {
+            }
+        deficon: default
+        areas: {
+            }
+        label: Markers
+        markers:
+            marker_1:
+                world: world
+                markup: false
+                x: -163.0
+                icon: default
+                y: 65.0
+                z: 151.0
+                label: House
+        lines: {
+            }
+        layerprio: 0
+playersets: {
+    }

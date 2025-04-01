@@ -1,0 +1,173 @@
+id: cf082672-3126-352f-bb39-02a47a4b8e5e
+name: jose
+last_cast: 1743098181596
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+spells:
+  broom:
+    cast_count: 4
+    last_cast: 1743098062639
+    last_earn: 0
+    cooldown_expiration: 1743098072639
+  missile:
+    cast_count: 10
+    last_cast: 1743098181596
+    last_earn: 1743098181596
+    cooldown_expiration: 0
+wands:
+  default:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Magic Missile§f (§3Wand§f)
+        lore:
+        - §o§aBeginner Magic Wand
+        - '§eCooldown: §6A Moment'
+        - §o§3Bound to jose
+        - '§d§oMana: 50'
+        - '§r§dMana Regeneration: 5/s'
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        internal: H4sIAAAAAAAA/22QvXOcMBDFd2xsE9uTj8a1C08qcyMEAtSlcZk6JaOP1Z0SQAqI3P35WS62q5S7s/t+771bgFvIjmqyOeQJxziohHBj0al1SDlcheOEM2Q/w4I5XJ9iP6oTZILtWA6faJxxj3Shkg8TXIpt/YDOoUl9VHPyZsA+OLdggku2q4hyVuy9hSfjWMeblhdVyZuiEtwVWleyYFzVrap1h4KgVzqsk4UszStNmTcEyo8h2P4Q8D+0WVm/LhuN53BncTGzj2d7n5+iSofH72rvzeOPc+aPfqILkjbJ6wHfKPeK5j/YLxGHAW5Gvyx+2OibAOQa936iFHRIFSQ/koQaI3wpd21dMdmVneBd+VKSg/tXfyYMYYavta7byvGaa8efRcNbVbZKNI18rrmTTDBtWdcS6RdifA89qZG8/bN8caI95ztB1fxe/VZsudV+sVUqpEGJqArFbFfUQnaFlNIUrS15yVBXjG/xDiFpNZOndXp7vz5nXeDDa9hvtLuj4ucQo3qvBuAv8qdvKDICAAA=
+    wand:
+      active_spell: missile
+      path: beginner
+      template: default
+      xp: 22.5
+      xp_regeneration: 5.0
+      xp_max: 50.0
+      bound: true
+      indestructible: true
+      undroppable: true
+      effect_color: 4b473f242bf2,5627a17a5669,42f9050bd087
+      effect_particle_radius: 0.2
+      effect_particle_offset: 0.3
+      hotbar_count: 1.0
+      icon: wood_hoe
+      keep: true
+      quiet: 1.0
+      spells: missile@0
+      id: 59ce9eea-a0d8-4598-999c-7d1210eb302e
+      owner: jose
+      owner_id: cf082672-3126-352f-bb39-02a47a4b8e5e
+      name: Wand
+      description: $path Magic Wand
+      xp_timestamp: 1.743098185281E12
+  broomstick:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_SPADE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §dBroomstick
+        lore:
+        - §o§aYou can fly!
+        - '§eCooldown: §610 seconds'
+        - §7Lasts for 60 seconds
+        - §o§3Bound to jose
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        internal: H4sIAAAAAAAA/22QO08DMRCEV3CJTklESUMTJMo4cu5NCfwEaKhOfhITn33y+Yj492wiOKXA3WjX8+3MAmAByZE5mUIaVddbFhUsePC+G6IRhxRm/uhUgOTTDyqFW6W1ErHtWcCxVa3XelARruk2R4vzbmskPAhNm6yqM5LvsorkZaYJ5/kjoRkralbwRpVoN+N+dBKSGEZUiRHeweLDW9kOPZP/8QKTZhxOvCyFpVSDCKaPBv+t3v24Fsyttf2+T+HGOJyisYiGW/XHWDHUXwr9lbXIPyVFcuclrrw8vb6h6FncT6PV7wXCWx/grmno9DZ0cynx50GpfkrjWIddPl90eXVqJhOibkRdElpwSgqdV4SVJSNlmWuWU0GlrBC795GzgNjRYb27LdrPrRcHNdU1P2cYpkuXWGXwfc+muAA/xyVuAeEBAAA=
+    wand:
+      active_spell: broom
+      path: broom
+      template: broomstick
+      bound: true
+      indestructible: true
+      undroppable: true
+      effect_color: 880000000000,0,880000000000
+      effect_particle_radius: 0.2
+      effect_particle_offset: 0.3
+      hotbar_count: 1.0
+      icon: gold_spade
+      mode: CAST
+      keep: true
+      locked: true
+      spells: broom
+      id: 2cc78c75-04b0-4f36-a55a-553fa30c0dd6
+      owner: jose
+      owner_id: cf082672-3126-352f-bb39-02a47a4b8e5e
+      name: Broomstick
+      description: You can fly!
+open_wand: false
+gave_welcome_wand: false
+data:
+  sp: 34

@@ -1,0 +1,118 @@
+id: 7e4428a8-63f4-377f-8710-bc9faa02dd2a
+name: the_milk_man
+last_cast: 1743098067033
+cooldown_expiration: 0
+last_death_location: -299.5913554683534,54.0,165.3802619066298,world,98.900055,14.999993
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells:
+  broom:
+    cast_count: 2
+    last_cast: 1743098090439
+    last_earn: 0
+    cooldown_expiration: 1743098100439
+  missile:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+wands:
+  default:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Magic Missile§f (§3Wand§f)
+        lore:
+        - §o§aBeginner Magic Wand
+        - '§eCooldown: §6A Moment'
+        - §o§3Bound to the_milk_man
+        - '§d§oMana: 50'
+        - '§r§dMana Regeneration: 5/s'
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        internal: H4sIAAAAAAAA/22Qu1bcMBCGB7KAAuRSpabgpMIcW77I7vICqVP6jKTRrg62pdhydh8/44VQpdNIo//y3QLcwu6IkxUgEo1xwERwY8nhOiQBV+E40Qz36UD96IeXfsRJwPUp8uEEl3Uu4AsPM+2J9zD5MMFFLeAbOUcm9RHn5M1AfXBuoQQf8ueSnc6qvbfwqKiqZItt1pSuykqlXNaqIs+06RxiLq2VyDF0WCcLuzSvJGDnDduIYwi2PwT6j9uM1q/L5iYF3FlazOzjOdzXx4jp8PAT9948/Dr3/uwn3mBpk7we6J/LPfL8h/ol0jDAzeiXxQ+b+yYAQtPeT9yCFxlA8iNL4BjhU6GqMu/avOtkVfHrWzYThjDD90arUjrXNmSLJ1k1rrAki051TwyCSpNrIzumunshiu+FJxw512vcyxPf1/kzL139Xj1DvSj4doNptS4aVbQZ1g1llXQy01gzTIWyZi/XdFuiQ0gaZ060Tq+fr88dF/j4VvIHa98x8DnEiO9IAP4CRh5njC4CAAA=
+    wand:
+      active_spell: missile
+      path: beginner
+      template: default
+      xp: 50.0
+      xp_regeneration: 5.0
+      xp_max: 50.0
+      bound: true
+      indestructible: true
+      undroppable: true
+      effect_color: 6b732ff86ed1,246f1de21979,e44e3c0bc290
+      effect_particle_radius: 0.2
+      effect_particle_offset: 0.3
+      hotbar_count: 1.0
+      icon: wood_hoe
+      keep: true
+      quiet: 1.0
+      spells: missile@0
+      id: dbb16718-a56e-42f2-ba50-b7a2546ff694
+      owner: the_milk_man
+      owner_id: 7e4428a8-63f4-377f-8710-bc9faa02dd2a
+      name: Wand
+      description: $path Magic Wand
+      xp_timestamp: 1.743098099244E12
+  broomstick:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_SPADE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §dBroomstick
+        lore:
+        - §o§aYou can fly!
+        - '§eCooldown: §610 seconds'
+        - §7Lasts for 60 seconds
+        - §o§3Bound to the_milk_man
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        internal: H4sIAAAAAAAA/22QP0/DMBDFDyhVlEaMLCxFYmxQmrRJGIGPAAtTdLHP1KpjR45DxbfnWkHUgdue7s/v3osBYpgd0MoIokBdbzAQxK13rhuCFvsIrt3Bkock7KjptNk3HdoIbkkpEqHp0fOYocYpNVCAq+yx4FOnnUZLeKhos8lrrNOyUJu0qCqV1tU6S1vxpBCzXMocGdK60UqYBT9SBDMtnIX40xnZDD1K+ofnUepxOPLyCBaSBuF1HzTvJR9uXAq0S2W+7yO40Za7fFgE3Rr6YyTI+ov4PhnD/KNjJndO8sjr89s7ix7Dbmolvx8IZ5yHu7rOplplq3PJm3uifnJjseNMX84yvTwmsy3zSmyrMm2xEukmL9sUi7JK14XIZJmVqlyztWTnQouesaMNcLGOYG6c2NMU1vzkYJj+XHCQ3vU9TmYBfgBT2kpk5wEAAA==
+    wand:
+      active_spell: broom
+      path: broom
+      template: broomstick
+      bound: true
+      indestructible: true
+      undroppable: true
+      effect_color: 880000000000,0,880000000000
+      effect_particle_radius: 0.2
+      effect_particle_offset: 0.3
+      hotbar_count: 1.0
+      icon: gold_spade
+      mode: CAST
+      keep: true
+      locked: true
+      spells: broom
+      id: 5627c576-ba7c-426b-a367-13c0d606f612
+      owner: the_milk_man
+      owner_id: 7e4428a8-63f4-377f-8710-bc9faa02dd2a
+      name: Broomstick
+      description: You can fly!
+open_wand: false
+gave_welcome_wand: false
+data: {}
