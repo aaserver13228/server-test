@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1744117609058
+  login: 1744116977437
+money: '0'
+last-account-name: Freddy_fazbear
+logoutlocation:
+  world: 854cd819-ca61-441a-9eb8-86ecddeac9cb
+  world-name: world
+  x: 11.541601940016
+  y: 79.0
+  z: 625.6873198348096
+  yaw: -83.10000610351562
+  pitch: 18.900001525878906
+lastlocation:
+  world: 854cd819-ca61-441a-9eb8-86ecddeac9cb
+  world-name: world
+  x: -303.0462089834129
+  y: 70.0
+  z: 263.419151551243
+  yaw: 100.550048828125
+  pitch: 10.25

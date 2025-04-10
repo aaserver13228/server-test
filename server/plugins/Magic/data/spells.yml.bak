@@ -212,7 +212,7 @@ chop|2:
   cast_count: 0
   last_cast: 0
 superbroom:
-  cast_count: 0
+  cast_count: 2
   last_cast: 0
 curse|2:
   cast_count: 0
@@ -263,7 +263,7 @@ torture:
   cast_count: 0
   last_cast: 0
 cloak:
-  cast_count: 0
+  cast_count: 8
   last_cast: 0
 grab:
   cast_count: 0
@@ -284,7 +284,7 @@ giveitem:
   cast_count: 0
   last_cast: 0
 entangle:
-  cast_count: 0
+  cast_count: 1
   last_cast: 0
 glider:
   cast_count: 0
@@ -314,7 +314,7 @@ neutron:
   cast_count: 0
   last_cast: 0
 missile:
-  cast_count: 64
+  cast_count: 67
   last_cast: 0
 fillwand:
   cast_count: 0
@@ -347,7 +347,7 @@ wandshop:
   cast_count: 0
   last_cast: 0
 levitate:
-  cast_count: 0
+  cast_count: 4
   last_cast: 0
 quests:
   cast_count: 0
@@ -368,7 +368,7 @@ superconvert:
   cast_count: 0
   last_cast: 0
 gather:
-  cast_count: 0
+  cast_count: 7
   last_cast: 0
 boon|4:
   cast_count: 0
@@ -404,7 +404,7 @@ blind:
   cast_count: 0
   last_cast: 0
 boom:
-  cast_count: 1
+  cast_count: 2
   last_cast: 0
 supercollapse:
   cast_count: 0
@@ -434,7 +434,7 @@ wave:
   cast_count: 0
   last_cast: 0
 lava:
-  cast_count: 0
+  cast_count: 2
   last_cast: 0
 icbm:
   cast_count: 0
@@ -461,7 +461,7 @@ grenade|2:
   cast_count: 0
   last_cast: 0
 supergather:
-  cast_count: 0
+  cast_count: 53
   last_cast: 0
 superblast:
   cast_count: 0
@@ -506,13 +506,13 @@ colorshop:
   cast_count: 0
   last_cast: 0
 time:
-  cast_count: 0
+  cast_count: 23
   last_cast: 0
 bubble|2:
   cast_count: 0
   last_cast: 0
 missile|4:
-  cast_count: 0
+  cast_count: 41
   last_cast: 0
 wither:
   cast_count: 0
@@ -527,13 +527,13 @@ stash:
   cast_count: 0
   last_cast: 0
 missile|3:
-  cast_count: 7
+  cast_count: 28
   last_cast: 0
 mob:
   cast_count: 0
   last_cast: 0
 backup:
-  cast_count: 0
+  cast_count: 60
   last_cast: 0
 invincible:
   cast_count: 0
@@ -584,7 +584,7 @@ portal:
   cast_count: 0
   last_cast: 0
 pickpocket:
-  cast_count: 0
+  cast_count: 26
   last_cast: 0
 simulate:
   cast_count: 0
@@ -593,7 +593,7 @@ emeraldshop:
   cast_count: 0
   last_cast: 0
 phase:
-  cast_count: 0
+  cast_count: 15
   last_cast: 0
 tpshop:
   cast_count: 0
@@ -626,7 +626,7 @@ permafrost:
   cast_count: 0
   last_cast: 0
 regenerate:
-  cast_count: 0
+  cast_count: 3
   last_cast: 0
 warpunlock:
   cast_count: 0
@@ -644,7 +644,7 @@ repairitem:
   cast_count: 0
   last_cast: 0
 force:
-  cast_count: 9
+  cast_count: 14
   last_cast: 0
 arrow|6:
   cast_count: 0
@@ -659,7 +659,7 @@ arrow|4:
   cast_count: 0
   last_cast: 0
 blessing:
-  cast_count: 1
+  cast_count: 2
   last_cast: 0
 arrow|3:
   cast_count: 0
@@ -761,7 +761,7 @@ kill:
   cast_count: 0
   last_cast: 0
 gatling:
-  cast_count: 3
+  cast_count: 7
   last_cast: 0
 fxdemo:
   cast_count: 0
@@ -779,7 +779,7 @@ gatling|2:
   cast_count: 0
   last_cast: 0
 phasebackup:
-  cast_count: 0
+  cast_count: 8
   last_cast: 0
 projectile:
   cast_count: 0
@@ -824,7 +824,7 @@ cure|3:
   cast_count: 0
   last_cast: 0
 flashbang:
-  cast_count: 2
+  cast_count: 6
   last_cast: 0
 cure|2:
   cast_count: 0
@@ -890,7 +890,7 @@ stun|2:
   cast_count: 0
   last_cast: 0
 broom:
-  cast_count: 14
+  cast_count: 52
   last_cast: 0
 stun|3:
   cast_count: 0
@@ -989,13 +989,13 @@ wound:
   cast_count: 0
   last_cast: 0
 flamethrower:
-  cast_count: 0
+  cast_count: 4
   last_cast: 0
 cat:
   cast_count: 0
   last_cast: 0
 heal:
-  cast_count: 0
+  cast_count: 4
   last_cast: 0
 singularity:
   cast_count: 0
@@ -1046,7 +1046,7 @@ blink|3:
   cast_count: 0
   last_cast: 0
 arrowrain:
-  cast_count: 2
+  cast_count: 3
   last_cast: 0
 blink|2:
   cast_count: 0
@@ -1055,7 +1055,7 @@ blink|5:
   cast_count: 0
   last_cast: 0
 blink|4:
-  cast_count: 0
+  cast_count: 5
   last_cast: 0
 collapse:
   cast_count: 0

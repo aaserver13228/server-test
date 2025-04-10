@@ -1,3 +1,18 @@
+d5188134-3ba7-4bc7-88c7-540e78714cb2:
+  location: -188.2177136258946,16.0,467.69999998807907,world,52.383034,0.0
+  name: The Shusher
+  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
+    style="color:white"><span style="color:gold">Levitate<span style="color:white">
+    (<span style="color:darkaqua">The Shusher<span style="color:white">)</span></span></span></span></span></h2><br/><span
+    style="color:white"><span style="font-style: italic"><span style="color:green">For
+    admins only</span></span></span><br/><span style="color:white">Knows 17 Spells</span><br/><span
+    style="color:white"><span style="color:aqua">Manifestation</span></span><br/><span
+    style="color:white"><span style="color:aqua">Cost Reduction X</span></span><br/><span
+    style="color:white"><span style="color:aqua">Cooldown Reduction V</span></span><br/><span
+    style="color:white"><span style="color:darkaqua">Invulnerability</span></span></div>'
+  owner: ''
+  owner_id: ''
+  indestructible: true
 e29be759-50be-44f3-90bf-760c6ae32628:
   location: -227.5019871659069,64.0,202.36852000149045,world,350.51596,0.0
   name: Wand

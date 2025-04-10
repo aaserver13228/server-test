@@ -1,10 +1,10 @@
 id: cf082672-3126-352f-bb39-02a47a4b8e5e
 name: jose
-last_cast: 1743184933230
+last_cast: 1744217271098
 cooldown_expiration: 0
-last_death_location: ''
-fall_protection_count: 1
-fall_protection: 8503
+last_death_location: 16.38805691968016,-179.4760172091749,-5.566633090924743,Park,-154.80016,-90.0
+fall_protection_count: 0
+fall_protection: 0
 brush:
   map_id: -1
   material: dirt
@@ -73,16 +73,49 @@ undo:
   name: Magic Missile
 - time_to_live: 0
   name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
 spells:
   broom:
-    cast_count: 5
-    last_cast: 1743184945616
+    cast_count: 11
+    last_cast: 1743789472688
     last_earn: 0
-    cooldown_expiration: 1743184955616
+    cooldown_expiration: 1743789482688
   missile:
-    cast_count: 10
-    last_cast: 1743184897545
-    last_earn: 1743098181596
+    cast_count: 13
+    last_cast: 1744217270705
+    last_earn: 1744217270705
     cooldown_expiration: 0
 wands:
   default:
@@ -106,12 +139,12 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/22RvXbUMBCFJ2E3EUmAVNQpcqjiHFnynzpeIDWlz8ge7QpsS9gyu4/P7CakohxpdL97r24AbmBzwKkXIBKNccBEcN2Tw3VIArbhMNEMm59hIQFXx9iOeITLUgr4wsNMO+J7TD5McFEK+ErOUZfaiHPy3UBtcG6hBB/ks2bCWa31PTx2TjaqqlWmc1VlulQus1abTCosaixsQyUDtzasUw+bNK88bXzHGHEIoW/3gf5Dm7H363KiKQG3PS3d7OPZ3P1jxLR/eMGd7x5+nPN+9hNvsHSXvB3oH+UOef5D7RJpGOB69MvihxP9JADC0s5PnIIXuYDkR5bAMcKnvC503hRGSq0bvn3z1oUhzPCtsEWtnSqUdeqprFSNeY1lVZmnQjkjS2l72dRM+UUU3wNPOLKvV7uXxwhb3Twbw738Xj23epHz8alNlRttKa8yh0ZlhSn7DJVpMq2lVNpY6you5G4fksWZLa3T6+Orc8gFPr6l/M7/esuNzyFGfO8E4C9p5+K6JwIAAA==
+        internal: H4sIAAAAAAAA/22QMXfcIBCE186dTWwncZXahV8qyw8hEFKXP+A6pR6I5Y5EEkRCufv52Ts7rlLussw3MzcAN7A5mMkxYBnHNJiMcO3Qm3XIDLbxMOEMm59xQQZXx9SN5giXijP4QsOMO6R3k0Oc4EIx+IreY5+7ZOYc+gG76P2CGT7w54oIZ7UuOHjsPW9ErUVRlaIuKiV8YW3VFlwYqY20DSoCbm1cJwebPK80bUJPGHaI0XX7iP+hzcaFdTnRBINbh0s/h3Q2d/+YTN4/vJhd6B9+nPN+DhNdkHSfgx3wH+XO0PwHuyXhMMD1GJYlDCf6SQCYxV2YKAUdUgE5jCRhxgSfSi2lKLXiXDVEv3vz1schzvBNWqkrL6SwXjypWmhTaqPqun2Swrdccet4o4nyCzG9B57MSL5e7V4eaa/4M1W//b0GKvWipO2pTOl0i3XZFqi4KmTvsWidagrN0TZV60wja3K0j9mamRyt0+vnq3PGBT6+hfxO2rdU+BxTMu+VAPwFbBpQuyYCAAA=
     wand:
       active_spell: missile
       path: beginner
       template: default
-      xp: 38.99
+      xp: 50.0
       xp_regeneration: 5.0
       xp_max: 50.0
       bound: true
@@ -125,12 +158,12 @@ wands:
       keep: true
       quiet: 1.0
       spells: missile@0
-      id: 2193be16-fa92-495d-a298-3300239bbf62
+      id: 4d79e619-e505-4cfe-9d58-70eb839da846
       owner: jose
       owner_id: cf082672-3126-352f-bb39-02a47a4b8e5e
       name: Wand
       description: $path Magic Wand
-      xp_timestamp: 1.743184900338E12
+      xp_timestamp: 1.744217500582E12
   broomstick:
     item:
       ==: org.bukkit.inventory.ItemStack
@@ -151,7 +184,7 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/22QP0/DMBDFD0irKK0YWVhAYmyQ4/ztCHwEWJgi27nQUMeOHIeKb8+1gqgD3p7u/H73XgQQQXAQpgkh9NgPWniESDpr+9F3ah/Cwh4MOgg+7Ygh3GDbovL1IByNNda2bUf0cMUeU7I47dZdAw+qZRUvSh6nCS/iNOdtLGW6jRkXWSkyWWFOdgtpJ9NA4N1EKuiUNRB9WN3U4yCa/3hONN00Hnk8hFWDo3Ld4Dv6t363050S5q7V3/chXHeGpmSsfCc1/jHWgvQXkj9qTfxjUiL3tqGVl6fXNxKD8Lt5tP69QFltHdxWFZvfhm3OJf3cIw5zGiN66vL5rMvLYzNFlTKR5DxuC6zibEv1yDzlseQpK3jJMpWUhN1ZL4Uj7GQ8XCQhLLVVe5zLWp4SjPOdKyrS2WEQc1iAHz/jl57fAQAA
+        internal: H4sIAAAAAAAA/22QS0/DMBCEV5BWUVpx5MKlSBzrKs2jSY/AT4ALp8iPNQ117MhxqPj3bBFEPeDbaNfz7UwCkEB04lbFEAfsesMDQiK8c90QWnmMYeZOFj1EH27AGG5Ra5Sh6bmnscHGaT1ggOt0k5PFz27TKniQOq2zXZWxfJvtWF5mmgmR71ma8aLihaixJLuZcKNVEAU/kopa6Swk786oZui5+o/nuWrH4czLYlgoHKRv+9DSv+WbG1eS25U2X/cx3LSWpmQsQysM/jGWnPQnkj8aQ/xzUiJ3TtHK8+PLK4meh8M0Wv5eIJ1xHu7qOp3eOl1fSvp5ROynNJZ31OXTRZdX52Zwp6WqZMWqOk9ZUecl2/MiZbmoheKlIsEJe3BBcE/Y0VK92w3Zz42TR5zqmv9kGKZLF1Sld33Pp7gA3xibDujhAQAA
     wand:
       active_spell: broom
       path: broom
@@ -168,7 +201,7 @@ wands:
       keep: true
       locked: true
       spells: broom
-      id: 6830a152-f6e8-4926-b532-b23062704c17
+      id: e6fcd7c7-7830-4835-9a40-3b8bda5d9a4a
       owner: jose
       owner_id: cf082672-3126-352f-bb39-02a47a4b8e5e
       name: Broomstick
@@ -176,4 +209,4 @@ wands:
 open_wand: false
 gave_welcome_wand: false
 data:
-  sp: 34
+  sp: 48

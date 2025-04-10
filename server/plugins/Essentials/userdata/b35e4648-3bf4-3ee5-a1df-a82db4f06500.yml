@@ -1,7 +1,7 @@
 teleportenabled: true
 teleportauto: false
 godmode: false
-muted: false
+muted: true
 jailed: false
 ip-address: 0:0:0:0:0:0:0:1
 afk: false
@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1744202917725
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1742577144838
-  login: 1742577044562
+  logout: 1744224695025
+  login: 1744224539734
 money: '0'
 last-account-name: Reggie
 lastlocation:
   world: 854cd819-ca61-441a-9eb8-86ecddeac9cb
   world-name: world
-  x: -142.61032801284432
-  y: 64.0
-  z: 173.25907407490095
-  yaw: -75.00003051757812
-  pitch: -0.6000000238418579
+  x: -231.8227354088621
+  y: 66.49064320585485
+  z: 209.20810753607623
+  yaw: 358.7000427246094
+  pitch: 16.399999618530273
 logoutlocation:
   world: 854cd819-ca61-441a-9eb8-86ecddeac9cb
   world-name: world
-  x: -153.28739667575564
-  y: 64.0
-  z: 164.5207831021273
-  yaw: -3.6995849609375
-  pitch: 13.949993133544922
+  x: -165.3450144714177
+  y: 34.0
+  z: 95.77690606029834
+  yaw: 204.3498992919922
+  pitch: 4.6499924659729
