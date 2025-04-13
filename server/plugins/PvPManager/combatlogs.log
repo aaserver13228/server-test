@@ -1,8 +1,0 @@
-This file logs every player that disconnected during combat
-You can disable the logging in the config file
-
-[2025/03/17 16:41:17] jellybean21 tried to escape combat! (5s left) | In combat with: [abdullah] | World:world, X:-181.12, Y:64.00, Z:174.88
-[2025/03/21 16:18:20] haha1243 tried to escape combat! (8s left) | In combat with: [abdullah] | World:world, X:-114.21, Y:61.00, Z:232.97
-[2025/03/24 16:34:54] abdullah tried to escape combat! (9s left) | In combat with: [jellybean21] | World:world, X:-195.67, Y:16.00, Z:472.46
-[2025/04/07 13:06:28] jellybean21 tried to escape combat! (7s left) | In combat with: [Hamzah898933_] | World:world, X:-194.25, Y:16.00, Z:468.89
-[2025/04/07 13:06:30] Hamzah898933_ tried to escape combat! (6s left) | In combat with: [jellybean21] | World:world, X:-190.27, Y:16.00, Z:464.70

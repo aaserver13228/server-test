@@ -1,8 +1,8 @@
 id: 7e4428a8-63f4-377f-8710-bc9faa02dd2a
 name: the_milk_man
-last_cast: 1744224356873
+last_cast: 1744307820043
 cooldown_expiration: 0
-last_death_location: 2.3844537499040808,-182.34478159984633,14.72692335238076,Park,-3.9001465,-90.0
+last_death_location: 195.8335815294109,-206.55579702426368,-57.19864505428958,bed,-64.05011,-89.250015
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -62,6 +62,36 @@ undo:
 - world: world
   time_to_live: 0
   name: Magic Missile
+- world: bed
+  time_to_live: 0
+  name: Magic Missile
+- world: bed
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: bed
+  time_to_live: 0
+  name: Magic Missile
+- world: bed
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: bed
+  time_to_live: 0
+  name: Magic Missile
+- world: bed
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
 spells:
   broom:
     cast_count: 32
@@ -69,10 +99,10 @@ spells:
     last_earn: 0
     cooldown_expiration: 1744218184363
   missile:
-    cast_count: 14
-    last_cast: 1744224356674
-    last_earn: 1744224356674
-    cooldown_expiration: 1744224357674
+    cast_count: 20
+    last_cast: 1744307819543
+    last_earn: 1744307650445
+    cooldown_expiration: 1744307820543
 wands:
   default:
     item:
@@ -95,12 +125,12 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/22QwVLbMBCGFxqCCqHtqWcOTE+YsSXHsm+8QM89etbSKtFgW6otkzx+N4Fy4iZpVvt//3cDcAOrA45WgEg0xB4TwbUlh0ufBFyFw0gTbNKe2sH3L+2Ao4D1MfLhCJfbXMB3vky0I57D5MMIF1sBP8k5MqmNOCVvemqDczMl+JI/KU46b229hQdNZSlrrLNKuTJTWrus1kWedaZxiLm0ViJjdGEZLazStJCAlTccIw4h2HYf6JO0Ca1f5lOaFHBraTaTj2e4Hw8R0/7+N+68uf9z7v3NjzzBq03yXU//UzbI91dq50h9D9eDn2ffn9JPC0B0tPMjt+BBFpD8wCtwiHBXaG4kS7WtGs3pm3c2E/owwa+q00o6V1dki0dZVq6wJItGN48sgpTJOyMbtrp6IYofhUccmOsN9/IYYa30U9mw56u/i2etFwW/n3QiFbbCssy2TJCVjVJZXdRFJmuiurFVrdAw0z6kDidmWsa3z+tzyxm+vtd8ZoRbVj6FGPFDCsA/dJwZ2DACAAA=
+        internal: H4sIAAAAAAAA/2WRu1bcMBCGB7IEBTaBKjUFJxXm2PJFdscLpE7pM5JGuzrYlmLL2X38zC6EJqVGo//y6QbgBjYHnKyAq3CYaIZt2lM/+uG1H3ESIBKNccBEcG3J4TokAZ+PkS+PcFnnAu74MNOO+C0mHya4qAV8J+fIpD7inLwZqA/OLZTgU/5csubZqfcWHhVVlWyxzZrSVVmplMtaVeSZNp1DzKW1EjmaDutkYZPmlQRsvGEbcQjB9vvAg1tLi5l9PNvfP0ZM+4efuPPm4de52X9pZrR+XU5ppIBvfuL3LG2S1wP9c9kin/9Qv0QaBrge/bL44eR+kgehaecnbsGLDCD5kSVwjPC1UFVVtoXMVd0xie27twlDmOFHo1UpnWsbssWTrBpXWJJFp7onBkGlybWRHVPdvBLFj8ITjpzrrczlked1/sxLV79Xz1AvCp6eYKIu8rpsTFZKVWVVW1OmXYlZpVUtdVt1tu74986NFvjyXumFlbb7kDTOnHKd3gRvGfgcYsQPJAB/AY8/RPkuAgAA
     wand:
       active_spell: missile
       path: beginner
       template: default
-      xp: 37.495
+      xp: 50.0
       xp_regeneration: 5.0
       xp_max: 50.0
       bound: true
@@ -114,16 +144,17 @@ wands:
       keep: true
       quiet: 1.0
       spells: missile@0
-      id: ae1d6a44-5243-4933-8181-28ee89d683ac
+      id: ab10536c-3274-485e-bf3a-4b752b849d59
       owner: the_milk_man
       owner_id: 7e4428a8-63f4-377f-8710-bc9faa02dd2a
       name: Wand
       description: $path Magic Wand
-      xp_timestamp: 1.744224356972E12
+      xp_timestamp: 1.744381207595E12
   broomstick:
     item:
       ==: org.bukkit.inventory.ItemStack
       type: GOLD_SPADE
+      amount: 0
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
@@ -140,7 +171,7 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/22QPU/DMBCGDyhV1EaMLCxFYmxQkn7EjMBPgIUputhnatWxI8eh4t9zrSDqwG2v7uO5950BzGByQKcSSCK1ncVIMGuC920fjdwncO0PjgKkcUd1a+y+btElcEtak4x1h4HHLNVe654iXOWPKz512qmNgoeK1utSoMi2K73OVlWlM1EVedbIJ42Yl0qVyJDGD07BJIaBEpgY6R3MPr1Vdd+hon94AZUZ+iOvTGCuqJfBdNHwXvrhh4VEt9D2+z6BG+O4y4dlNI2lP0aKrL+I75O1zD86ZnLrFY+8Pr+9s+gw7sZW+vuB9NYHuBMiH2uZL88lb+6JutGNw5YzfTnL9PKYzCbfNmWx0ZlUBWVrUWHWqK3MSIiNLISUSnCU6c7HBgNjBxfhokhgar3c0xjW9OSgH/+cc5DBdx2OZgF+AHN+dsjnAQAA
+        internal: H4sIAAAAAAAA/22QQU/DMAyFLRhTtU0cuXAZEsd1ytpu7Y7AT4ALp8pNHBYtTao0ZeLf401QccA3y/b7/N4MYAaTEzqVQBKp7SxGglkTvG/7aOQxgRt/chRgEQ9Ut8Ye6xZdAnekNclYdxh4zVLtte4pwrVY5yx1uamNgseSiiKrsEp3uS7SvCx1WpUbkTZyrxFFplSGDGn84BRMYhgogYmR3sHsw1tV9x0q+ocXUJmhP/OyBOaKehlMFw3fLd79sJToltp+PSRwaxxPWVhG01j6ZSyQ+09ifbKW+WfHTG694pWXp9c3bjqMh3G0+PlAeusD3FeVGGslVn9bvjwSdaMbhy1n+vwn06tzMllWiK0Qu1Ttc5UWRbVN90Lu0lzlAhuxKUotGXvwscHA2MFxvJs1y0+tl0ca45pePPTjp3OOMviuw9EuwDfWVX5C6QEAAA==
     wand:
       active_spell: broom
       path: broom
@@ -157,7 +188,7 @@ wands:
       keep: true
       locked: true
       spells: broom
-      id: 506b215f-cd1e-487a-bd6c-e885c18ccd83
+      id: 22405006-d93d-4485-90c6-3d30ab0147fc
       owner: the_milk_man
       owner_id: 7e4428a8-63f4-377f-8710-bc9faa02dd2a
       name: Broomstick
@@ -165,4 +196,4 @@ wands:
 open_wand: false
 gave_welcome_wand: false
 data:
-  sp: 33
+  sp: 49

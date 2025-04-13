@@ -1,8 +1,8 @@
 id: a09d9599-c777-3d52-b647-797cdc1dc256
 name: Hamzah898933_
-last_cast: 1744224619030
+last_cast: 1744375927680
 cooldown_expiration: 0
-last_death_location: -163.9791405872471,64.0,169.32515129122118,world,-179.34991,34.04999
+last_death_location: -155.30000001192093,64.0,145.30000001192093,world,2.1500006,5.1499996
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -27,32 +27,215 @@ undo:
   name: Magic Missile
 - time_to_live: 0
   name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- world: world
+  time_to_live: 0
+  name: SuperGather
 - time_to_live: 0
-  name: Magic Missile
+  name: Heal
+- world: world
+  time_to_live: 0
+  name: Heal
 - time_to_live: 0
-  name: Magic Missile
+  name: Heal
 - time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
+  name: Heal
+- world: world
+  time_to_live: 0
+  name: SuperGather
 - time_to_live: 0
   name: Time
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
 - time_to_live: 0
   name: Time
 - world: world
@@ -61,145 +244,6 @@ undo:
 - world: world_nether
   time_to_live: 0
   name: Phase
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
 - time_to_live: 0
   name: Magic Missile
 - time_to_live: 0
@@ -228,103 +272,34 @@ undo:
   name: Magic Missile
 - time_to_live: 0
   name: Magic Missile
-- world: world
-  time_to_live: 0
+- time_to_live: 0
   name: Magic Missile
-- world: Park
-  time_to_live: 0
-  name: Heal
 - time_to_live: 0
-  name: Heal
+  name: Magic Missile
 - time_to_live: 0
-  name: Heal
+  name: Magic Missile
 - time_to_live: 0
-  name: Heal
+  name: Magic Missile
 - time_to_live: 0
-  name: Heal
+  name: Magic Missile
 - time_to_live: 0
-  name: Phase
+  name: Magic Missile
 - time_to_live: 0
-  name: Phase
+  name: Magic Missile
 - time_to_live: 0
-  name: Phase
+  name: Magic Missile
 - time_to_live: 0
-  name: Time
-- world: world
-  time_to_live: 0
-  name: Phase
+  name: Magic Missile
 - time_to_live: 0
   name: Time
 - time_to_live: 0
   name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: Heal
-- world: world
-  time_to_live: 0
-  name: Heal
-- time_to_live: 0
-  name: Heal
 spells:
   phase:
-    cast_count: 12
-    last_cast: 1744136819697
-    last_earn: 1744136824722
-    cooldown_expiration: 0
+    cast_count: 14
+    last_cast: 1744374747744
+    last_earn: 1744374738055
+    cooldown_expiration: 1744374751494
   repair:
     cast_count: 0
     last_cast: 0
@@ -356,10 +331,10 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   gather:
-    cast_count: 6
-    last_cast: 1744223397500
+    cast_count: 7
+    last_cast: 1744308006474
     last_earn: 0
-    cooldown_expiration: 0
+    cooldown_expiration: 1744308013974
   superrepair:
     cast_count: 0
     last_cast: 0
@@ -376,8 +351,8 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   spellshop:
-    cast_count: 6
-    last_cast: 1744224619030
+    cast_count: 7
+    last_cast: 1744287538181
     last_earn: 0
     cooldown_expiration: 0
   cloak:
@@ -387,27 +362,27 @@ spells:
     cooldown_expiration: 0
   heal:
     cast_count: 5
-    last_cast: 1744224325377
+    last_cast: 1744287533025
     last_earn: 1744223585799
-    cooldown_expiration: 0
+    cooldown_expiration: 1744287538025
   time:
-    cast_count: 19
-    last_cast: 1744203017296
+    cast_count: 22
+    last_cast: 1744374830594
     last_earn: 0
-    cooldown_expiration: 1744203019796
+    cooldown_expiration: 1744374833094
   pickpocket:
     cast_count: 12
     last_cast: 1744224313173
     last_earn: 0
     cooldown_expiration: 0
   missile|4:
-    cast_count: 41
-    last_cast: 1744203196295
-    last_earn: 1743789026938
-    cooldown_expiration: 0
+    cast_count: 47
+    last_cast: 1744375927681
+    last_earn: 1744374809696
+    cooldown_expiration: 1744375927931
   supergather:
-    cast_count: 38
-    last_cast: 1744223421900
+    cast_count: 39
+    last_cast: 1744374699844
     last_earn: 0
     cooldown_expiration: 0
   blink|4:
@@ -466,7 +441,7 @@ wands:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §6Heal§f (§3The Shusher§f)
+        display-name: §6Magic Missile§f (§3The Shusher§f)
         lore:
         - §o§aFor admins only
         - §o§3Bound to Hamzah898933_
@@ -482,9 +457,9 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/3VSTW/UMBA1dFuFtiyCA+ceECenyucm4ZQT4g73yB+TjRUntmynFRX/jj/GZHe7qgScrBnNm/fm+V0Tck02j2yWEbk0jzM48vYbm57YUDd1k+ddRKIAk9UsALlkclJzRD4IY7TE6c6BXERQZiYX6X0SkY/Q9yBCZ5kLSmjoTN97COQiuc9x04GgU5J8Ykkjm7JpYlFVVZzLMov5rqjiqqmEFKkUWblDRdwssySb4BaIyEYJJNpOZvYB18B+779kEbmR4IVT9iDj3Vfj7g4y/Z2Z9c9/SHJMqsWvkhC8VTPCcT9ewTU8U90yrB+g8xa0JpsBmEZ+y8JAria20iNUGB9eOpCtDryxzgTkg7Ps7UkAXzgy+DPFqS2MNo58rnc7wNMlB1bS/xYoYgSwZ0dmNgG5+THA3fdh8cMq6z2a5JcJ/vqb16vvoinzMkuzuCqKLC4kr+Omr5s4T+o+Z73IeYquXB3u9uQ3Z2JcbJtQrtU8/iralApt2NhmdI9mgGtzuprTFlTDgwqYkrakk/JeacDxHbUD89BWx/e0rqZWidEaMUJoG+pgD5iLFZsmWFmmXJum1C8WHHfGTG2aHasTaZofy5fI4rl1hJc0qAnbmKLbwQTOHDq9zIG8SjEymCpnrGXnLyfkD8Fki+kKAwAA
+        internal: H4sIAAAAAAAA/3WST2/UMBDFLbqt0m5ZBAfOe0Cckir/E3PKCXGHe+TYk40VJ7ZspxWo344vxmR3u6oEnKwZ+c37+XnuCLkjmyc2i4Bc66cZLHn7jU2/2FDTmmZZG5DAw2QU80CumZjkHJAPXGsl8HZrQSzcSz2Tq+QhDshH6HvgvjXMeskVtLrvHXhyFT9kOOlo0EpBPrGYClpQGvGqqqJMFGnUlXkVVbTigieCp0WJRJ1eZkE23i4QkI3kaLSb9Ow8joHDwX1JA7IV4LiV5ojx7qu2+yOm2+tZ/fwHkmVCLm5FQvFOzijH+fiKTsGL1T3D+hFaZ0ApcjtJ56SC5xwhDPMDuZnYyoB6rp1/HUO6xnBrrPZoChf23ZmiWzq0cRefc5trpS35XJdFWdZ5QusyDf9bIMQIYC6xzGwCsv0xwP77sLhhxXqPSbllgr8+6M0afldRnmSsi0RZF1EuehHRntGooCVLq1LERV0F5Ob4eEd+d4yPi2nisFNyHp/zJgm50mxs0vCAYYBtsnAAppo8VPAoPa5KU4SXzJoyNANz0FSn8zyuDo3ko9F8BN/Q0MIBcDlWbRJjZZi0TZKEbjFgO6v11CTpqTqbJtmpfK3MX1oneRF6OWEbV+l+0L5jFpNeZn8OY4vLZbUx7PLzhPwBuSrDFREDAAA=
     wand:
-      active_spell: heal
+      active_spell: missile|4
       path: master
       template: admin
       bound: true
@@ -494,7 +469,7 @@ wands:
       cost_reduction: 2.0
       cooldown_reduction: 1.0
       effect_bubbles: true
-      effect_color: 866e7cddbea5,866e7cddbea5,866e7cddbea5
+      effect_color: 865668419862,865668419862,865668419862
       effect_particle_radius: 0.2
       effect_particle_offset: 0.3
       hotbar_count: 1.0
@@ -502,12 +477,12 @@ wands:
       keep: true
       spells: backup@0,blink|4@1,cloak@2,gather@3,heal@4,levitate@5,missile|4@6,phase@7,phasebackup@8,pickpocket@9,regenerate@10,repair@11,superbroom@12,supergather@13,superregenerate@14,superrepair@15,time@16
       protected: true
-      id: c9535212-7442-4db8-9f89-308f3afc3b12
+      id: b79c13ab-d685-4dfd-9fa9-596a276d0587
       owner: Hamzah898933_
       owner_id: a09d9599-c777-3d52-b647-797cdc1dc256
       name: The Shusher
       description: For admins only
-open_wand: true
+open_wand: false
 gave_welcome_wand: false
 data:
-  sp: 42
+  sp: 59

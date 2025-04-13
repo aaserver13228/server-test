@@ -308,13 +308,13 @@ life3:
   cast_count: 0
   last_cast: 0
 spellshop:
-  cast_count: 0
+  cast_count: 1
   last_cast: 0
 neutron:
   cast_count: 0
   last_cast: 0
 missile:
-  cast_count: 67
+  cast_count: 73
   last_cast: 0
 fillwand:
   cast_count: 0
@@ -368,7 +368,7 @@ superconvert:
   cast_count: 0
   last_cast: 0
 gather:
-  cast_count: 7
+  cast_count: 8
   last_cast: 0
 boon|4:
   cast_count: 0
@@ -461,7 +461,7 @@ grenade|2:
   cast_count: 0
   last_cast: 0
 supergather:
-  cast_count: 53
+  cast_count: 54
   last_cast: 0
 superblast:
   cast_count: 0
@@ -506,13 +506,13 @@ colorshop:
   cast_count: 0
   last_cast: 0
 time:
-  cast_count: 23
+  cast_count: 25
   last_cast: 0
 bubble|2:
   cast_count: 0
   last_cast: 0
 missile|4:
-  cast_count: 41
+  cast_count: 44
   last_cast: 0
 wither:
   cast_count: 0
@@ -584,7 +584,7 @@ portal:
   cast_count: 0
   last_cast: 0
 pickpocket:
-  cast_count: 26
+  cast_count: 42
   last_cast: 0
 simulate:
   cast_count: 0
@@ -593,7 +593,7 @@ emeraldshop:
   cast_count: 0
   last_cast: 0
 phase:
-  cast_count: 15
+  cast_count: 17
   last_cast: 0
 tpshop:
   cast_count: 0
@@ -761,7 +761,7 @@ kill:
   cast_count: 0
   last_cast: 0
 gatling:
-  cast_count: 7
+  cast_count: 8
   last_cast: 0
 fxdemo:
   cast_count: 0
@@ -890,7 +890,7 @@ stun|2:
   cast_count: 0
   last_cast: 0
 broom:
-  cast_count: 52
+  cast_count: 57
   last_cast: 0
 stun|3:
   cast_count: 0
@@ -989,7 +989,7 @@ wound:
   cast_count: 0
   last_cast: 0
 flamethrower:
-  cast_count: 4
+  cast_count: 17
   last_cast: 0
 cat:
   cast_count: 0

@@ -1,8 +1,0 @@
-brokenArenas: {}
-arenas:
-  pvp:
-    teamSize: '1'
-    locations:
-      '0': PVP,102.23397113789386,74.0,20.097979699472134,-313.05017,13.5
-    type: Duel
-    nTeams: '5'

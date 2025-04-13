@@ -1,0 +1,19 @@
+id: 22581de8-cdfe-3abd-95e7-73b536526084
+name: KingRobby
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: -147.69999998807907,69.0,259.2098077638136,world,-359.21173,47.738415
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells: {}
+open_wand: false
+gave_welcome_wand: false
+data: {}

@@ -1,8 +1,8 @@
 id: cf082672-3126-352f-bb39-02a47a4b8e5e
 name: jose
-last_cast: 1744217271098
+last_cast: 1744306111490
 cooldown_expiration: 0
-last_death_location: 16.38805691968016,-179.4760172091749,-5.566633090924743,Park,-154.80016,-90.0
+last_death_location: 429.8334127072757,-67.15641029607576,-20.094603263260932,bed,258.89993,18.149994
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -106,17 +106,25 @@ undo:
 - world: world
   time_to_live: 0
   name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
 spells:
   broom:
-    cast_count: 11
-    last_cast: 1743789472688
+    cast_count: 12
+    last_cast: 1744306104992
     last_earn: 0
-    cooldown_expiration: 1743789482688
+    cooldown_expiration: 1744306114992
   missile:
     cast_count: 13
-    last_cast: 1744217270705
+    last_cast: 1744304259726
     last_earn: 1744217270705
-    cooldown_expiration: 0
+    cooldown_expiration: 1744304260726
 wands:
   default:
     item:
@@ -139,7 +147,7 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/22QMXfcIBCE186dTWwncZXahV8qyw8hEFKXP+A6pR6I5Y5EEkRCufv52Ts7rlLussw3MzcAN7A5mMkxYBnHNJiMcO3Qm3XIDLbxMOEMm59xQQZXx9SN5giXijP4QsOMO6R3k0Oc4EIx+IreY5+7ZOYc+gG76P2CGT7w54oIZ7UuOHjsPW9ErUVRlaIuKiV8YW3VFlwYqY20DSoCbm1cJwebPK80bUJPGHaI0XX7iP+hzcaFdTnRBINbh0s/h3Q2d/+YTN4/vJhd6B9+nPN+DhNdkHSfgx3wH+XO0PwHuyXhMMD1GJYlDCf6SQCYxV2YKAUdUgE5jCRhxgSfSi2lKLXiXDVEv3vz1schzvBNWqkrL6SwXjypWmhTaqPqun2Swrdccet4o4nyCzG9B57MSL5e7V4eaa/4M1W//b0GKvWipO2pTOl0i3XZFqi4KmTvsWidagrN0TZV60wja3K0j9mamRyt0+vnq3PGBT6+hfxO2rdU+BxTMu+VAPwFbBpQuyYCAAA=
+        internal: H4sIAAAAAAAA/22RO3PbMBCEb2zJZmxPHo1rF55UpgYEwVeXxmXqlJwDeJCQkARCgpF+fo6K5Srl3hzu213cAdzB5ohjl0ASaQg9RoLbjiwufUxg648jTbD56WdK4OYU2gFPsCnETiTwieVEe+INjM6PcF2s40eylkxsA07RmZ5ab+1MEa7FLmfK+WLrOng2VtSyrGSaZ7JM80LaVOu8SYVEVaHSNRUM3Wq/jB1s4rSw2jjDoOTofdcePP2HNmHnlnmlyQTuO5rN5MLZ3ufngPHw9B33zjz9OGf+6Ebe4NMmOt3ThfKArP9QOwfqe7gd3Dy7fqWvByDRtHcjp+BFriC6gU/gEOBLtquUykUtpGyq/DVjBw9v/ozv/QRflVZVbqWS2sqXopQVZhUWZdm8KGkbUQjdibpi0i+i8B56xIG9/bN8dQqXD9j+XtxabLaKq7VSJUhKKzHFEmWqjM7TRqg8JdNlTU2N7YxhTwcfNU7saRkvz2/OWWf48Bb2G8/uufjJh4Dv1QD8BUxGK6MyAgAA
     wand:
       active_spell: missile
       path: beginner
@@ -158,12 +166,12 @@ wands:
       keep: true
       quiet: 1.0
       spells: missile@0
-      id: 4d79e619-e505-4cfe-9d58-70eb839da846
+      id: 40e22f2a-a6a2-4cb3-9043-ecd198e9fdcc
       owner: jose
       owner_id: cf082672-3126-352f-bb39-02a47a4b8e5e
       name: Wand
       description: $path Magic Wand
-      xp_timestamp: 1.744217500582E12
+      xp_timestamp: 1.744308022973E12
   broomstick:
     item:
       ==: org.bukkit.inventory.ItemStack
@@ -184,7 +192,7 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/22QS0/DMBCEV5BWUVpx5MKlSBzrKs2jSY/AT4ALp8iPNQ117MhxqPj3bBFEPeDbaNfz7UwCkEB04lbFEAfsesMDQiK8c90QWnmMYeZOFj1EH27AGG5Ra5Sh6bmnscHGaT1ggOt0k5PFz27TKniQOq2zXZWxfJvtWF5mmgmR71ma8aLihaixJLuZcKNVEAU/kopa6Swk786oZui5+o/nuWrH4czLYlgoHKRv+9DSv+WbG1eS25U2X/cx3LSWpmQsQysM/jGWnPQnkj8aQ/xzUiJ3TtHK8+PLK4meh8M0Wv5eIJ1xHu7qOp3eOl1fSvp5ROynNJZ31OXTRZdX52Zwp6WqZMWqOk9ZUecl2/MiZbmoheKlIsEJe3BBcE/Y0VK92w3Zz42TR5zqmv9kGKZLF1Sld33Pp7gA3xibDujhAQAA
+        internal: H4sIAAAAAAAA/21QTU+DQBCdKG1ISzx68VITj90GFihwVH+CXjyR/RgsdmHJstj4750aJT04t5c38968twJYQXASvQ4h9NgNRniElXTWdqNv1TGEhT316CD4sCOGcItNg8rXg3BEG6xt04zo4TrepSTxs1u3Gh5UE5d8X3CWJnzP0pw3TMq0YjEXWSEyWWJOcgtpp15D4N1EKGiV7WH1bo2ux0Ho//yc0O00nv14CGuNo3Lt4Fu6i97stFGi3zTm6z6Em7YnloSVb6XBP49IEP5E0kdjyP+clJw7q2nl+fHllcAg/GGmot8PlDXWwV1ZxvNs4+0lpMsj4jCn6UVHXT5ddHl1bqaskrjEsmI5zyXLChSsUplgiCKRBc+USihadLBeCke2U0/1JjuSXxqrjjjXtfzJMM6frqlKZ4dBzHEBvgHsQ2Pn4QEAAA==
     wand:
       active_spell: broom
       path: broom
@@ -201,7 +209,7 @@ wands:
       keep: true
       locked: true
       spells: broom
-      id: e6fcd7c7-7830-4835-9a40-3b8bda5d9a4a
+      id: 89108e89-525b-47ea-9c4a-eea1b724cc12
       owner: jose
       owner_id: cf082672-3126-352f-bb39-02a47a4b8e5e
       name: Broomstick

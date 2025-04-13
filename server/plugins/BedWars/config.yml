@@ -5,14 +5,9 @@ keep-inventory-on-death: false
 in-lobby-colored-leather-by-team: true
 jointeam-entity-show-name: true
 friendlyfire: false
-player-drops: true
-join-randomly-after-lobby-timeout: false
 prevent-killing-villagers: true
-compass-enabled: true
 join-randomly-on-lobby-join: false
-add-wool-to-inventory-on-join: true
 prevent-spawning-mobs: true
-spawner-holograms: true
 spawner-disable-merge: true
 prevent-lobby-spawn-mobs-in-radius: 16
 spawner-holo-height: 0.25
@@ -20,16 +15,12 @@ spawner-holograms-countdown: true
 damage-when-player-is-not-in-arena: false
 remove-unused-target-blocks: true
 allow-block-falling: true
-game-start-items: false
 player-respawn-items: false
-gived-game-start-items: []
 gived-player-respawn-items: []
-disable-hunger: true
 automatic-coloring-in-shop: true
 sell-max-64-per-click-in-shop: true
 enable-cheat-command-for-admins: false
 shopkeepers-are-silent: true
-destroy-placed-blocks-by-explosion-except: []
 destroy-placed-blocks-by-explosion: true
 holo-above-bed: true
 allow-spectator-join: false
@@ -50,7 +41,6 @@ players-can-win-game-only-after-seconds: 0
 kick-players-upon-final-death:
   enabled: false
   delay: 5
-allowed-commands: []
 change-allowed-commands-to-blacklist: false
 bungee:
   enabled: false
@@ -73,17 +63,18 @@ farmBlocks:
   enable: false
   blocks: []
 scoreboard:
-  enable: true
   title: '&a%game%&r - %time%'
   bedLost: '&c✘'
   anchorEmpty: '&e✘'
   bedExists: '&a✔'
   teamTitle: '%bed%%color%%team%'
+  enable: false
+  enabled: false
 title:
-  enabled: true
   fadeIn: 0
   stay: 20
   fadeOut: 0
+  enabled: false
 shop:
   rows: 4
   render-actual-rows: 6
@@ -97,7 +88,6 @@ shop:
   citizens-enabled: false
 items:
   jointeam: COMPASS
-  leavegame: SLIME_BALL
   startgame: DIAMOND
   shopback: BARRIER
   shopcosmetic:
@@ -110,6 +100,7 @@ items:
     ==: org.bukkit.inventory.ItemStack
     type: WOOL
     damage: 1
+  leavegame: BED
 vault:
   enable: true
   reward:
@@ -117,28 +108,6 @@ vault:
     win: 20
     final-kill: 5
     bed-destroy: 0
-resources:
-  gold:
-    material: GOLD_INGOT
-    color: GOLD
-    name: Gold
-    interval: 20
-    translate: resource_gold
-    spread: 1.0
-  iron:
-    material: IRON_INGOT
-    color: GRAY
-    name: Iron
-    interval: 10
-    translate: resource_iron
-    spread: 1.0
-  bronze:
-    material: CLAY_BRICK
-    color: DARK_RED
-    name: Bronze
-    interval: 1
-    translate: resource_bronze
-    spread: 1.0
 respawn:
   protection-enabled: true
   protection-time: 10
@@ -188,9 +157,9 @@ specials:
     incendiary: true
     damage-thrower: true
   auto-igniteable-tnt:
-    explosion-time: 8
     damage-placer: true
     damage: 4.0
+    explosion-time: 3
 sounds:
   bed_destroyed:
     sound: ENTITY_ENDER_DRAGON_GROWL
@@ -258,7 +227,6 @@ game-effects:
   beddestroy: {}
   warppowdertick: {}
 lobby-scoreboard:
-  enabled: true
   title: '&eBEDWARS'
   content:
   - ' '
@@ -267,6 +235,7 @@ lobby-scoreboard:
   - ' '
   - '&fWaiting ...'
   - ' '
+  enabled: false
 statistics:
   enabled: true
   type: yaml
@@ -316,7 +285,6 @@ holograms:
     format: '&l%order%. &7%name% - &a%score%'
     size: 10
 chat:
-  override: true
   format: '<%teamcolor%%name%&r> '
   separate-chat:
     lobby: false
@@ -330,6 +298,7 @@ chat:
   team-chat: '[TEAM] '
   death-chat: '[DEATH] '
   disable-all-chat-for-spectators: false
+  override: false
 rewards:
   enabled: false
   player-win:
@@ -379,10 +348,12 @@ hotbar:
   start: 2
   leave: 8
 breakable:
-  enabled: false
   asblacklist: false
   explosions: false
-  blocks: []
+  enabled: true
+  blocks:
+  - LONG_GRASS
+  - SNOW
 leaveshortcuts:
   enabled: false
   list:
@@ -451,3 +422,50 @@ party:
   autojoin-members: false
   notify-when-warped: true
 version: 2
+join-randomly-after-lobby-timeout: true
+spawner-holograms: false
+game-start-items: true
+gived-game-start-items:
+- WOODEN_SWORD
+- LEATHER_HELMET
+- LEATHER_CHESTPLATE
+- LEATHER_LEGGINGS
+- LEATHER_BOOTS
+destroy-placed-blocks-by-explosion-except:
+- GLASS
+allowed-commands:
+- /shout
+- /party
+player-drops: false
+compass-enabled: true
+add-wool-to-inventory-on-join: false
+disable-hunger: true
+resources:
+  gold:
+    name: Gold
+    color: GOLD
+    spread: 0.1
+    material: GOLD_INGOT
+    translate: resource_gold
+    interval: 8
+  iron:
+    name: Iron
+    color: WHITE
+    spread: 0.1
+    material: IRON_INGOT
+    translate: resource_iron
+    interval: 2.5
+  diamond:
+    name: Diamond
+    color: BLUE
+    spread: 0.1
+    material: DIAMOND
+    translate: resource_diamond
+    interval: 30
+  emerald:
+    name: Emerald
+    color: GREEN
+    spread: 0.1
+    material: EMERALD
+    translate: resource_emerald
+    interval: 60
