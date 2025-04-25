@@ -1,0 +1,90 @@
+
+# Translation configuration author
+author: Testim
+
+special:
+  #Bu şans bloklarından çıkan bir mini oyundur. Şans bloğunu kırdığınızda sizi yukarı ışınlar ve bir kova su verir. 
+  #Bu mesaj yukardaki durumun habercisidir.
+  water_bucket: "&eEnvanterini kontrol et.. Bir &9su kovasına &fsahipsin!"
+
+custom_items:
+  item_not_found: "&cTanımladığınız %identifier% adlı öğe bulunamadı."
+  list: "&7[&eŞans Blokları&7] &fÖzelleştirilmiş Öğe Listesi:"
+  
+  #Tanımladığın özel eşyaların üzerinde yazan isimler bu kısımdan alınır. Eşya isimleri üzerindeki değişiklikleri burdan yapabilirsiniz.
+  magic_wool: "&6&l&oSihirli Yün"
+  sword_of_justice: "&6&l&oAdaletin Kılıcı"
+  axe_of_perun: "&6&l&oPerun Baltası"
+  chilly_pants: "&6&l&oDondurucu Pantolon"
+  rage_armor: "&6&l&oÖfke Zırhı"
+  carrot_corrupter: "&6&l&oHavuç Yozlaştırıcı"
+  mystery_meat: "&6&l&oGizemli Et"
+
+craft:
+  #Bu kısımda bahsedilen durum ilgili açıklama yapmam gerekirse; ortaya sarı boya koyup etrafını altınla kaplayarak
+  #şans bloğunu oluşturuyoruz. Bunu 64 adet boya ve 64 adet altınla aynı anda yapamayız. Her yuvaya birer adet altın
+  #ve boya gelecek şekilde yapmalıyız. Yani ortaya 64 tane sarı boya koyup etrafınıda 64 altınla kaplayamayız.
+  allowed_one_layer: "&cÜretim, yalnızca her bir yuva için materyallerin tek tek kullanılmasıyma mümkündür."
+
+system:
+  loading_config: "&fYapılandırma dosyaları yükleniyor... "
+  reloaded_config: "&aYapılandırma dosyaları yüklendi, %amount% adet şans bloğu tanımlandı..."
+
+  world_not_found: "&c%world% &fadında bir dünya bulunamadı."
+  lb_placed: "&e%type%&f tipindeki şans bloğu &e%location% &fkonumuna yerleştirildi."
+
+  lb_not_found: "&cŞans bloklarından &e%lb%&c bulunamadı, bu kısım atlanıyor... "
+  lb_loading_exception: "&cŞans bloklarından &e%lb%&c yüklenemedi... Özel Durum: &e%exception%"
+  lb_unknown_exception: "&cŞans bloklarından &e%lb%&c bulunamadı veya özel bir durum meydana geldi, bu kısım atlanıyor... "
+  lb_loaded_zero: "&f0 adet şans bloğu tanımlandı... Hm..."
+  lb_loaded_not_zero: "&e%amount%&f adet şans bloğu tanımlandı..."
+  
+  cant_use_command: "&cMalesef, eklentiye ait herhangi bir alt komutu kullanamazsınız."
+  cant_use_subcommand: "&cMalesef, bu alt komutu kullanamazsınız."
+  
+  cant_break_color: "&cMalesef, bu &e%lb% &ctipindeki şans bloklarını kıramazsın."
+  cant_interact_world: "&cMalesef, &e%world% &cadlı dünyada bu tip şans bloklarını kullanamazsın."
+  
+  cmd_lb_disabled: "&cBelirttiğin şans bloğu &e%lb%&c devredışı bırakılmış :("
+  cmd_lb_not_found: "Belirtiğin &e%lb% &ctipinde bir şans bloğu bulunamadı :("
+  cmd_lb_received: "&a%amount% adet şans bloğu alındı. &7(%lb% &7renk)"
+  cmd_ci_received: "&a%item% adlı öğe alındı."
+  cmd_destroyed_lb: "&cÇevrendeki &e%amount% &cşans bloğu ortadan kaldırıldı."
+  cmd_lb_give: "&a%amount% adet şans bloğu verildi. &7(%lb% &7renk)"
+  
+  
+  cmd:
+    help_title: "&eŞans Blokları &fyardım komutları:"
+    get: "&8 > &e/%label% get <renk> [miktar] &f- Şans Bloklarından almanı sağlar."
+    give: "&8 > &e/%label% give <isim> <renk> [miktar] &f- Şans Bloklarından vermeni sağlar."
+    gui: "&8 > &e/%label% gui <get/edit> &f- Şans Blokları menüsünü açar."
+    support: "&8 > &e/%label% support &f- Yapımcının iletişim bilgilerini gösterir."
+    checkforupdates: "&8 > &e/%label% checkforupdates &f- Güncellemeleri kontrol eder."
+    reload: "&8 > &e/%label% reload &f- Yapılandırma dosyalarını yeniden yükler."
+    destroy: "&8 > &e/%label% destroy <radius/chunk/(<xyz> [xyz] [world])> [-all] &f- Çevrendeki şans Bloklarını kaldırır."
+    list: "&8 > &e/%label% list &f- Şans bloklarını listeler ve hakkında bilgi verir."
+    place: "&8 > &e/%label% place [world] <x> <y> <z> <type> &f- şans bloğu yerleştirir."
+    customitemslist: "&8 > &6/%label% customitemslist &f- Özelleştirilmiş eşyaları listeler."
+    customitemget: "&8 > &6/%label% customitemget <id> &f- Özelleştirilmiş eşyaları almanı sağlar."
+    iteminfo: "&8 > &6/%label% iteminfo &f- Elindeki öğe hakkında bilgi verir."
+    generate: "&8 > &e/%label% generate <tür> <factory> <min> <maks> &f- drops oluşturur"
+    generateFull: "Bu komutla LuckyBlock'un içinde LuckyDrops oluşturabilirsin. <tür> - LuckyBlockType oluşturur. <factory> - LB factory (Bunuson-sürüm kullanın). <min> - min EntryDrops. <maks> - maks EntryDrops"
+
+  cmd_player_not_found: "&cOyuncu &e%player%&c bulunamadı :("
+  cmd_no_perm_to_color: "&c%lb% renk için yetkin bulunmuyor."
+  cmd_no_perm: "&cMalesef, alt komutları yürütmek için yetkin bulunmuyor."
+
+gui:
+  exit: "&7[ &6Menüden Çık &7]"
+  get:
+    title: "&bŞans Bloku al &4&l:D"
+    no_money: "&e%eco% &cliraya ihtiyacın var."
+    success: "&aBaşarıyla &e%eco% liraya &e%amount% adet &aşans bloğu satın aldın. "
+  count:
+    title: "&bMiktarı Seç &4&l:D"
+    remove: "&bKaldır %offset%"
+    add: "&bEkle %offset%"
+    back: "&3Geri Dön"
+    confirm: "&eOnayla"
+    get: "&fAlacağın: &6%amount%"
+    give: "&fÖdeyeceğin fiyat: &c%price%"

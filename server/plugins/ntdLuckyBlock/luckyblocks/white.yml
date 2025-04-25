@@ -1,0 +1,125 @@
+texture: c8e16e7ff13d3e30a3a2b835a86fd05ecbc08909f6056de1646fe25b3def9584
+name: '&fWhite LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ITEM : DIAMOND_SPADE : 1 : 0'
+  - 'ENTITY : LEASH_HITCH : 1'
+  '1':
+  - 'LUCKY_BLOCK_ITEM : WHITE : 1'
+  - 'SPECIAL : PIG : 15'
+  - 'SPECIAL : LIGHTNING : 3'
+  '2':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  - 'ITEM : RECORD_12 : 1 : 0'
+  '3':
+  - 'ITEM : NETHERRACK : 64 : 0'
+  - 'ITEM : QUARTZ : 32 : 0'
+  - 'ITEM : NETHER_STALK : 9 : 0'
+  - 'SPECIAL : LIGHTNING : 3'
+  '4':
+  - 'LUCKY_BLOCK_ITEM : GREEN : 3'
+  - 'LUCKY_BLOCK_ITEM : BROWN : 3'
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 3'
+  '5':
+  - 'ITEM : SKULL_ITEM : 13 : 0'
+  - 'SPECIAL : PIG : 21'
+  '6':
+  - 'ENTITY : MINECART_COMMAND : 4'
+  '7':
+  - 'ITEM : DIAMOND_SWORD : 1 : 0'
+  - 'SPECIAL : PIG : 7'
+  - 'ITEM : ENDER_PORTAL_FRAME : 8 : 0'
+  '8':
+  - 'ENTITY : CREEPER : 1'
+  - 'ENTITY : ENDER_CRYSTAL : 3'
+  '9':
+  - 'ITEM : IRON_BARDING : 1 : 0'
+  - 'ENTITY : WOLF : 2'
+  - 'ITEM : BIRCH_FENCE_GATE : 64 : 0'
+  '10':
+  - 'LUCKY_BLOCK_ITEM : GRAY : 1'
+  - 'ITEM : DIAMOND_HELMET : 1 : 0'
+  - 'ITEM : DIAMOND_LEGGINGS : 1 : 0'
+  '11':
+  - 'ITEM : STONE_PLATE : 16 : 0'
+  - 'ENTITY : PIG_ZOMBIE : 2'
+  - 'ITEM : DIAMOND_SPADE : 1 : 0'
+  '12':
+  - 'ENTITY : MINECART_COMMAND : 3'
+  - 'SPECIAL : PIG : 4'
+  - 'ITEM : FENCE_GATE : 32 : 0'
+  '13':
+  - 'ITEM : GOLD_INGOT : 35 : 0'
+  '14':
+  - 'LUCKY_BLOCK_ITEM : LIGHT_GRAY : 4'
+  - 'ITEM : MYCEL : 32 : 0'
+  '15':
+  - 'ENTITY : MINECART_MOB_SPAWNER : 3'
+  - 'ITEM : IRON_HELMET : 1 : 0'
+  '16':
+  - 'ITEM : CHAINMAIL_HELMET : 1 : 0'
+  - 'ITEM : STONE_PLATE : 8 : 0'
+  - 'ITEM : DISPENSER : 8 : 0'
+  '17':
+  - 'ITEM : GOLD_LEGGINGS : 1 : 0'
+  '18':
+  - 'ITEM : LADDER : 32 : 0'
+  - 'ITEM : DARK_OAK_FENCE : 32 : 0'
+  '19':
+  - 'ITEM : SEEDS : 16 : 0'
+  - 'LUCKY_BLOCK_ITEM : ORANGE : 2'
+  - 'ENTITY : RABBIT : 2'
+  '20':
+  - 'ITEM : GLASS_BOTTLE : 18 : 0'
+  - 'ENTITY : ENDER_CRYSTAL : 1'
+  '21':
+  - 'LUCKY_BLOCK_ITEM : WHITE : 4'
+  - 'SPECIAL : TNT_COLUMN : 5'
+  '22':
+  - 'ENTITY : PIG_ZOMBIE : 3'
+  '23':
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  - 'ENTITY : ENDERMITE : 1'
+  '24':
+  - 'ITEM : ENDER_STONE : 32 : 0'
+  - 'ITEM : MONSTER_EGGS : 64 : 0'
+  - 'ENTITY : RABBIT : 3'
+  '25':
+  - 'ENTITY : SNOWMAN : 4'
+  - 'LUCKY_BLOCK_ITEM : CYAN : 4'
+  '26':
+  - 'ITEM : STAINED_CLAY : 64 : 0'
+  '27':
+  - 'ENTITY : THROWN_EXP_BOTTLE : 4'
+  '28':
+  - 'ITEM : HUGE_MUSHROOM_1 : 16 : 0'
+  - 'ITEM : BIRCH_FENCE : 16 : 0'
+  - 'ITEM : BREAD : 44 : 0'
+  '29':
+  - 'ITEM : RECORD_12 : 1 : 0'
+  - 'ITEM : IRON_AXE : 1 : 0'
+  - 'ENTITY : BLAZE : 3'
+  '30':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  '31':
+  - 'LUCKY_BLOCK_ITEM : ORANGE : 4'
+  '32':
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  - 'LUCKY_BLOCK_ITEM : RED : 2'
+  - 'LUCKY_BLOCK_ITEM : RED : 1'
+  '33':
+  - 'ENTITY : MINECART_FURNACE : 2'
+  - 'ENTITY : IRON_GOLEM : 2'
+  '34':
+  - 'ITEM : ROTTEN_FLESH : 37 : 0'
+  - 'ITEM : NETHER_FENCE : 32 : 0'
+eco: true

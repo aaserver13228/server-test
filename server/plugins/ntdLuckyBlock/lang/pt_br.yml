@@ -1,0 +1,80 @@
+
+# Translation configuration author
+author: PedroJs
+
+special:
+  water_bucket: "&eOlhe o seu inventário.. Você tem um &9balde de água&f!"
+
+custom_items:
+  item_not_found: "&cItem com o identificador %identifier% não encontrado"
+  list: "&7[&eLuckyBlock&7] &fLista de itens customizados:"
+  
+  magic_wool: "&6&l&oLã mágica"
+  sword_of_justice: "&6&l&oEspada da Justíça"
+  axe_of_perun: "&6&l&oMachado de Perun"
+  carrot_corrupter: "&6&l&oCenoura corrupdora"
+
+craft:
+  allowed_one_layer: "&cCraftar é apenas possível com o uso de cada ingrediente em um slot separado"
+
+system:
+  loading_config: "&fCarregando configuração... "
+  reloaded_config: "&aA configuração foi recarregada, carregado %amount% LuckyBlocks..."
+
+  world_not_found: "&cMundo %world% não encontrado"
+  lb_placed: "&fLuckyBlock &e%type%&f foi colocada em &e%location%"
+  
+  lb_not_found: "&cLuckyBlock &e%lb%&c não encontrada, pulando... "
+  lb_loading_exception: "&cLuckyBlock &e%lb%&c não pode ser carregada... Exception: &e%exception%"
+  lb_unknown_exception: "&cLuckyBlock &e%lb%&c não pode ser carregada ou exception desconhecida ocorreu, pulando... "
+  lb_loaded_zero: "&fCarregado 0 LuckyBlocks... Hm..."
+  lb_loaded_not_zero: "&fCarregado &e%amount%&f LuckyBlocks..."
+  
+  cant_use_command: "&cDesculpe, mas você não pode usar qualquer sub comando."
+  cant_use_subcommand: "&cDesculpe, mas você não pode usar esse sub comando."
+  
+  cant_break_color: "&cDesculpe, mas você não pode quebrar a LuckyBlock &e%lb%"
+  cant_interact_world: "&cDesculpe, mas você não pode interagir com LuckyBlocks no mundo &e%world%"
+  
+  cmd_lb_disabled: "&cLuckyBlock &e%lb%&c desativada :("
+  cmd_lb_not_found: "&cLuckyBlock &e%lb%&c não encontrada :("
+  cmd_lb_received: "&aRecebido %amount% LuckyBlocks &7(cor %lb%&7)"
+  cmd_ci_received: "&aRecebido %item%"
+  cmd_destroyed_lb: "&e%amount% &cLuckyBlocks destruídas"
+  cmd_lb_give: "&aDado %amount% LuckyBlocks &7(cor %lb%&7)"
+  
+  cmd:
+    help_title: "&fAjuda de comandos do &eLuckyBlock's:"
+    get: "&8 > &e/%label% get <cor> [amount] &f- pegar certa quantidade de luckyblocks"
+    give: "&8 > &e/%label% give <player> <cor> [quantidade] &f- dar luckyblocks a alguém"
+    gui: "&8 > &e/%label% gui <get (pegar)/edit> &f- Abre o GUI de pegar/editar uma LuckyBlock"
+    list: "&8 > &e/%label% list &f- Lista de tipos de luckyblock"
+    reload: "&8 > &e/%label% reload &f- Recarrega todas configurações"
+    checkforupdates: "&8 > &e/%label% checkforupdates &f- Verifica se há atualizações"
+    support: "&8 > &e/%label% support &f- Pegue os contatos do autor"
+    iteminfo: "&8 > &6/%label% iteminfo &f- Informação do item sua mão"
+    customitemget: "&8 > &6/%label% customitemget <id> &f- Pegue item customizado"
+    customitemslist: "&8 > &6/%label% customitemslist &f- Lista de itens customizados"
+    destroy: " &8> &e/%label% destroy <alcance/chunk/(<xyz> [xyz] [world])> [-all] &f- destroi o lb"
+    place: "&8 > &e/%label% place [mundo] <x> <y> <z> <tipo> &f- place lb"
+    generate: "&8 > &e/%label% generate <type> <factory> <min> <max> &f- gere drops"
+    generateFull: "Com este comando você pode erar LuckyDrops dentro de seu LuckyBlock. <type> - LuckyBlockType para ser gerado. <factory> - LB factory (Use `latest`). <min> - min EntryDrops. <max> - max EntryDrops"
+  
+  cmd_no_perm: "&cDesculpe, mas você não tem permissão para executar esse sub comando"
+  cmd_player_not_found: "&cPlayer &e%player%&c não encontrado :("
+  cmd_no_perm_to_color: "&cSem permissão para a cor %lb%"
+  
+gui:
+  exit: "&7[ &6Sair do GUI &7]"
+  get:
+    title: "&bPegar luckyblock &4&l:D"
+    no_money: "&Você precisa de mais &e%eco% &cmoney"
+    success: "&aVocê comprou com sucesso &e%amount% &aLuckyBlocks para &e%eco%"
+  count:
+    title: "&bSelecione quantidade &4&l:D"
+    remove: "&bRemove %offset%"
+    add: "&bAdiciona %offset%"
+    back: "&3Voltar"
+    confirm: "&eConfirmar"
+    get: "&fVocê irá pegar: &6%amount%"
+    give: "&fVocê irá dar: &c%price%"

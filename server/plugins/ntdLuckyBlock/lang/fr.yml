@@ -1,0 +1,82 @@
+# Translation configuration author
+author: RuKinPGMSaneVR
+
+special:
+  water_bucket: "&eVous avez un &9seau d'eau&7 dans votre inventeur&f!"
+  witch: "&5&lVieille Sorcière"
+
+custom_items:
+  item_not_found: "&cL'objet avec l'identifiant %identifier% n'a pas été trouvé"
+  list: "&7[&eLuckyBlock&7] &fListe des objets personnalisés:"
+
+  magic_wool: "&6&l&oLaine magique"
+  sword_of_justice: "&6&l&oÉpée de la Justice"
+  axe_of_perun: "&6&l&oHache de Perun"
+  chilly_pants: "&6&l&oPantalon comfortable"
+  rage_armor: "&6&l&oArmure de Rage"
+  carrot_corrupter: "&6&l&oOrdinateur Carotte"
+  mystery_meat: "&6&l&oViande secrète"
+  wither_blast_rod: "&6&l&oBâton du souffle de Wither"
+
+craft:
+  allowed_one_layer: "&cLa fabrication est seulement possible par l'utilisation de chaque ingrédient séparément"
+
+system:
+  loading_config: "&fChargement de la configuration... "
+  reloaded_config: "&aLa configuration a été rechargé, %amount% types de LuckyBlocks ont été chargés..."
+  
+  lb_not_found: "&cLuckyBlock &e%lb%&c non trouvé, il a été passé... "
+  lb_loading_exception: "&cLuckyBlock &e%lb%&c ne peut pas être chargé... Erreur: &e%exception%"
+  lb_unknown_exception: "&cLuckyBlock &e%lb%&c n'a pas été trouvé ou une erreur est survenue, il a été passé..."
+  lb_loaded_zero: "&f 0 LuckyBlock ont été chargé... Hm..."
+  lb_loaded_not_zero: "&f &e%amount%&f LuckyBlocks ont été chargé types..."
+  
+  cant_use_command: "&cVous n'avez pas la permission d'éxecuter cette commande."
+  cant_use_subcommand: "&cVous n'avez pas la permission d'éxecuter cette extention de commande."
+  
+  cant_break_color: "&cVous n'avez pas la permission de casser le LuckyBlock &e%lb%"
+  cant_interact_world: "&cVous n'avez pas la permission d'intéragir avec les LuckyBlocks dans le monde &e%world%"
+  
+  cmd_lb_disabled: "&cLe LuckyBlock &e%lb%&c est désactivé :("
+  cmd_lb_not_found: "&cLe LuckyBlock &e%lb%&c n'a pas été trouvé :("
+  cmd_lb_received: "&aVous avez reçu %amount% LuckyBlocks &7(Couleur &7%lb%&7)"
+  cmd_ci_received: "&aVous avez reçu %item%"
+  cmd_destroyed_lb: "&cVous avez enlevé &e%amount% &cLuckyBlocks"
+  cmd_lb_give: "&aVous avez donné %amount% LuckyBlocks &7(Couleur &7%lb%&7)"
+  
+  cmd:
+    help_title: "&fAide des commandes de &eLuckyBlock:"
+    get: "&8 > &e/%label% get <couleur> [nombre] &f- Obtenir des LuckyBlocks"
+    customitemget: "&8 > &6/%label% customitemget <id> &f- Obtenir un object personnalisé"
+    give: "&8 > &e/%label% give <joueur> <couleur> [nombre] &f- Donne des LuckyBlocks"
+    gui: "&8 > &e/%label% gui <get/edit> &f- Ouvrir le menu"
+    iteminfo: "&8 > &6/%label% iteminfo &f- Donne des informations sur l'objet tenu en main"
+    list: "&8 > &e/%label% list &f- Affiche la liste des LuckyBlocks"
+    customitemslist: "&8 > &6/%label% customitemslist &f- Affiche la liste des objets personnalisés"
+    reload: "&8 > &e/%label% reload &f- Recharge toutes les configurations"
+    support: "&8 > &e/%label% support &f- Avoir les contacts des créateurs"
+    checkforupdates: "&8 > &e/%label% checkforupdates &f- Recherche des mises à jours"
+    destroy: "&8 > &e/%label% destroy <distance/chunk/(<xyz> [xyz] [world])> [-all] &f- Détruis les LuckyBlocks"
+    item_to_json: "&8 > &e/%label% itemtojson &f- Avoir les informations sur l'object en format json"
+    generate: "&8 > &e/%label% generate <type> <factory> <min> <max> &f- Génère des drops personnalisés"
+    generateFull: "Avec cette commande vous pouvez générer le drop de votre choix dans le LuckyBlock. <type> - Type de LuckyBlock à générer. <factory> - Version de LuckyBlock (Utilisez `latest`). <min> - Minimum de drops <max> - Maximum de drops"
+
+  cmd_required_item: "&cVous devez avoir un objet en main pour pouvoir exécuter cette commande"
+  cmd_player_not_found: "&c &e%player%&c n'a pas été trouvé :("
+  cmd_no_perm_to_color: "&cPas de permission nécessaire pour le LuckyBlock %lb%"
+  cmd_no_perm: "&cVous n'avez pas la permission d'éxécuter cette extension de commande."
+
+gui:
+  exit: "&7[ &6Fermer l'UI &7]"
+  get:
+    title: "&bObtenir le LuckyBlock &4&l:D"
+    no_money: "&cVous avez besoin de &e%eco% &cde plus"
+    success: "&aVous avez acheté &e%amount% &aLuckyBlock pour &e%eco%"
+  count:
+    title: "&bSélectionnez le montant &4&l:D"
+    remove: "&bEnlevez %offset%"
+    add: "&bAjoutez %offset%"
+    back: "&3Retour"
+    confirm: "&eConfirmer"
+    get: "&fVous allez en obtenir: &6%amount%"
+    give: "&fVous allez dépenser: &c%price%"

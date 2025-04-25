@@ -1,0 +1,129 @@
+texture: f171a0c0572824da80366d71c5413a7e3355abec79b8f529f1dc9dad2632f485
+name: '&8Gray LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ENTITY : ENDER_CRYSTAL : 1'
+  - 'ITEM : STONE : 64 : 0'
+  - 'ENTITY : MUSHROOM_COW : 1'
+  - 'ITEM : SPONGE : 64 : 0'
+  '1':
+  - 'ENTITY : SNOWBALL : 4'
+  '2':
+  - 'ITEM : RABBIT_HIDE : 20 : 0'
+  '3':
+  - 'ITEM : RECORD_4 : 1 : 0'
+  - 'LUCKY_BLOCK_ITEM : BLUE : 4'
+  '4':
+  - 'ITEM : LADDER : 64 : 0'
+  '5':
+  - 'SPECIAL : WATER_BUCKET : 64'
+  '6':
+  - 'ENTITY : MUSHROOM_COW : 3'
+  '7':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  - 'ENTITY : SPIDER : 1'
+  '8':
+  - 'ITEM : WOOL : 8 : 0'
+  '9':
+  - 'ITEM : CLAY_BALL : 62 : 0'
+  - 'ITEM : PISTON_BASE : 16 : 0'
+  - 'ITEM : RABBIT_STEW : 1 : 0'
+  '10':
+  - 'ENTITY : MINECART_COMMAND : 4'
+  '11':
+  - 'ITEM : RECORD_5 : 1 : 0'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  '12':
+  - 'ITEM : RABBIT_STEW : 1 : 0'
+  - 'ITEM : BIRCH_FENCE : 8 : 0'
+  '13':
+  - 'ITEM : STONE_PICKAXE : 1 : 0'
+  - 'ENTITY : HORSE : 4'
+  - 'LUCKY_BLOCK_ITEM : BLACK : 2'
+  '14':
+  - 'ENTITY : OCELOT : 3'
+  - 'ENTITY : MINECART : 3'
+  - 'ENTITY : CHICKEN : 2'
+  '15':
+  - 'ITEM : ENCHANTED_BOOK : 1 : 0'
+  - 'ITEM : FERMENTED_SPIDER_EYE : 6 : 0'
+  - 'ITEM : MUSHROOM_SOUP : 1 : 0'
+  '16':
+  - 'ITEM : CHAINMAIL_LEGGINGS : 1 : 0'
+  - 'ENTITY : SHEEP : 3'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  - 'ITEM : GLOWSTONE : 64 : 0'
+  '17':
+  - 'ITEM : RAILS : 8 : 0'
+  - 'ENTITY : MINECART_MOB_SPAWNER : 1'
+  - 'ITEM : LEATHER_CHESTPLATE : 1 : 0'
+  - 'ITEM : BURNING_FURNACE : 64 : 0'
+  '18':
+  - 'ITEM : YELLOW_FLOWER : 8 : 0'
+  '19':
+  - 'ENTITY : ENDER_SIGNAL : 4'
+  - 'ITEM : FLINT : 19 : 0'
+  - 'LUCKY_BLOCK_ITEM : PURPLE : 2'
+  - 'ENTITY : CAVE_SPIDER : 2'
+  '20':
+  - 'ENTITY : ENDERMAN : 2'
+  '21':
+  - 'ENTITY : ITEM_FRAME : 4'
+  - 'LUCKY_BLOCK_ITEM : YELLOW : 3'
+  - 'ENTITY : MUSHROOM_COW : 4'
+  '22':
+  - 'LUCKY_BLOCK_ITEM : LIGHT_BLUE : 4'
+  - 'ITEM : STRING : 50 : 0'
+  '23':
+  - 'ITEM : PISTON_BASE : 16 : 0'
+  - 'ENTITY : PAINTING : 3'
+  '24':
+  - 'ENTITY : PIG_ZOMBIE : 1'
+  '25':
+  - 'SPECIAL : LIGHTNING : 3'
+  '26':
+  - 'ENTITY : ENDERMITE : 3'
+  '27':
+  - 'ENTITY : SQUID : 2'
+  - 'ITEM : CLAY_BALL : 18 : 0'
+  - 'ITEM : FLINT : 11 : 0'
+  '28':
+  - 'LUCKY_BLOCK_ITEM : TINTED : 2'
+  - 'SPECIAL : LIGHTNING : 3'
+  '29':
+  - 'ITEM : LEATHER_BOOTS : 1 : 0'
+  - 'LUCKY_BLOCK_ITEM : PURPLE : 3'
+  '30':
+  - 'ITEM : SPRUCE_DOOR_ITEM : 49 : 0'
+  - 'ENTITY : SQUID : 1'
+  '31':
+  - 'ITEM : GOLD_RECORD : 1 : 0'
+  - 'ITEM : DIAMOND_BOOTS : 1 : 0'
+  '32':
+  - 'ENTITY : VILLAGER : 4'
+  '33':
+  - 'ENTITY : WITHER_SKULL : 1'
+  - 'SPECIAL : LIGHTNING : 3'
+  - 'ITEM : EYE_OF_ENDER : 42 : 0'
+  '34':
+  - 'ITEM : WOOL : 8 : 0'
+  - 'ENTITY : BOAT : 2'
+  '35':
+  - 'ITEM : DARK_OAK_DOOR_ITEM : 15 : 0'
+  '36':
+  - 'SPECIAL : PIG : 12'
+  '37':
+  - 'ENTITY : GIANT : 2'
+  - 'ENTITY : EXPERIENCE_ORB : 4'
+  - 'ITEM : IRON_DOOR : 15 : 0'
+eco: true

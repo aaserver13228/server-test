@@ -1,0 +1,78 @@
+
+# Translation configuration author
+author: SnowCutieOwO
+
+special:
+  water_bucket: "&e检查你的背包.. 你获得了 &9水桶&f!"
+
+craft:
+  item_not_found: "&c包含关键词 %identifier% 的物品不存在"
+  allowed_one_layer: "&c使用配方合成时单个格子只能放置一个方块"
+  list: "&7[&eLuckyBlock&7] &f自定义物品列表:"
+  sword_of_justice: "&6&l&o正义之剑"
+  axe_of_perun: "&6&l&o秘鲁之斧"
+  carrot_corrupter: "&6&l&o胡萝卜坍缩者"
+  magic_wool: "&6&l&o魔法羊毛"
+
+system:
+  loading_config: "&f配置文件载入中... "
+  reloaded_config: "&a配置已重载, 载入 %amount% 种幸运方块..."
+
+  world_not_found: "&c世界 %world% 不存在"
+  lb_placed: "&f幸运方块 &e%type%&f 已被放置在了 &e%location%"
+  
+  lb_not_found: "&c幸运方块 &e%lb%&c 未找到,跳过... "
+  lb_loading_exception: "&c幸运方块 &e%lb%&c 不能被载入... 报错: &e%exception%"
+  lb_unknown_exception: "&c幸运方块 &e%lb%&c 未找到或出现未知错误, 跳过... "
+  lb_loaded_zero: "&f载入了 0 种幸运方块... 唔..."
+  lb_loaded_not_zero: "&f载入了 &e%amount%&f 种幸运方块..."
+  
+  cant_use_command: "&c抱歉, 但你不能使用此命令."
+  cant_use_subcommand: "&c抱歉, 但你不能使用此子命令."
+  
+  cant_break_color: "&c抱歉, 但你无权破坏 &e%lb% &c的幸运方块."
+  cant_interact_world: "&c抱歉，但你不能在世界 &e%world% &c中与幸运方块交互"
+  
+  cmd_lb_disabled: "&c幸运方块 &e%lb%&c 已被禁用 :("
+  cmd_lb_not_found: "&c幸运方块 &e%lb%&c 未找到 :("
+  cmd_lb_received: "&a得到了 %amount% 个幸运方块 &7(%lb%&7)"
+  cmd_lb_give: "&a给予了 %amount% 个幸运方块 &7(%lb%&7)"
+  
+  cmd_destroyed_lb: "&c已清除了 &e%amount% &c个幸运方块"
+  cmd_ci_received: "&a你收到了物品 %item%"
+  
+  cmd:
+    help_title: "&eLuckyBlock &f命令帮助:"
+    get: "&8 > &e/%label% get <颜色> [数量] &f- 获取幸运方块"
+    give: "&8 > &e/%label% give <玩家> <颜色> [数量] &f- 给予幸运方块"
+    gui: "&8 > &e/%label% gui <get(获取)/edit(编辑)> &f- 打开 GUI"
+    list: "&8 > &e/%label% list &f- 列出可用幸运方块"
+    reload: "&8 > &e/%label% reload &f- 重载配置文件"
+    checkforupdates: "&8 > &e/%label% checkforupdates &f- 检查更新"
+    support: "&8 > &e/%label% support &f- 取得作者联系"
+    customitemget: "&8 > &6/%label% getcustomitemget <id> &f- 获取自定义物品"
+    customitemlist: "&8 > &6/%label% customitemslist &f- 列出自定义物品"
+    destroy: "&8 > &e/%label% destroy <radius(半径)/chunk(区块)/(<xyz> [xyz] [world])> [-all(清除所有)] &f- 清理幸运方块"
+    item_to_json: "&8 > &e/%label% itemtojson &f- 获取物品 JSON 数据"
+    place: "&8 > &e/%label% place [世界名称] <x> <y> <z> <type> &f- 放置幸运方块"
+    generate: "&8 > &e/%label% generate <幸运方块种类> <因素> <最小掉落量> <最大掉落量> &f- 生成掉落"
+    generateFull: "使用该命令可在你的幸运方块 (LuckyBlocks) 内设置独有的掉落道具表 (LuckyDrops). <type> - 生成的幸运方块种类. <factory> - 幸运方块的 factory (默认填入 `latest`). <min> - 最小的掉落量 (EntryDrops). <max> - 最大的掉落量 (EntryDrops)"
+  
+  cmd_player_not_found: "&c玩家 &e%player%&c 未找到 :("
+  cmd_no_perm_to_color: "&c颜色 %lb% 无权限"
+  cmd_no_perm: "&c抱歉，但你无权限执行该子命令"
+  
+gui:
+  exit: "&7[ &6离开菜单 &7]"
+  get:
+    title: "&b购买 幸运方块 &4&l:D"
+    no_money: "&c你需要 &e%eco% &c硬币"
+    success: "&a你购买了 &e%amount% &a个幸运方块, 花费了 &e%eco%"
+  count:
+    title: "&b选择数量 &4&l:D"
+    remove: "&b拿走 %offset% 个"
+    add: "&b添加 %offset% 个"
+    back: "&3返回"
+    confirm: "&e确认"
+    get: "&f你将会得到: &6%amount% &f个"
+    give: "&f你将会给予: &c%give% &f个"

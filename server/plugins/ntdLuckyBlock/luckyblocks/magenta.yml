@@ -1,0 +1,117 @@
+texture: 1f23685c697ba55edda425ecf1fec72feeb7bb985c6506b2cef070515e4e5492
+name: '&dMagenta LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ENTITY : ZOMBIE : 2'
+  '1':
+  - 'ITEM : STAINED_GLASS : 8 : 0'
+  - 'ENTITY : ENDER_DRAGON : 2'
+  '2':
+  - 'ITEM : SMOOTH_BRICK : 64 : 0'
+  - 'ENTITY : ENDERMITE : 3'
+  '3':
+  - 'ITEM : DIAMOND_BOOTS : 1 : 0'
+  - 'ITEM : JUNGLE_FENCE_GATE : 64 : 0'
+  '4':
+  - 'ITEM : IRON_SWORD : 1 : 0'
+  - 'ITEM : DIAMOND_BOOTS : 1 : 0'
+  '5':
+  - 'ITEM : EXP_BOTTLE : 56 : 0'
+  - 'ENTITY : FIREBALL : 2'
+  '6':
+  - 'ITEM : GLASS : 64 : 0'
+  - 'ENTITY : OCELOT : 3'
+  '7':
+  - 'ITEM : CARPET : 64 : 0'
+  - 'ITEM : TRAP_DOOR : 32 : 0'
+  '8':
+  - 'ITEM : GOLD_PLATE : 32 : 0'
+  - 'ENTITY : PIG : 4'
+  '9':
+  - 'ITEM : DOUBLE_PLANT : 8 : 0'
+  - 'ENTITY : GIANT : 4'
+  - 'ENTITY : HORSE : 3'
+  '10':
+  - 'ENTITY : MINECART_TNT : 2'
+  '11':
+  - 'ENTITY : MINECART_CHEST : 2'
+  - 'ITEM : PRISMARINE : 32 : 0'
+  - 'ITEM : CLAY_BALL : 59 : 0'
+  '12':
+  - 'ITEM : STEP : 8 : 0'
+  - 'ENTITY : IRON_GOLEM : 4'
+  - 'LUCKY_BLOCK_ITEM : PURPLE : 1'
+  '13':
+  - 'ITEM : RABBIT_FOOT : 1 : 0'
+  - 'ENTITY : GIANT : 3'
+  - 'LUCKY_BLOCK_ITEM : GRAY : 2'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  '14':
+  - 'ENTITY : OCELOT : 1'
+  '15':
+  - 'ENTITY : ENDER_DRAGON : 1'
+  '16':
+  - 'ITEM : STONE_SWORD : 1 : 0'
+  '17':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  '18':
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'ITEM : JUNGLE_DOOR_ITEM : 22 : 0'
+  - 'ITEM : GOLD_NUGGET : 37 : 0'
+  '19':
+  - 'LUCKY_BLOCK_ITEM : WHITE : 4'
+  - 'ENTITY : SNOWBALL : 4'
+  - 'ITEM : BED : 1 : 0'
+  '20':
+  - 'LUCKY_BLOCK_ITEM : BLUE : 2'
+  - 'ENTITY : ARROW : 1'
+  - 'ITEM : MELON_BLOCK : 8 : 0'
+  '21':
+  - 'ENTITY : ENDER_PEARL : 4'
+  - 'LUCKY_BLOCK_ITEM : MAGENTA : 4'
+  - 'ENTITY : SHEEP : 4'
+  '22':
+  - 'ENTITY : PIG : 4'
+  - 'ITEM : SUGAR : 2 : 0'
+  '23':
+  - 'ITEM : RED_ROSE : 8 : 0'
+  '24':
+  - 'SPECIAL : LIGHTNING : 3'
+  '25':
+  - 'LUCKY_BLOCK_ITEM : RED : 2'
+  - 'ITEM : WOOD_DOOR : 55 : 0'
+  '26':
+  - 'ENTITY : SILVERFISH : 2'
+  - 'ITEM : SOUL_SAND : 32 : 0'
+  - 'ENTITY : THROWN_EXP_BOTTLE : 1'
+  - 'ITEM : CLAY_BRICK : 8 : 0'
+  '27':
+  - 'ENTITY : ENDER_DRAGON : 4'
+  '28':
+  - 'LUCKY_BLOCK_ITEM : BROWN : 4'
+  '29':
+  - 'ITEM : ACTIVATOR_RAIL : 8 : 0'
+  - 'ENTITY : RABBIT : 1'
+  - 'ITEM : BOOK_AND_QUILL : 1 : 0'
+  '30':
+  - 'ENTITY : SILVERFISH : 2'
+  - 'ENTITY : SMALL_FIREBALL : 2'
+  - 'ENTITY : IRON_GOLEM : 3'
+  - 'ITEM : MUSHROOM_SOUP : 1 : 0'
+  '31':
+  - 'LUCKY_BLOCK_ITEM : RED : 2'
+  - 'ITEM : ENDER_STONE : 64 : 0'
+  '32':
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  '33':
+  - 'ITEM : ENDER_PEARL : 4 : 0'
+eco: true

@@ -1,0 +1,102 @@
+texture: 8534b17d2d3b5a64c57f5f080dd777945761d9f71d82e8f599f242976e4d0c05
+name: '&1Blue LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ITEM : SAPLING : 32 : 0'
+  - 'LUCKY_BLOCK_ITEM : GREEN : 2'
+  '1':
+  - 'ENTITY : MINECART_COMMAND : 3'
+  '2':
+  - 'ITEM : SKULL_ITEM : 13 : 0'
+  - 'ITEM : COOKED_FISH : 35 : 0'
+  - 'ITEM : RABBIT_STEW : 1 : 0'
+  '3':
+  - 'ENTITY : RABBIT : 3'
+  - 'SPECIAL : TNT_COLUMN : 5'
+  - 'ITEM : ENDER_PORTAL_FRAME : 32 : 0'
+  '4':
+  - 'ITEM : PUMPKIN : 16 : 0'
+  - 'ENTITY : PRIMED_TNT : 2'
+  '5':
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  - 'ITEM : STONE_SWORD : 1 : 0'
+  - 'LUCKY_BLOCK_ITEM : BLUE : 3'
+  '6':
+  - 'ITEM : DARK_OAK_DOOR_ITEM : 10 : 0'
+  '7':
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'ITEM : GLOWSTONE_DUST : 56 : 0'
+  - 'ENTITY : CHICKEN : 3'
+  '8':
+  - 'ITEM : ACACIA_FENCE_GATE : 32 : 0'
+  - 'ITEM : BIRCH_FENCE : 16 : 0'
+  - 'ENTITY : WOLF : 2'
+  '9':
+  - 'ENTITY : MINECART_FURNACE : 3'
+  - 'ITEM : GOLD_SPADE : 1 : 0'
+  - 'SPECIAL : PIG : 17'
+  - 'ITEM : SPRUCE_FENCE : 64 : 0'
+  '10':
+  - 'ENTITY : ZOMBIE : 2'
+  - 'ITEM : WATER_BUCKET : 1 : 0'
+  - 'ENTITY : MUSHROOM_COW : 1'
+  '11':
+  - 'ITEM : FENCE : 16 : 0'
+  - 'ITEM : OBSIDIAN : 8 : 0'
+  '12':
+  - 'ITEM : CARROT_ITEM : 8 : 0'
+  - 'ITEM : RECORD_7 : 1 : 0'
+  - 'SPECIAL : PIG : 22'
+  '13':
+  - 'ENTITY : GHAST : 3'
+  '14':
+  - 'LUCKY_BLOCK_ITEM : WHITE : 3'
+  - 'ENTITY : ITEM_FRAME : 2'
+  - 'ITEM : STONE_SWORD : 1 : 0'
+  - 'ENTITY : IRON_GOLEM : 1'
+  '15':
+  - 'ENTITY : LEASH_HITCH : 1'
+  - 'ITEM : EXP_BOTTLE : 47 : 0'
+  '16':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  - 'ENTITY : SILVERFISH : 1'
+  - 'ENTITY : ENDER_PEARL : 1'
+  '17':
+  - 'ENTITY : WOLF : 1'
+  - 'ITEM : MOB_SPAWNER : 16 : 0'
+  - 'ITEM : ENCHANTED_BOOK : 1 : 0'
+  - 'LUCKY_BLOCK_ITEM : BLUE : 3'
+  '18':
+  - 'ITEM : BEDROCK : 32 : 0'
+  - 'ITEM : COOKED_FISH : 20 : 0'
+  '19':
+  - 'ENTITY : MUSHROOM_COW : 2'
+  - 'ITEM : MAP : 62 : 0'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  '20':
+  - 'ITEM : MELON_BLOCK : 32 : 0'
+  - 'ITEM : WOOD_STEP : 64 : 0'
+  '21':
+  - 'ENTITY : ENDER_SIGNAL : 2'
+  - 'ENTITY : OCELOT : 3'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  '22':
+  - 'ENTITY : SMALL_FIREBALL : 3'
+  '23':
+  - 'ITEM : COOKED_RABBIT : 63 : 0'
+  - 'ENTITY : PIG_ZOMBIE : 4'
+  - 'ITEM : HUGE_MUSHROOM_1 : 8 : 0'
+  '24':
+  - 'ITEM : NETHER_STAR : 11 : 0'
+  - 'ITEM : LONG_GRASS : 16 : 0'
+  - 'ITEM : SULPHUR : 4 : 0'
+eco: true

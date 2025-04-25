@@ -1,0 +1,29 @@
+
+magic_wool:
+  enabled: true
+
+sword_of_justice:
+  enabled: true
+  heal: 2.0
+
+axe_of_perun:
+  enabled: true
+  damage: 0.5
+
+chilly_pants:
+  enabled: true
+  only_solid: true
+
+rage_armor:
+  enabled: true
+  percentage: 50
+
+wither_blast_rod:
+  enabled: true
+  yield: 2
+
+carrot_corrupter:
+  enabled: true
+
+mystery_meat:
+  enabled: true

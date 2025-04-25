@@ -1,0 +1,116 @@
+texture: bd3a1436e0fd5f3e4d113a092c1d07a12e22d426c50183ccd62877d9cd885fbd
+name: '&6Orange LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'SPECIAL : LIGHTNING : 3'
+  - 'ENTITY : MINECART_COMMAND : 3'
+  '1':
+  - 'ITEM : IRON_FENCE : 8 : 0'
+  '2':
+  - 'ENTITY : COW : 3'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'ITEM : COBBLE_WALL : 8 : 0'
+  - 'ITEM : SAND : 16 : 0'
+  '3':
+  - 'ENTITY : MAGMA_CUBE : 3'
+  - 'ENTITY : MAGMA_CUBE : 2'
+  '4':
+  - 'LUCKY_BLOCK_ITEM : RED : 3'
+  - 'ITEM : RED_MUSHROOM : 8 : 0'
+  '5':
+  - 'ITEM : CARPET : 16 : 0'
+  '6':
+  - 'ITEM : IRON_DOOR : 35 : 0'
+  - 'ITEM : SLIME_BALL : 11 : 0'
+  - 'ENTITY : PIG : 4'
+  '7':
+  - 'ITEM : GLOWSTONE_DUST : 15 : 0'
+  '8':
+  - 'ENTITY : GUARDIAN : 1'
+  '9':
+  - 'ENTITY : ENDERMAN : 4'
+  '10':
+  - 'ITEM : DIAMOND_BARDING : 1 : 0'
+  - 'ENTITY : CREEPER : 3'
+  '11':
+  - 'LUCKY_BLOCK_ITEM : GREEN : 2'
+  '12':
+  - 'ENTITY : ENDERMITE : 2'
+  - 'LUCKY_BLOCK_ITEM : WHITE : 4'
+  '13':
+  - 'ITEM : GREEN_RECORD : 1 : 0'
+  - 'ITEM : BAKED_POTATO : 41 : 0'
+  - 'ITEM : SPRUCE_FENCE : 64 : 0'
+  '14':
+  - 'ENTITY : COW : 3'
+  - 'ENTITY : MAGMA_CUBE : 1'
+  - 'ENTITY : BAT : 4'
+  '15':
+  - 'ITEM : CLAY_BRICK : 14 : 0'
+  - 'ITEM : GRASS : 16 : 0'
+  - 'LUCKY_BLOCK_ITEM : ICED : 2'
+  '16':
+  - 'ITEM : ACACIA_FENCE_GATE : 8 : 0'
+  - 'ENTITY : ENDERMAN : 1'
+  - 'ITEM : BREWING_STAND_ITEM : 64 : 0'
+  '17':
+  - 'ENTITY : OCELOT : 4'
+  - 'ITEM : IRON_TRAPDOOR : 32 : 0'
+  - 'ITEM : COMMAND : 8 : 0'
+  - 'ITEM : COOKED_RABBIT : 8 : 0'
+  '18':
+  - 'LUCKY_BLOCK_ITEM : LIGHT_BLUE : 1'
+  - 'ITEM : JACK_O_LANTERN : 8 : 0'
+  - 'ITEM : MONSTER_EGGS : 32 : 0'
+  '19':
+  - 'ITEM : DAYLIGHT_DETECTOR : 8 : 0'
+  '20':
+  - 'ITEM : MELON : 32 : 0'
+  - 'ITEM : RECORD_3 : 1 : 0'
+  - 'ITEM : POISONOUS_POTATO : 4 : 0'
+  '21':
+  - 'ENTITY : BLAZE : 1'
+  - 'ITEM : FERMENTED_SPIDER_EYE : 8 : 0'
+  - 'ENTITY : LEASH_HITCH : 3'
+  '22':
+  - 'ENTITY : MINECART_CHEST : 2'
+  - 'ENTITY : WITCH : 1'
+  '23':
+  - 'ITEM : PISTON_BASE : 64 : 0'
+  '24':
+  - 'ITEM : SNOW_BALL : 8 : 0'
+  - 'ITEM : MONSTER_EGG : 59 : 0'
+  - 'ITEM : PORK : 35 : 0'
+  '25':
+  - 'ITEM : COOKED_RABBIT : 51 : 0'
+  '26':
+  - 'ITEM : SOIL : 64 : 0'
+  - 'ITEM : LEASH : 58 : 0'
+  - 'ITEM : PUMPKIN_SEEDS : 54 : 0'
+  '27':
+  - 'ITEM : YELLOW_FLOWER : 16 : 0'
+  '28':
+  - 'ENTITY : WOLF : 2'
+  '29':
+  - 'ITEM : SANDSTONE : 16 : 0'
+  - 'ITEM : DETECTOR_RAIL : 16 : 0'
+  - 'ENTITY : COW : 3'
+  '30':
+  - 'ITEM : MINECART : 1 : 0'
+  '31':
+  - 'ITEM : WRITTEN_BOOK : 4 : 0'
+  - 'ITEM : STONE_PICKAXE : 1 : 0'
+  - 'ITEM : JACK_O_LANTERN : 64 : 0'
+  - 'ENTITY : ITEM_FRAME : 2'
+  '32':
+  - 'ENTITY : GUARDIAN : 4'
+eco: true

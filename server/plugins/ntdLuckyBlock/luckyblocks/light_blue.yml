@@ -1,0 +1,88 @@
+texture: 65fed46b39c6c34d491143b72ce728797d16f9b5aa40bbdec61667f5ff9d3d45
+name: '&bLight blue LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ENTITY : GHAST : 1'
+  - 'ITEM : COMMAND_MINECART : 1 : 0'
+  '1':
+  - 'ITEM : IRON_DOOR : 15 : 0'
+  - 'LUCKY_BLOCK_ITEM : YELLOW : 4'
+  - 'ITEM : CLAY_BALL : 51 : 0'
+  '2':
+  - 'ENTITY : ENDERMAN : 4'
+  - 'ENTITY : FIREBALL : 4'
+  '3':
+  - 'ENTITY : MINECART_FURNACE : 1'
+  '4':
+  - 'ITEM : STONE_SPADE : 1 : 0'
+  - 'ENTITY : MINECART_TNT : 3'
+  - 'LUCKY_BLOCK_ITEM : WHITE : 4'
+  '5':
+  - 'LUCKY_BLOCK_ITEM : ORANGE : 3'
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  - 'ITEM : LAPIS_BLOCK : 16 : 0'
+  '6':
+  - 'ITEM : DIRT : 64 : 0'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  - 'ENTITY : SNOWMAN : 4'
+  '7':
+  - 'ITEM : CLAY_BALL : 63 : 0'
+  '8':
+  - 'ITEM : SUGAR_CANE : 34 : 0'
+  - 'ITEM : GOLD_HOE : 1 : 0'
+  - 'ENTITY : WITHER : 1'
+  '9':
+  - 'ITEM : EXP_BOTTLE : 43 : 0'
+  - 'ITEM : DIAMOND_BARDING : 1 : 0'
+  '10':
+  - 'ENTITY : BAT : 4'
+  '11':
+  - 'ITEM : OBSIDIAN : 64 : 0'
+  - 'LUCKY_BLOCK_ITEM : LIGHT_BLUE : 3'
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  '12':
+  - 'ITEM : COOKED_FISH : 30 : 0'
+  - 'ENTITY : SPIDER : 2'
+  - 'ITEM : DARK_OAK_FENCE : 8 : 0'
+  '13':
+  - 'ITEM : SOIL : 8 : 0'
+  '14':
+  - 'ITEM : FISHING_ROD : 1 : 0'
+  - 'LUCKY_BLOCK_ITEM : BLUE : 3'
+  - 'ENTITY : MINECART_MOB_SPAWNER : 2'
+  '15':
+  - 'ENTITY : IRON_GOLEM : 1'
+  '16':
+  - 'ITEM : WOOD_BUTTON : 32 : 0'
+  - 'ENTITY : ENDER_DRAGON : 2'
+  - 'LUCKY_BLOCK_ITEM : GRAY : 1'
+  '17':
+  - 'ITEM : EYE_OF_ENDER : 59 : 0'
+  - 'LUCKY_BLOCK_ITEM : LIGHT_BLUE : 2'
+  - 'ENTITY : SILVERFISH : 3'
+  '18':
+  - 'SPECIAL : LIGHTNING : 3'
+  - 'ENTITY : MINECART_MOB_SPAWNER : 1'
+  - 'ITEM : WOOD_AXE : 1 : 0'
+  '19':
+  - 'LUCKY_BLOCK_ITEM : RED : 1'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'LUCKY_BLOCK_ITEM : PINK : 3'
+  '20':
+  - 'LUCKY_BLOCK_ITEM : MAGENTA : 3'
+  - 'LUCKY_BLOCK_ITEM : MAGENTA : 4'
+  - 'ITEM : RECORD_5 : 1 : 0'
+  '21':
+  - 'SPECIAL : LIGHTNING : 3'
+  - 'LUCKY_BLOCK_ITEM : CYAN : 3'
+  - 'SPECIAL : TNT_COLUMN : 5'
+eco: true

@@ -1,0 +1,117 @@
+texture: 29942dd1338abeae8b8274a41ae1dcdf2b7be449f28d6b650ec06e491e70f570
+name: '&4Red LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ENTITY : CREEPER : 2'
+  - 'LUCKY_BLOCK_ITEM : YELLOW : 3'
+  '1':
+  - 'ITEM : GRASS : 16 : 0'
+  - 'LUCKY_BLOCK_ITEM : LIGHT_GRAY : 1'
+  - 'ITEM : RAW_CHICKEN : 57 : 0'
+  '2':
+  - 'ITEM : COAL : 60 : 0'
+  - 'ITEM : YELLOW_FLOWER : 8 : 0'
+  '3':
+  - 'ITEM : ICE : 64 : 0'
+  - 'ENTITY : SMALL_FIREBALL : 4'
+  '4':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  - 'ENTITY : ENDER_DRAGON : 3'
+  - 'ITEM : DOUBLE_PLANT : 32 : 0'
+  '5':
+  - 'ITEM : IRON_BOOTS : 1 : 0'
+  '6':
+  - 'ENTITY : SPIDER : 2'
+  '7':
+  - 'LUCKY_BLOCK_ITEM : TINTED : 2'
+  '8':
+  - 'ITEM : FIREBALL : 8 : 0'
+  - 'ENTITY : SLIME : 4'
+  - 'ITEM : DISPENSER : 8 : 0'
+  '9':
+  - 'ITEM : GOLD_RECORD : 1 : 0'
+  - 'ITEM : BRICK : 8 : 0'
+  - 'ITEM : NETHER_FENCE : 32 : 0'
+  '10':
+  - 'LUCKY_BLOCK_ITEM : CYAN : 4'
+  - 'ITEM : IRON_INGOT : 22 : 0'
+  - 'LUCKY_BLOCK_ITEM : MAGENTA : 4'
+  '11':
+  - 'ITEM : WOOD_PLATE : 8 : 0'
+  '12':
+  - 'ITEM : REDSTONE_COMPARATOR : 30 : 0'
+  - 'ITEM : GOLD_RECORD : 1 : 0'
+  '13':
+  - 'ITEM : GOLD_ORE : 16 : 0'
+  - 'ENTITY : PRIMED_TNT : 3'
+  '14':
+  - 'ENTITY : SHEEP : 1'
+  '15':
+  - 'ITEM : RECORD_4 : 1 : 0'
+  - 'ITEM : WOOD_PICKAXE : 1 : 0'
+  '16':
+  - 'ENTITY : BLAZE : 4'
+  - 'ITEM : RABBIT : 3 : 0'
+  - 'ENTITY : SKELETON : 1'
+  '17':
+  - 'ENTITY : MINECART_FURNACE : 1'
+  - 'SPECIAL : LIGHTNING : 3'
+  '18':
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  - 'ITEM : IRON_PICKAXE : 1 : 0'
+  '19':
+  - 'ITEM : PUMPKIN_PIE : 61 : 0'
+  - 'ITEM : DISPENSER : 16 : 0'
+  - 'ITEM : ICE : 64 : 0'
+  '20':
+  - 'LUCKY_BLOCK_ITEM : PINK : 2'
+  - 'ITEM : HOPPER_MINECART : 1 : 0'
+  '21':
+  - 'ITEM : RABBIT_FOOT : 6 : 0'
+  '22':
+  - 'ITEM : DIAMOND_AXE : 1 : 0'
+  - 'ENTITY : SLIME : 1'
+  '23':
+  - 'ENTITY : MINECART_MOB_SPAWNER : 3'
+  '24':
+  - 'ENTITY : VILLAGER : 4'
+  - 'ITEM : POTION : 1 : 0'
+  - 'ITEM : BEACON : 16 : 0'
+  - 'ENTITY : MINECART_COMMAND : 1'
+  '25':
+  - 'ENTITY : WITCH : 2'
+  '26':
+  - 'SPECIAL : LIGHTNING : 3'
+  '27':
+  - 'ENTITY : ENDERMAN : 1'
+  - 'ITEM : COMPASS : 21 : 0'
+  '28':
+  - 'ENTITY : SHEEP : 1'
+  - 'ENTITY : ENDER_SIGNAL : 4'
+  '29':
+  - 'ENTITY : SPIDER : 1'
+  '30':
+  - 'ITEM : PRISMARINE_CRYSTALS : 19 : 0'
+  - 'ITEM : TRAP_DOOR : 16 : 0'
+  '31':
+  - 'ITEM : GOLD_HELMET : 1 : 0'
+  '32':
+  - 'ENTITY : ENDER_CRYSTAL : 3'
+  - 'ENTITY : GIANT : 2'
+  - 'ENTITY : MINECART_TNT : 4'
+  '33':
+  - 'ENTITY : PRIMED_TNT : 3'
+  - 'ITEM : DIAMOND_SWORD : 1 : 0'
+  '34':
+  - 'ENTITY : MINECART_COMMAND : 3'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+eco: true

@@ -1,0 +1,132 @@
+texture: 6cfb4ebc3ba4fec04d8978a1660bb7c98e96342ff2a238ada9df2f74bf032b40
+name: '&5Purple LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'SPECIAL : PIG : 4'
+  - 'ITEM : BREWING_STAND_ITEM : 5 : 0'
+  '1':
+  - 'LUCKY_BLOCK_ITEM : GREEN : 4'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  - 'ITEM : DIRT : 8 : 0'
+  - 'ENTITY : PIG : 2'
+  '2':
+  - 'SPECIAL : LIGHTNING : 3'
+  - 'ENTITY : EXPERIENCE_ORB : 3'
+  '3':
+  - 'ITEM : GOLD_PICKAXE : 1 : 0'
+  - 'ENTITY : SMALL_FIREBALL : 4'
+  '4':
+  - 'ITEM : STAINED_CLAY : 16 : 0'
+  '5':
+  - 'ITEM : COOKED_FISH : 62 : 0'
+  - 'ITEM : ACACIA_FENCE : 64 : 0'
+  - 'ITEM : COOKED_RABBIT : 30 : 0'
+  '6':
+  - 'ENTITY : ENDER_DRAGON : 3'
+  - 'ENTITY : SMALL_FIREBALL : 3'
+  - 'SPECIAL : LIGHTNING : 3'
+  '7':
+  - 'ITEM : RECORD_11 : 1 : 0'
+  - 'ITEM : IRON_SWORD : 1 : 0'
+  - 'LUCKY_BLOCK_ITEM : GREEN : 1'
+  '8':
+  - 'ITEM : CHEST : 8 : 0'
+  - 'ITEM : WOOD_PLATE : 32 : 0'
+  '9':
+  - 'ITEM : SNOW : 64 : 0'
+  - 'ITEM : SPIDER_EYE : 34 : 0'
+  - 'ITEM : SAND : 64 : 0'
+  '10':
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  - 'ITEM : JACK_O_LANTERN : 16 : 0'
+  '11':
+  - 'ITEM : STONE_SWORD : 1 : 0'
+  - 'LUCKY_BLOCK_ITEM : BLACK : 2'
+  '12':
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  - 'ITEM : STORAGE_MINECART : 1 : 0'
+  '13':
+  - 'ITEM : GRILLED_PORK : 20 : 0'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'ITEM : SKULL_ITEM : 56 : 0'
+  '14':
+  - 'ENTITY : SHEEP : 2'
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 1'
+  '15':
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'ITEM : QUARTZ_ORE : 64 : 0'
+  - 'ITEM : IRON_SWORD : 1 : 0'
+  - 'ITEM : RECORD_12 : 1 : 0'
+  '16':
+  - 'ENTITY : SLIME : 3'
+  - 'ITEM : DISPENSER : 32 : 0'
+  '17':
+  - 'LUCKY_BLOCK_ITEM : BLACK : 3'
+  - 'ITEM : EYE_OF_ENDER : 56 : 0'
+  '18':
+  - 'ITEM : GLASS : 8 : 0'
+  '19':
+  - 'ENTITY : COW : 3'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  - 'ITEM : RED_SANDSTONE : 64 : 0'
+  '20':
+  - 'ITEM : GOLD_ORE : 32 : 0'
+  - 'ENTITY : WOLF : 2'
+  - 'ITEM : MUTTON : 60 : 0'
+  '21':
+  - 'ITEM : DIAMOND_SWORD : 1 : 0'
+  '22':
+  - 'ENTITY : PAINTING : 1'
+  - 'ENTITY : MINECART : 1'
+  '23':
+  - 'ITEM : QUARTZ : 28 : 0'
+  - 'ITEM : RECORD_10 : 1 : 0'
+  '24':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  - 'ITEM : FISHING_ROD : 1 : 0'
+  - 'ENTITY : ENDER_CRYSTAL : 1'
+  '25':
+  - 'ITEM : STORAGE_MINECART : 1 : 0'
+  - 'ITEM : IRON_SPADE : 1 : 0'
+  - 'ENTITY : COW : 2'
+  - 'ITEM : ENDER_PEARL : 16 : 0'
+  '26':
+  - 'ITEM : DIAMOND_HELMET : 1 : 0'
+  '27':
+  - 'ITEM : STONE_AXE : 1 : 0'
+  - 'ITEM : PUMPKIN_PIE : 9 : 0'
+  - 'ITEM : MAGMA_CREAM : 37 : 0'
+  '28':
+  - 'ITEM : RECORD_12 : 1 : 0'
+  - 'ENTITY : MINECART_FURNACE : 1'
+  '29':
+  - 'ITEM : EYE_OF_ENDER : 5 : 0'
+  - 'ITEM : GOLD_HELMET : 1 : 0'
+  - 'ENTITY : ENDERMITE : 3'
+  '30':
+  - 'ITEM : STONE_PICKAXE : 1 : 0'
+  - 'SPECIAL : LIGHTNING : 3'
+  '31':
+  - 'LUCKY_BLOCK_ITEM : GRAY : 3'
+  - 'ITEM : POTION : 1 : 0'
+  '32':
+  - 'ENTITY : CREEPER : 4'
+  - 'ITEM : DIAMOND_LEGGINGS : 1 : 0'
+  '33':
+  - 'ITEM : MYCEL : 16 : 0'
+  '34':
+  - 'ITEM : BOW : 1 : 0'
+  - 'ITEM : FIREBALL : 11 : 0'
+  - 'ITEM : DIAMOND_AXE : 1 : 0'
+  '35':
+  - 'SPECIAL : WATER_BUCKET : 64'
+eco: true

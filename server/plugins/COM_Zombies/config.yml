@@ -1,0 +1,35 @@
+config:
+  settings:
+    useNoSlashForCommand: false
+    checkForUpdates: false
+  Perks:
+    PercentDropchance: 3
+    MaxAmmo: true
+    FireSale: true
+    InstaKill: true
+    Carpenter: true
+    Nuke: true
+    DoublePoints: true
+    maxPerks: 4
+  gameSettings:
+    MeleeRange: 1.5
+    MultipleMysteryBoxes: false
+    doublePointsTimer: 30
+    instaKillTimer: 30
+    fireSaleTimer: 30
+    perkLife: 15
+    reloadTime: 3
+    defaultPointsOnHit: 10
+    defaultPointsOnKill: 60
+    maxZombies: 20
+    waveSpawnInterval: 7
+    zombieSpawnDelay: 10
+    arenaStartTime: 60
+    ZoomTexture: false
+  ReviveSettings:
+    ReviveTimer: 4
+    ReviveRange: 2
+    MaxDownTime: 60
+  Economy:
+    CostPerJoin: 0
+    MoneyPerKill: 1

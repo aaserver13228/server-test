@@ -1,0 +1,35 @@
+# 
+# Don't edit it. But who's stopping you? It's your server!
+# Really, don't edit ;p
+# You edited it, huh? Next time hurt yourself!
+instances:
+  default:
+    lobbylocation: world,-1.0,80.0,7.0,0.0,0.0
+    startlocation: world,-1.0,80.0,7.0,0.0,0.0
+    endlocation: world,-1.0,80.0,7.0,0.0,0.0
+    minimumplayers: 2
+    maximumplayers: 10
+    plotmembersize: 1
+    mapname: mapname
+    world: worldname
+    gametype: classic
+    isdone: false
+    signs: {}
+    plots: {}
+  bb:
+    isdone: false
+    plots:
+      '1':
+        '1': bb,9.0,3.0,3.0,0.0,0.0
+        '2': bb,-24.0,28.0,35.0,0.0,0.0
+      '2':
+        '1': bb,55.0,8.0,11.0,0.0,0.0
+        '2': bb,88.0,33.0,43.0,0.0,0.0
+    gametype: classic
+    plotmembersize: 2
+    maximumplayers: 36
+    minimumplayers: 2
+    spectatorlocation: bb,-1.58,26.2,25.82,-147.0,83.4
+Do-Not-Edit:
+  File-Version: 0
+  Core-Version: 1

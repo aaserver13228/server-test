@@ -1,0 +1,46 @@
+# LuckyBlock texture into block
+#old-texture: 1997d355e23f4da7be69139eec158609c70bdab4bb93e3fa82679d53b2dbdfd
+texture: 6ab180e820f71629f01f25b62bdeb9c324d50a38af74e6a9321439471046dc41
+
+# Item name
+name: "&2Green LuckyBlock"
+# System name (Give command will use it as color)
+custom_name: "GREEN"
+# Item lore
+lore:
+- "&7Place me :D"
+
+eco: true
+shop: true
+price: 250
+
+animation: true
+animation_type: "MOBSPAWNER_FLAMES"
+
+# Dropping items
+drop:
+  '0':
+    - "ITEM : WOOD_SWORD : 1 : 29 : Hm... What is that!? : DAMAGE_ALL : 5"
+    - "ITEM : DIAMOND_CHESTPLATE : 1 : 200"
+  '1':
+    - "ITEM : IRON_CHESTPLATE : 1 : 0"
+    - "ITEM : IRON_BOOTS : 1 : 0"
+    - "ITEM : BOW : 1 : 0"
+  '2':
+    - "ITEM : DIAMOND_AXE : 1 : 0"
+    - "ITEM : APPLE : 8 : 0"
+  '3':
+    - "ITEM : IRON_HELMET : 1 : 0"
+    - "ITEM : IRON_LEGGINGS : 1 : 0"
+    - "ITEM : ARROW : 6 : 0"
+  '4':
+    - "ITEM : IRON_SWORD : 1 : 0 : &7&nIron&b Diamond sword : FIRE_ASPECT : 2"
+    - "ITEM : FISHING_ROD : 1 : 0"
+  '5':
+    - "SPECIAL : TNT_EXPLOSION : 20"
+  '6':
+    - "SPECIAL : EXPERIENCE_EXPLOSION : 40"
+
+craft:
+  default: true
+  custom: false

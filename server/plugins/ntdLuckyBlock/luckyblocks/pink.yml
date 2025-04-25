@@ -1,0 +1,163 @@
+texture: 11a367164bc6852c8f078811de7baacaefd6964960ebff1fa504c7b4b1298a52
+name: '&dPink LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ITEM : COOKED_BEEF : 27 : 0'
+  - 'ITEM : GOLDEN_APPLE : 37 : 0'
+  - 'ITEM : DIAMOND_ORE : 32 : 0'
+  '1':
+  - 'ITEM : TRAP_DOOR : 64 : 0'
+  - 'ITEM : ICE : 32 : 0'
+  '2':
+  - 'ENTITY : SQUID : 3'
+  '3':
+  - 'ENTITY : ENDERMAN : 4'
+  '4':
+  - 'ENTITY : SNOWBALL : 4'
+  - 'ITEM : NETHER_BRICK : 8 : 0'
+  '5':
+  - 'ITEM : COOKIE : 59 : 0'
+  - 'ITEM : BOWL : 56 : 0'
+  '6':
+  - 'ITEM : FERMENTED_SPIDER_EYE : 9 : 0'
+  '7':
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 2'
+  - 'LUCKY_BLOCK_ITEM : LIGHT_BLUE : 2'
+  '8':
+  - 'ENTITY : CREEPER : 2'
+  - 'ENTITY : WOLF : 1'
+  '9':
+  - 'ENTITY : LEASH_HITCH : 3'
+  '10':
+  - 'ITEM : COOKED_BEEF : 63 : 0'
+  '11':
+  - 'ITEM : PUMPKIN_PIE : 36 : 0'
+  - 'ENTITY : BAT : 1'
+  '12':
+  - 'ITEM : MOSSY_COBBLESTONE : 16 : 0'
+  - 'ITEM : RABBIT_FOOT : 26 : 0'
+  '13':
+  - 'ENTITY : VILLAGER : 4'
+  - 'ITEM : STONE_SWORD : 1 : 0'
+  '14':
+  - 'ENTITY : SMALL_FIREBALL : 2'
+  - 'ITEM : IRON_DOOR : 32 : 0'
+  - 'ITEM : PISTON_STICKY_BASE : 16 : 0'
+  '15':
+  - 'LUCKY_BLOCK_ITEM : BLACK : 2'
+  - 'ITEM : WOOD_AXE : 1 : 0'
+  - 'SPECIAL : LIGHTNING : 3'
+  '16':
+  - 'LUCKY_BLOCK_ITEM : RED : 1'
+  '17':
+  - 'ITEM : GLASS_BOTTLE : 52 : 0'
+  - 'ITEM : STAINED_GLASS : 8 : 0'
+  '18':
+  - 'ITEM : GOLDEN_APPLE : 26 : 0'
+  - 'ITEM : COMPASS : 6 : 0'
+  - 'ENTITY : IRON_GOLEM : 1'
+  - 'LUCKY_BLOCK_ITEM : PURPLE : 3'
+  '19':
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  '20':
+  - 'LUCKY_BLOCK_ITEM : YELLOW : 4'
+  - 'ITEM : DIAMOND_SPADE : 1 : 0'
+  '21':
+  - 'ITEM : SNOW_BALL : 7 : 0'
+  '22':
+  - 'ENTITY : PIG_ZOMBIE : 2'
+  - 'ITEM : GOLDEN_APPLE : 24 : 0'
+  '23':
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 4'
+  - 'LUCKY_BLOCK_ITEM : CYAN : 3'
+  '24':
+  - 'LUCKY_BLOCK_ITEM : PURPLE : 4'
+  '25':
+  - 'ITEM : SOIL : 16 : 0'
+  - 'ITEM : EMERALD_BLOCK : 64 : 0'
+  - 'ITEM : COAL_BLOCK : 64 : 0'
+  '26':
+  - 'ITEM : IRON_BOOTS : 1 : 0'
+  '27':
+  - 'ITEM : CLAY_BRICK : 35 : 0'
+  - 'ENTITY : BLAZE : 3'
+  '28':
+  - 'ITEM : CLAY : 64 : 0'
+  - 'ITEM : SPECKLED_MELON : 35 : 0'
+  - 'ITEM : DIAMOND_PICKAXE : 1 : 0'
+  '29':
+  - 'ITEM : ENCHANTED_BOOK : 1 : 0'
+  - 'ENTITY : MINECART_TNT : 3'
+  '30':
+  - 'ENTITY : GUARDIAN : 4'
+  '31':
+  - 'ITEM : GOLD_PLATE : 32 : 0'
+  - 'ENTITY : ENDER_CRYSTAL : 3'
+  - 'LUCKY_BLOCK_ITEM : BLACK : 4'
+  '32':
+  - 'ITEM : ENDER_PEARL : 3 : 0'
+  '33':
+  - 'ENTITY : ARROW : 4'
+  - 'ITEM : PACKED_ICE : 16 : 0'
+  - 'ENTITY : ENDER_SIGNAL : 1'
+  '34':
+  - 'ENTITY : GUARDIAN : 4'
+  - 'ENTITY : RABBIT : 2'
+  '35':
+  - 'ITEM : SPONGE : 64 : 0'
+  - 'ITEM : PISTON_BASE : 16 : 0'
+  - 'ITEM : CAULDRON_ITEM : 23 : 0'
+  '36':
+  - 'ITEM : GOLD_BLOCK : 8 : 0'
+  - 'ENTITY : IRON_GOLEM : 3'
+  '37':
+  - 'ITEM : DIAMOND_CHESTPLATE : 1 : 0'
+  - 'ITEM : ENDER_STONE : 32 : 0'
+  - 'ENTITY : PAINTING : 1'
+  '38':
+  - 'ITEM : EGG : 6 : 0'
+  '39':
+  - 'ITEM : COMPASS : 19 : 0'
+  - 'ITEM : STRING : 36 : 0'
+  - 'ITEM : HOPPER_MINECART : 1 : 0'
+  - 'LUCKY_BLOCK_ITEM : BLUE : 4'
+  '40':
+  - 'ENTITY : LEASH_HITCH : 1'
+  '41':
+  - 'ITEM : SPRUCE_FENCE_GATE : 64 : 0'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'SPECIAL : PIG : 4'
+  '42':
+  - 'ENTITY : MUSHROOM_COW : 3'
+  '43':
+  - 'ENTITY : ENDER_PEARL : 2'
+  - 'ITEM : FERMENTED_SPIDER_EYE : 23 : 0'
+  - 'ITEM : CARROT_STICK : 1 : 0'
+  - 'ITEM : SNOW_BLOCK : 8 : 0'
+  '44':
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 3'
+  - 'ENTITY : SLIME : 1'
+  - 'ENTITY : MINECART_MOB_SPAWNER : 2'
+  '45':
+  - 'ITEM : FENCE : 32 : 0'
+  - 'ITEM : FIREWORK_CHARGE : 46 : 0'
+  - 'ITEM : NETHER_FENCE : 8 : 0'
+  - 'ENTITY : WITHER_SKULL : 1'
+  '46':
+  - 'ITEM : GRAVEL : 64 : 0'
+  '47':
+  - 'ITEM : WOOD_PLATE : 32 : 0'
+  - 'SPECIAL : PIG : 9'
+  '48':
+  - 'ITEM : DIAMOND_CHESTPLATE : 1 : 0'
+  - 'ITEM : GOLD_RECORD : 1 : 0'
+eco: true

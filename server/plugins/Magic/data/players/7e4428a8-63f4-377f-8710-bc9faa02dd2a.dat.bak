@@ -2,7 +2,7 @@ id: 7e4428a8-63f4-377f-8710-bc9faa02dd2a
 name: the_milk_man
 last_cast: 1744307820043
 cooldown_expiration: 0
-last_death_location: 195.8335815294109,-206.55579702426368,-57.19864505428958,bed,-64.05011,-89.250015
+last_death_location: -287.6999999880792,63.0,174.58363560819265,world,261.20007,5.2499924
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -125,7 +125,7 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/2WRu1bcMBCGB7IEBTaBKjUFJxXm2PJFdscLpE7pM5JGuzrYlmLL2X38zC6EJqVGo//y6QbgBjYHnKyAq3CYaIZt2lM/+uG1H3ESIBKNccBEcG3J4TokAZ+PkS+PcFnnAu74MNOO+C0mHya4qAV8J+fIpD7inLwZqA/OLZTgU/5csubZqfcWHhVVlWyxzZrSVVmplMtaVeSZNp1DzKW1EjmaDutkYZPmlQRsvGEbcQjB9vvAg1tLi5l9PNvfP0ZM+4efuPPm4de52X9pZrR+XU5ppIBvfuL3LG2S1wP9c9kin/9Qv0QaBrge/bL44eR+kgehaecnbsGLDCD5kSVwjPC1UFVVtoXMVd0xie27twlDmOFHo1UpnWsbssWTrBpXWJJFp7onBkGlybWRHVPdvBLFj8ITjpzrrczlked1/sxLV79Xz1AvCp6eYKIu8rpsTFZKVWVVW1OmXYlZpVUtdVt1tu74986NFvjyXumFlbb7kDTOnHKd3gRvGfgcYsQPJAB/AY8/RPkuAgAA
+        internal: H4sIAAAAAAAA/2VRO3OcMBDesXFM7Js8GtcuPKnMDQhxQJcmpeuUzEpa3WkMSAGRu5+f5exzk3JX+p57B3AHyRFHk8KNP440wSYeqBtc/9oNOKaQRhpCj5Hg1pDFpY8pfDoFfjxBUuXbPIWvPE60J0ZjdH6E62pdP5C1pGMXcIpO99R5a2eKcJ1vS+Y9q3XOwFNNUooGm2xXWpmVdW2zpi7yTOnWIubCGIFsT/llNJDEaaEUEqdZKD16b7qD58W9oVlPLpwNfHsKGA+PL7h3+vH3Od1/biY0bplXNyKFL25kPFPr6FRPF5UN8vyXujlQ38Pt4ObZ9av6Sg+por0bOQV/5AqiG5gChwDfi20tZdkUIq+rtvpVsMLmXV/73k/wY6fqUljb7MgUz0LubGFIFG3dPnMZVOpcadFyickrUfgIPeLA3t4CXZ3C5QA3fxa3Flusw9VaKaoir8qdzkpRy0w2FWXKlphJVVdCNbI1Vct3POea4fN7sJ8M3xx8VDixz2W8UN5z8ZMPAT+qAfgHinPnlDoCAAA=
     wand:
       active_spell: missile
       path: beginner

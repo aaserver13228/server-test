@@ -1,0 +1,79 @@
+# Translation configuration author
+author: LotusIsHere
+
+special:
+  water_bucket: "&eControlla il tuo inventario.. Tu hai un &9secchio d'acqua!&f!"
+
+custom_items:
+  item_not_found: "&cOggetto%identifier% non trovato"
+  list: "&7[&eLuckyBlock&7] &fLista degli oggetti custom:"
+  
+  magic_wool: "&6&l&oLana Magica"
+  sword_of_justice: "&6&l&oSpada Della Giustizia"
+  axe_of_perun: "&6&l&oAscia di Perun"
+  chilly_pants: "&6&l&oPantaloni Freddi"
+  rage_armor: "&6&l&oArmatura Arrabbiata"
+  carrot_corrupter: "&6&l&oCarota Corrotta"
+  mystery_meat: "&6&l&oCarne Misteriosa"
+  wither_blast_rod: "&6&l&oAsta Esplosiva di Wither"
+
+craft:
+  allowed_one_layer: "&cIl crafting e solo possibile con l'uso di ogni ingrediente in un singola quantita per separati slot."
+
+system:
+  loading_config: "&fConfigurazione in carica... Comunque LotusOnTop <3"
+  reloaded_config: "&aLa Configurazione e stata riavviata, caricati %amount% tipi di luckyblock..."
+  
+  lb_not_found: "&cLuckyBlock &e%lb%&c non trovato, prossimo... "
+  lb_loading_exception: "&cLuckyBlock &e%lb%&c non puo essere caricato... Eccezione: &e%exception%"
+  lb_unknown_exception: "&cLuckyBlock &e%lb%&c non e stato trovato o una sconosciuta eccezione e successa, prossimo... "
+  lb_loaded_zero: "&fCaricati 0 tipi di Luckyblock... Hm..."
+  lb_loaded_not_zero: "&fCaricati &e%amount%&f tipi di Luckyblock..."
+  
+  cant_use_command: "&cScusa, ma non puoi usare qualunque comando alternativo."
+  cant_use_subcommand: "&cScusa, ma non puoi usare questo comando alternativo."
+  
+  cant_break_color: "&cScusa, ma non puoi rompere questo tipo di Luckyblock. &e%lb%"
+  cant_interact_world: "&cScusa, ma non puoi interagire con i LuckyBlocks nel mondo &e%world%"
+  
+  cmd_lb_disabled: "&cil tipo di Luckyblock &e%lb%&c e stato disabilitato :("
+  cmd_lb_not_found: "&cil tipo di Luckyblock &e%lb%&c non e stato trovato :("
+  cmd_lb_received: "&aHai ricevuto %amount% LuckyBlocks &7(%lb% &7color)"
+  cmd_ci_received: "&aHai ricevuto%item%"
+  cmd_destroyed_lb: "&cHai rimosso &e%amount% &cLuckyBlocks"
+  cmd_lb_give: "&aHai dato %amount% LuckyBlocks &7(%lb% &7color)"
+  
+  cmd:
+    help_title: "&eLuckyBlock's &fcommandi di aiuto:"
+    get: "&8 > &e/%label% get <color> [amount] &f- Prendi LuckyBlock"
+    customitemget: "&8 > &6/%label% customitemget <id> &f- Prendi l'item custom"
+    give: "&8 > &e/%label% give <player> <color> [amount] &f- Dai i LuckyBlock"
+    gui: "&8 > &e/%label% gui <get/edit> &f- Apri la gui"
+    iteminfo: "&8 > &6/%label% iteminfo &f- Ricevi l'informazione del oggetto che si trova nella tua mano"
+    list: "&8 > &e/%label% list &f- Lista dei tipi di Luckyblock"
+    customitemslist: "&8 > &6/%label% customitemslist &f- Lista dei custom item"
+    reload: "&8 > &e/%label% reload &f- Ricarica tutte le configurazioni"
+    support: "&8 > &e/%label% support &f- Ottieni i contatti dell'autore"
+    checkforupdates: "&8 > &e/%label% checkforupdates &f- Controlla se ci sono degli aggiornamenti"
+    destroy: "&8 > &e/%label% destroy <radius/chunk/(<xyz> [xyz] [world])> [-all] &f- Distruggi i LB"
+    generate: "&8 > &e/%label% generate <type> <factory> <min> <max> &f- Genera dei drop"
+    generateFull: "Con questo comando puoi generare dei LuckyDrops all'interno dei tuoi LuckyBlock. <type> - Il tipo di LuckyBlock da generare. <factory> - LB factory (Use `latest`). <min> - min EntryDrops. <max> - max EntryDrops"
+
+  cmd_player_not_found: "&cPlayer &e%player%&c non trovato :("
+  cmd_no_perm_to_color: "&cNessun permesso per il colore %lb%"
+  cmd_no_perm: "&cScusa, ma non hai il permesso per eseguire questo comando alternativo"
+
+gui:
+  exit: "&7[ &6Esci dalla GUI &7]"
+  get:
+    title: "&bPrendi i Luckyblock &4&l:D"
+    no_money: "&cTi servono &e%eco% &cpiu soldi"
+    success: "&aTu hai comprato &e%amount% &aluckyblock per &e%eco%"
+  count:
+    title: "&bSeleziona la quantita &4&l:D"
+    remove: "&bRimuovi %offset%"
+    add: "&bAggiungi %offset%"
+    back: "&3Vai indietro"
+    confirm: "&eConfirma"
+    get: "&fTu avrai: &6%amount%"
+    give: "&fTu dovrai spendere: &c%price%"

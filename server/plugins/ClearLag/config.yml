@@ -91,15 +91,15 @@ remove:
   world-filter:
     - this_world
   broadcast-removal: true
-  boat: true
+  boat: false
   falling-block: true
   experienceOrb: true
-  painting: true
+  painting: false
   projectile: true
   item: true
   itemframe: false
-  minecart: true
-  primed-tnt: true
+  minecart: false
+  primed-tnt: false
   arrow: true
   snowball: true
   fireball: true

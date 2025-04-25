@@ -1,0 +1,17 @@
+
+### Modes: WHITELIST, BLACKLIST, DISABLED
+# Whitelist - only worlds listed will be available for placing and breaking luckyblocks
+# Blacklist - all worlds except listed will be available for placing and breaking luckyblocks
+# Disabled - This file will be ignored on config reload and no limits will be executed
+mode: DISABLED
+list:
+- my_custom_world
+
+
+
+### Settings for worlds where you cannot place/break luckyblocks:
+# Users still be able to break luckyblocks but nothing will be dropped
+break-no-drop: false
+
+# Admins still be able to place luckyblocks (Permission: luckyblock.place.disabled)
+place-admins: true

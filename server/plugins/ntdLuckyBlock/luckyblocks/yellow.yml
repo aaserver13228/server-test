@@ -1,0 +1,114 @@
+# LuckyBlock texture into block
+#old-texture: b3b710b08b523bba7efba07c629ba0895ad61126d26c86beb3845603a97426c
+texture: 17bc1b64cba3dc4cefe4e121c3cdbbb0fa99aba0e113b5c916815fc9b304e636
+
+# Item name
+name: "&eYellow LuckyBlock"
+# System name (Give command will use it as color)
+custom_name: "YELLOW"
+# Item lore
+lore:
+- "&7Place me :D"
+
+eco: true
+shop: true
+price: 250
+
+animation: true
+animation_type: "MOBSPAWNER_FLAMES"
+
+# Dropping items
+drop:
+  '0':
+    - "ITEM : BOW : 1 : 0"
+    - "ITEM : ARROW : 16 : 0"
+    - "ITEM : LEVER : 2 : 0"
+    - "ITEM : BREAD : 6 : 0"
+  '1':
+    - "ITEM : DIAMOND_PICKAXE : 1 : 0"
+    - "ITEM : APPLE : 8 : 0"
+    - "ITEM : SNOW_BALL : 8 : 0"
+    - "ITEM : STONE : 16 : 0"
+  '2':
+    - "ITEM : STONE_SWORD : 1 : 0 : Stone sword : DAMAGE_ALL : 2"
+    - "ITEM : WOOL : 32 : 0"
+    - "ITEM : ARROW : 16 : 0"
+  '3':
+    - "ITEM : IRON_SWORD : 1 : 0"
+    - "ITEM : IRON_CHESTPLATE : 1 : 0"
+    - "ITEM : SNOW_BALL : 8 : 0"
+  '4':
+    - "ITEM : IRON_LEGGINGS : 1 : 0"
+    - "ITEM : IRON_BOOTS : 1 : 0"
+    - "ITEM : BOW : 1 : 0"
+    - "ITEM : EGG : 8 : 0"
+    - "ITEM : BREAD : 6 : 0"
+  '5':
+    - "ITEM : APPLE : 8 : 0"
+    - "ITEM : ENDER_PEARL : 1 : 0"
+  '6':
+    - "ITEM : STONE : 11 : 0"
+    - "ITEM : WOOL : 7 : 14"
+    - "ITEM : LEVER : 2 : 0"
+    - "ITEM : FLINT_AND_STEEL : 1 : 0"
+  '7':
+    - "ITEM : LEATHER_CHESTPLATE : 1 : 0 : Leather Chestplate : PROTECTION_ENVIRONMENTAL : 3"
+    - "ITEM : LEATHER_LEGGINGS : 1 : 0"
+    - "ITEM : EGG : 8 : 0"
+  '8':
+    - "ITEM : CHAINMAIL_HELMET : 1 : 0"
+    - "ITEM : CHAINMAIL_LEGGINGS : 1 : 0 : Chainmail Leggings : PROTECTION_ENVIRONMENTAL : 2"
+    - "ITEM : ARROW : 12 : 0"
+  '9':
+    - "ITEM : COOKED_FISH : 8 : 0"
+    - "ITEM : APPLE : 8 : 0"
+    - "ITEM : WOOD : 9 : 1"
+  '10':
+    - "ITEM : COOKED_FISH : 6 : 0"
+    - "ITEM : EGG : 16 : 0"
+    - "ITEM : FIREWORK_CHARGE : 1 : 0"
+  '11':
+    - "ITEM : EGG : 16 : 0"
+    - "ITEM : TNT : 1 : 0"
+    - "ITEM : BREAD : 6 : 0"
+  '12':
+    - "ITEM : SNOW_BALL : 16 : 0"
+    - "ITEM : LOG : 16 : 0"
+    - "ITEM : TNT : 1 : 0"
+    - "ITEM : FLINT_AND_STEEL : 1 : 0"
+  '13':
+    - "ITEM : GOLD_CHESTPLATE : 1 : 0"
+    - "ITEM : CHAINMAIL_BOOTS : 1 : 0"
+    - "ITEM : BREAD : 6 : 0"
+  '14':
+    - "ITEM : LOG : 5 : 0"
+    - "ITEM : LAVA_BUCKET : 1 : 0"
+  '15':
+    - "ITEM : DIAMOND_SWORD : 1 : 0"
+    - "ITEM : BREAD : 6 : 0"
+    - "ITEM : LAVA_BUCKET : 1 : 0"
+  '16':
+    - "ITEM : BREAD : 6 : 0"
+    - "ITEM : IRON_LEGGINGS : 1 : 0 : Iron leggings : PROTECTION_ENVIRONMENTAL : 1"
+    - "ITEM : OBSIDIAN : 1 : 0"
+  '17':
+    - "ITEM : DIAMOND_HELMET : 1 : 0"
+    - "ITEM : ARROW : 4 : 0"
+    - "ITEM : BREAD : 6 : 0"
+    - "ITEM : LOG : 13 : 0"
+  '18':
+    - "ITEM : DIAMOND_BOOTS : 1 : 0"
+    - "ITEM : EGG : 32 : 0"
+  '19':
+    - "ITEM : LEVER : 2 : 0"
+    - "ITEM : TNT : 2 : 0"
+    - "ITEM : LOG : 2 : 0"
+    - "ITEM : BREAD : 2 : 0"
+  '20':
+    - "ITEM : LAVA_BUCKET : 1 : 0"
+    - "ITEM : FLINT_AND_STEEL : 1 : 0"
+    - "ITEM : IRON_PLATE : 12 : 0"
+
+craft:
+  default: true
+  custom: false

@@ -1,0 +1,72 @@
+
+# Translation configuration author
+author: Luke
+
+special:
+  water_bucket: '&ePrüfe dein Inventar.. Du hast einen &9Wassereimer'
+
+custom_items:
+  item_not_found: "&cGegenstand zum identifizieren %identifier% nicht gefunden"
+  list: "&7[&eLuckyBlock&7] &f:Liste der individuellen Items:"
+  magic_wool: "&6&l&oMagische Wolle"
+  sword_of_justice: "&6&l&oSchwert der Gerechtigkeit"
+  axe_of_perun: "&6&l&oAxt von Perun"
+  chilly_pants: "&6&l&oChillige Hosen"
+  rage_armor: "&6&l&oWut rüstung"
+  carrot_corrupter: "&6&l&oKarottenverderber"
+  mystery_meat: "&6&l&oMysteriöses Fleisch"
+
+craft:
+  allowed_one_layer: "&cDu kannst das nur herstellen , wenn du nur eine Zutat von jeder Menge nimmst für eine Anzahl von Separaten slots"
+
+system:
+  loading_config: '&fLaden von der Konfiguration... '
+  reloaded_config: '&aDie Konfiguration wurde neu geladen, geladen wurden %amount% LuckyBlock-Typen...'
+  lb_not_found: '&cLuckyBlock &e%lb%&c nicht gefunden, überspringen... '
+  lb_loading_exception: '&cLuckyBlock &e%lb%&c kann nicht geladen werden... Ausnahme: &e%exception%'
+  lb_unknown_exception: '&cLuckyBlock &e%lb%&c nicht gefunden oder ein unbekannter Fehler ist aufgetreten, überspringen... '
+  lb_loaded_zero: '&fEs wurden 0 LuckyBlock-Typen geladen... Hm...'
+  lb_loaded_not_zero: '&fLaden von &e%amount%&f LuckyBlock-Typen...'
+  cant_use_command: '&cSorry, aber du kannst keine Unterbefehle benutzten.'
+  cant_use_subcommand: '&cSorry, aber du kannst diesen Unterbefehl nicht verwenden.'
+  cant_break_color: '&cSorry, aber du kannst kein LuckyBlock-Type &e%lb% zerstören.'
+  cant_interact_world: "&cSorry, Aber du kannst mit LuckyBlocks in Welt &e%world% interagieren"
+  cmd_lb_disabled: '&c Der LuckyBlock-Type &e%lb%&c ist deaktiviert  :('
+  cmd_lb_not_found: '&c Der LuckyBlock-Type &e%lb%&c wurde nicht gefunden :('
+  cmd_lb_received: '&a Du hast %amount% Luckyblocks erhalten &7(%lb% &7Farbe)'
+  cmd_lb_give: '&aDu hast %amount% Luckyblocks gegeben &7(%lb% &7Farbe)'
+  world_not_found: "&cWelt %world% nicht gefunden"
+  lb_placed: "&fLuckyBlock &e%type%&f wurde platziert bei &e%location%"
+  
+  cmd:
+    help_title: '&eLuckyBlock''s &fHilfs-Commands:'
+    get: '&8 > &e/%label% get <Farbe> [Menge] &f- erhalte LuckyBlock'
+    give: '&8 > &e/%label% give <Spieler> <Farbe> [Menge] &f- gebe LuckyBlock'
+    gui: '&8 > &e/%label% gui <get/edit> &f- Öffne Gui'
+    list: '&8 > &e/%label% list &f- Liste von LuckyBlock-Typen'
+    reload: '&8 > &e/%label% reload &f- lade alle configs neu'
+    checkforupdates: '&8 > &e/%label% checkforupdates &f- check für Updates'
+    support: '&8 > &e/%label% support &f- erhalte Autorenkontakte'
+    iteminfo: "&8 > &6/%label% iteminfo &f- Infos von dem Itemin deiner Hand"
+    customitemget: "&8 > &6/%label% customitemget <id> &f- bekomme individuelles Item"
+    customitemslist: "&8 > &6/%label% customitemslist &f- Liste der individuellen Items"
+    generate: "&8 > &e/%label% generate <type> <factory> <min> <max> &f- Generiere Drops"
+    place: "&8 > &e/%label% place [world] <x> <y> <z> <type> &f- place lb"
+    generateFull: "Mit diesem Command kannst du LuckyDrops in deinem Luckyblock regenerieren. <type> - LuckyBlockType muss generiert sein. <factory> - LB factory (Nutz `Späteste`). <min> - min EntryDrops. <max> - max EntryDrops"
+  cmd_player_not_found: '&cSpieler &e%player%&c nnicht gefunden :('
+  cmd_no_perm_to_color: '&cDu hast keine Permission für Farbe %lb%'
+
+gui:
+  exit: '&7[ &6Verlassen des Gui´s&7]'
+  get:
+    title: '&berhalte LuckyBlock &4&l:D'
+    no_money: '&cDu brauchst &e%eco% &cmehr Geld'
+    success: '&aDu hast erfolgreich &e%amount% &a´Luckyblocks für &e%eco% gekauft.'
+  count:
+    get: '&fDu wirst bekommen: &6%amount%'
+    give: '&fDu wirst geben: &c%price%'
+    title: '&bBetrag auswählen &4&l:D'
+    remove: '&bEntferne %offset%'
+    add: '&bHinzufügen %offset%'
+    back: '&3Geh zurück'
+    confirm: '&ebestätige'

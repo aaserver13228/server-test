@@ -1,0 +1,71 @@
+
+# Translation configuration author
+author: Torwik
+
+special:
+  water_bucket: "&eSprawdź swój ekwipunek.. Masz &9wiadro wody&f!"
+  witch: "&5&lStara wiedźma"
+
+custom_item:
+  item_not_found: "Nie znaleziono identyfikatora %identifier%"
+  list: "&7[&eLuckyBlock&7] &fLista niestandardowych przedmiotów:"
+  magic_wool: "&6&l&oMagiczna wełna"
+  sword_of_justice: "&6&l&oMiecz Sprawiedliwości"
+  axe_of_perun: "&6&l&oTopór Perun"
+  carrot_corrupter: "&6&l&oZepsucie marchewki"
+  mystery_meat: "&6&l&oTajemnicze mięso"
+
+craft:
+  allowed_one_layer: "&cCrafting jest możliwy tylko przy użyciu każdego składnika w jednej ilości dla osobnego slotu"
+
+system:
+  loading_config: "&fWczytywanie konfiguracji... "
+  reloaded_config: "&aKonfiguracja została przeładowana, załadowano %amount% typy luckyblock..."
+  
+  lb_not_found: "&cNie znaleziono LuckyBlocka &e%lb%&c pomijam... "
+  lb_loading_exception: "&cNie można załadować LuckyBlocka &e%lb%&c Błąd: &e%exception%"
+  lb_unknown_exception: "&cNie znaleziono LuckyBlocka &e%lb%&c lub wystąpił jakiś błąd, pomijam... "
+  lb_loaded_zero: "&fZaładowano 0 typów LuckyBlocków... Hm..."
+  lb_loaded_not_zero: "&fZaładowano &e%amount%&f typy LuckyBlocków..."
+  
+  cant_use_command: "&cPrzepraszamy, ale nie możesz używać żadnych poleceń."
+  cant_use_subcommand: "&cPrzepraszamy, ale nie możesz użyć tego polecenia."
+  cant_interact_world: "&cPrzykro mi, ale nie możesz interaktować z LuckyBlockami w świecie &e%world%"
+  
+  cant_break_color: "&cPrzepraszamy, ale nie możesz zniszczyć typu LuckyBlocka &e%lb%"
+  
+  cmd_lb_disabled: "&cTyp LuckyBlocka &e%lb%&c wyłączony :("
+  cmd_lb_not_found: "&cNie znaleziono typu LuckyBlocka &e%lb%&c :("
+  cmd_lb_received: "&aOtrzymałeś(aś) LuckyBlocki (%amount% - Kolor: %lb%&7)"
+  cmd_lb_give: "&aDałeś(aś) LuckyBlocki (%amount% - Kolor: %lb%&7)"
+  
+  cmd:
+    help_title: "&eLista komend pluginu na LuckyBlocki:"
+    get: "&8 > &e/%label% get <kolor> [ilość] &f- daje Tobie luckyblock."
+    give: "&8 > &e/%label% give <gracz> <kolor> [ilość] &f- daje luckyblock dla gracza."
+    gui: "&8 > &e/%label% gui <get/edit> &f- otwiera menu."
+    list: "&8 > &e/%label% list &f- lista luckyblocków."
+    reload: "&8 > &e/%label% reload &f- przeładuj wszystkie konfiguracje."
+    checkforupdates: "&8 > &e/%label% checkforupdates &f- sprawdź aktualizacje."
+    support: "&8 > &e/%label% support &f- zdobądź kontakty do autora."
+    iteminfo: "&8 > &6/%label% iteminfo &f- Informacje o przedmiocie w łapce."
+    customitemget: "&8 > &6/%label% customitemget <id> &f- Uzyskaj niestandardowy przedmiot"
+    customitemslist: "&8 > &6/%label% customitemslist &f- Lista niestandardowych przedmiotów"
+  
+  cmd_player_not_found: "&cNie znaleziono gracza &e%player%&c :("
+  cmd_no_perm_to_color: "&cBrak uprawnień dla koloru %lb%"
+  
+gui:
+  exit: "&7[ &6Wyjdź z MENU &7]"
+  get:
+    title: "&bDaj LuckyBlocka &4&l:D"
+    no_money: "&cPotrzebujesz jeszcze &e%eco% &cpieniędzy."
+    success: "&aPomyślnie zakupiłeś(aś) LuckyBlocki (&e%amount% szt.&a) za &e%eco%"
+  count:
+    title: "&bWybierz ilość &4&l:D"
+    remove: "&bUsuń %offset%"
+    add: "&bDodaj %offset%"
+    back: "&3Wróć"
+    confirm: "&ePotwierdź"
+    get: "&fDostaniesz: &6%amount%"
+    give: "&fZa: &c%price%"

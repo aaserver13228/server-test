@@ -1,0 +1,132 @@
+
+# Translation configuration author
+author: Santos
+
+special:
+  water_bucket: "&eMira tu inventario.. Tienes un &9cubo de agua&f!"
+  witch: "&5&lVieja bruja"
+
+custom_items:
+  item_not_found: "&cElemento para identificador %identifier% no encontrado"
+  list: "&7[&eLuckyBlock&7] &fLista de elementos personalizados:"
+  
+  magic_wool: "&6&l&oLana mágica"
+  sword_of_justice: "&6&l&oEspada de la justicia"
+  axe_of_perun: "&6&l&oHacha de Perun"
+  chilly_pants: "&6&l&oPantalones fríos"
+  rage_armor: "&6&l&oArmadura de ira"
+  carrot_corrupter: "&6&l&oCorruptor de zanahoria"
+  bedwars1058_extra_bed: "&6&l&oCama extra"
+  mystery_meat: "&6&l&oCarne misteriosa"
+  wither_blast_rod: "&6&l&oVarilla del Wither de explosión"
+
+  luckybow: "&4&k&lII&6&l&o Arco de la&e&l&osuerte &4&k&lII"
+  inventory_copier: "&6&l&oInventory copier"
+  timewarped_enderpearl: "&6&l&oTimewarped enderpearl"
+
+craft:
+  allowed_one_layer: "&cLa elaboración solo es posible con el uso de cada ingrediente en una sola cantidad para una ranura separada"
+
+system:
+  loading_config: "&fCargando configuración... "
+  reloaded_config: "&aLa configuración ha sido recargada, cargado %amount% tipos de luckyblock..."
+
+  world_not_found: "&cMundo %world% no encontrado"
+  lb_placed: "&fLuckyBlock &e%type%&f fue colocado en &e%location%"
+
+  lb_not_found: "&cLuckyBlock &e%lb%&c no encontrado, omitiendo... "
+  lb_loading_exception: "&cLuckyBlock &e%lb%&c no se puede cargar... Excepción: &e%exception%"
+  lb_unknown_exception: "&cLuckyBlock &e%lb%&c no se encuentra o ha ocurrido una excepción desconocida, omitiendo... "
+  lb_loaded_zero: "&fCargado 0 tipos de luckyblock... Hm..."
+  lb_loaded_not_zero: "&fCargado &e%amount%&f tipos de luckyblock..."
+  
+  cant_use_command: "&cLo siento, pero no puedes usar ningún subcomando"
+  cant_use_subcommand: "&cLo siento, pero no puedes usar este subcomando."
+  
+  cant_break_color: "&cLo siento, pero no puedes romper este tipo de luckyblock. &e%lb%"
+  cant_interact_world: "&cLo siento, pero no puedes interactuar con LuckyBlocks en el mundo &e%world%"
+  
+  cmd_lb_disabled: "&cTipo de LuckyBlock &e%lb%&c deshabilitado :("
+  cmd_lb_not_found: "&cTipo de LuckyBlock &e%lb%&c no encontrado :("
+  cmd_lb_received: "&aRecibiste %amount% LuckyBlocks &7(%lb% &7color)"
+  cmd_ci_received: "&aRecibiste %item%"
+  cmd_destroyed_lb: "&c&e%amount% &cLuckyBlocks borrados"
+  cmd_lb_give: "&aDiste %amount% LuckyBlocks &7(%lb% &7color)"
+  
+  cmd:
+    help_title: "&eLuckyBlock's &fcomandos de ayuda:"
+    get: "&8 > &e/%label% get <color> [cantidad] &f- Obtener LuckyBlock"
+    customitemget: "&8 > &6/%label% customitemget <id> &f- Obtener item personalizado"
+    give: "&8 > &e/%label% give <jugador> <color> [cantidad] &f- Dar LuckyBlock"
+    gui: "&8 > &e/%label% gui <obtener/editar> &f- Abrir GUI"
+    iteminfo: "&8 > &6/%label% iteminfo &f- Información del item"
+    list: "&8 > &e/%label% list &f- Lista de tipos de LuckyBlock"
+    customitemslist: "&8 > &6/%label% customitemslist &f- Lista de items personalizados"
+    reload: "&8 > &e/%label% reload &f- reload all configs"
+    support: "&8 > &e/%label% support &f- Obtener soporte"
+    checkforupdates: "&8 > &e/%label% checkforupdates &f- Buscar actualizaciones"
+    destroy: "&8 > &e/%label% destroy <radio/chunk/(<xyz> [xyz] [world])> [-all] &f- Destruir lb"
+    place: "&8 > &e/%label% place [world] <x> <y> <z> <type> &f- place lb"
+    item_to_json: "&8 > &e/%label% itemtojson &f- Obtener datos json para el item"
+    generate: "&8 > &e/%label% generate <type> <factory> <min> <max> &f- generar drops"
+    generateFull: "Con este comando puedes generar Lucky Drops dentro de tu Lucky Block. <type> - LuckyBlockType a generar. <factory> - LB factory (Usa `más reciente`). <min> - min EntryDrops. <max> - max EntryDrops"
+
+  cmd_required_item: "&cDebes tomar un item en la mano para realizar este comando."
+  cmd_player_not_found: "&cJugador &e%player%&c no encontrado :("
+  cmd_no_perm_to_color: "&cSin permiso para el color %lb%"
+  cmd_no_perm: "&cLo siento, pero no tiene permisos para ejecutar este subcomando"
+  
+gui:
+  exit: "&7[ &6Salir de la GUI &7]"
+  get:
+    title: "&bObtener luckyblock &4&l:D"
+    no_money: "&cNecesitas &e%eco% &cde dinero"
+    success: "&aHas comprado con éxito &e%amount% &aluckyblock por &e%eco%"
+  count:
+    title: "&bSeleccione la cantidad &4&l:D"
+    remove: "&bEliminar %offset%"
+    add: "&bAñadir %offset%"
+    back: "&3Regresar"
+    confirm: "&eConfirmar"
+    get: "&fConseguirás: &6%amount%"
+    give: "&fVas a gastar: &c%price%"
+  edit:
+    title: "Edición de configuración"
+    status: "&fEstado: "
+    selected: "seleccionado"
+    enabled: "&aactivado"
+    disabled: "&cdesactivado"
+    click-toggle: "&eHaga click para alternar"
+    language: "&7[ &6Seleccionar el idioma &7]"
+    inform-about-update: "&7[ &6Informar sobre actualizaciones &7]"
+    scheduled-update-check: "&7[ &6Comprobación de actualizaciones programadas &7]"
+    pistonfix: "&7[ &6Reparar luckyblock pistón en movimiento &7]"
+    explosionfix: "&7[ &6Reparar luckyblock explosión &7]"
+    reduce-author-info: "&7[ &6Reducir la información del autor &7]"
+    debug: "&7[ &6Modo de depuración &7]"
+    foreach-giveget: "&7[ &6Permiso para cada LuckyBlock &8(dar, obtener) &7]"
+    foreach-guiget: "&7[ &6Permiso para cada LuckyBlock &8(obtener GUI) &7]"
+    luckyblocks: "&7[ &6Abrir el menú de edición de LuckyBlock &7]"
+    break-permissions: "&7[ &6Verificar los permisos para romper &7]"
+    luckyblock:
+      click-to-edit: "&eHaga clic para abrir el menú"
+      select-title: "&bSeleccionar LuckyBlock"
+      edit-title: "&%color%%lb% &8- EDIT"
+      items-list: "&7[ &eLuckyList &7]"
+      add-item: "&7[ &eCrear(Añadir) LuckyList &7]"
+      up: "&7[ &eAscender &7]"
+      down: "&7[ &eDescender &7]"
+      info: "&7[ &eINFO LuckyBlock &7]"
+      remove: "&7[ &cEliminar &7]"
+      select-item: "&7[ &eEdit &%color%%lb% &7]"
+      already-editing: "&cLo siento, pero &e%player% &cestá editando &e%lb%&c!"
+      back: "&7[ &eVolver &7]"
+      click-get-items: "&eHaga click para obtener items"
+      click-shift-remove: "&cSHIFT-click para eliminar"
+      confirm: "&7[ &eConfirmar (Añadir) &7]"
+      add: "&7[ &eCrear(Añadir) a LuckyDrop &7]"
+      edit: "&7[ &6Edit &7]"
+      chance: "&7[ &eProbabilidad actual &6%chance% &7]"
+      move-item-to-gui: "&aMueva cualquier item aquí para agregarlo a LuckyList"
+      chance-change:
+      - "&fHaga click para cambiar la probabilidad"

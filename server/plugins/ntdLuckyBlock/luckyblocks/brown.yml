@@ -1,0 +1,93 @@
+texture: c133414759f9e5315156017023a8b1b31cfbf177dcafb0603b8e9d94036a23f1
+name: '&cBrown LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ITEM : CHAINMAIL_BOOTS : 1 : 0'
+  - 'ITEM : WOOD_BUTTON : 32 : 0'
+  '1':
+  - 'ITEM : DOUBLE_PLANT : 32 : 0'
+  '2':
+  - 'ITEM : COMMAND_MINECART : 1 : 0'
+  '3':
+  - 'ENTITY : MINECART_COMMAND : 4'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  '4':
+  - 'ENTITY : WITHER : 1'
+  '5':
+  - 'ENTITY : PRIMED_TNT : 1'
+  - 'ITEM : WOOL : 16 : 0'
+  - 'ITEM : BLAZE_ROD : 53 : 0'
+  '6':
+  - 'ITEM : DIAMOND_BOOTS : 1 : 0'
+  '7':
+  - 'ITEM : STONE_SPADE : 1 : 0'
+  '8':
+  - 'ITEM : GOLD_BOOTS : 1 : 0'
+  - 'SPECIAL : TNT_COLUMN : 5'
+  '9':
+  - 'ITEM : IRON_CHESTPLATE : 1 : 0'
+  '10':
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  - 'ITEM : GOLDEN_CARROT : 16 : 0'
+  '11':
+  - 'ITEM : YELLOW_FLOWER : 64 : 0'
+  '12':
+  - 'ENTITY : WITCH : 2'
+  - 'ITEM : BREWING_STAND_ITEM : 14 : 0'
+  - 'ENTITY : WOLF : 4'
+  '13':
+  - 'ENTITY : COW : 1'
+  '14':
+  - 'ITEM : WEB : 64 : 0'
+  '15':
+  - 'ENTITY : ENDERMAN : 2'
+  '16':
+  - 'ENTITY : BOAT : 1'
+  '17':
+  - 'ENTITY : MINECART_CHEST : 3'
+  - 'SPECIAL : PIG : 4'
+  - 'ITEM : ACACIA_FENCE : 8 : 0'
+  - 'ITEM : COOKED_FISH : 51 : 0'
+  '18':
+  - 'ITEM : BURNING_FURNACE : 16 : 0'
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  '19':
+  - 'ENTITY : ENDERMITE : 4'
+  - 'ENTITY : SLIME : 1'
+  '20':
+  - 'SPECIAL : LIGHTNING : 3'
+  - 'ITEM : LEAVES : 64 : 0'
+  - 'ITEM : WOOD_PLATE : 16 : 0'
+  '21':
+  - 'ITEM : RECORD_3 : 1 : 0'
+  - 'ITEM : TRAP_DOOR : 32 : 0'
+  '22':
+  - 'ENTITY : SILVERFISH : 1'
+  '23':
+  - 'ITEM : GHAST_TEAR : 44 : 0'
+  - 'ITEM : BREAD : 52 : 0'
+  - 'ITEM : SIGN : 8 : 0'
+  '24':
+  - 'ITEM : COMMAND_MINECART : 1 : 0'
+  - 'ENTITY : SKELETON : 1'
+  '25':
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 4'
+  - 'ENTITY : GHAST : 2'
+  '26':
+  - 'ITEM : GOLD_ORE : 64 : 0'
+  '27':
+  - 'ITEM : EMERALD : 45 : 0'
+  '28':
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 4'
+  '29':
+  - 'ITEM : LEATHER_HELMET : 1 : 0'
+eco: true

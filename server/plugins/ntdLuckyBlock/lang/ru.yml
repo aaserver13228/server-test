@@ -1,0 +1,83 @@
+
+# Translation configuration author
+author: danirod12
+
+special:
+  water_bucket: "&eПроверь свой инвентарь.. У тебя есть &9ведро воды&f!"
+
+custom_items:
+  item_not_found: "&cПредмет для идентификатора %identifier% не найден"
+  list: "&7[&eLuckyBlock&7] &fСписок предметов:"
+  
+  magic_wool: "&6&l&oМагическая шерсть"
+  sword_of_justice: "&6&l&oМеч правосудия"
+  axe_of_perun: "&6&l&oТопор Перуна"
+  chilly_pants: "&6&l&oХолодные штаны"
+  rage_armor: "&6&l&oЯростная броня" # ( Rage armor )
+  carrot_corrupter: "&6&l&oМорковный разрушитель"
+  mystery_meat: "&6&l&oТаинственное мясо"
+  wither_blast_rod: "&6&l&oСтержень увядания" # ( Wither blast rod )
+
+craft:
+  allowed_one_layer: "&cКрафт возможен только с использованием каждого ингридиента в одиночном количестве для отдельного слота"
+
+system:
+  loading_config: "&fЗагрузка конфигурации... "
+  reloaded_config: "&aКонфигурация была перезагружена, загружено %amount% типов лаки-блоков..."
+
+  world_not_found: "&cМир %world% не найден"
+  lb_placed: "&fЛаки-блок &e%type%&f установлен на &e%location%"
+
+  lb_not_found: "&cЛаки-блок &e%lb%&c не найден, пропускаем... "
+  lb_loading_exception: "&cЛаки-блок &e%lb%&c не может быть загружен... Ошибка: &e%exception%"
+  lb_unknown_exception: "&cЛаки-блок &e%lb%&c не найден или произошла неизвестная ошибка, пропускаем... "
+  lb_loaded_zero: "&fЗагружено 0 типов лаки-блоков... Ты дура или да?..."
+  lb_loaded_not_zero: "&fЗагружено &e%amount%&f типов лаки-блоков..."
+  
+  cant_use_command: "&cПрости, но ты не можешь использовать подкоманды."
+  cant_use_subcommand: "&cПрости, но ты не можешь использовать эту подкоманду."
+  cant_interact_world: "&cПрости, но ты не можешь взаимодействовать с лаки-блоками в мире &e%world%"
+  
+  cant_break_color: "&cПрости, но ты не можешь ломать лаки-блоки типа &e%lb%"
+  
+  cmd_lb_disabled: "&cЛаки-блок типа &e%lb%&c отключен :("
+  cmd_lb_not_found: "&cЛаки-блок типа &e%lb%&c не найден :("
+  cmd_lb_received: "&aПолучено %amount% лаки-блоков &7(%lb% &7цвет)"
+  cmd_ci_received: "&aПолучено %item%"
+  cmd_destroyed_lb: "&cРазрушено &e%amount% &cлаки-блоков"
+  cmd_lb_give: "&aВыдано %amount% лаки-блоков &7(%lb% &7цвет)"
+  
+  cmd:
+    help_title: "&eLuckyBlock &fпомощь по командам:"
+    get: "&8 > &e/%label% get <цвет> [кол-во] &f- получить лаки-блок"
+    give: "&8 > &e/%label% give <ник> <цвет> [кол-во] &f- выдать лаки-блок"
+    gui: "&8 > &e/%label% gui <get/edit> &f- открыть гуи"
+    list: "&8 > &e/%label% list &f- список типов лаки-блоков"
+    reload: "&8 > &e/%label% reload &f- перезагрузка всех конфигов"
+    checkforupdates: "&8 > &e/%label% checkforupdates &f- проверка обновлений"
+    support: "&8 > &e/%label% support &f- получить контакты автора"
+    iteminfo: "&8 > &6/%label% iteminfo &f- Информация о предмете в руке"
+    getcustomitem: "&8 > &6/%label% getcustomitem <id> &f- Получить предмет"
+    customitemslist: "&8 > &6/%label% customitemslist &f- Список предметов"
+    destroy: "&8 > &6/%label% destroy <radius/chunk/(<xyz> [xyz] [world])> [-all] &f- Разрушить лб"
+    place: "&8 > &e/%label% place [мир] <x> <y> <z> <тип> &f- установить лаки-блок"
+    generate: "&8 > &e/%label% generate <тип> <генератор> <мин> <макс> &f- генерация дропа"
+    generateFull: "Этой командой можно сгенерировать дроп в вашем Лаки-Блоке. <тип> - LuckyBlockType, который будет сгенерирован. <генератор> - LB генератор (Используй `latest`). <мин> - минимальное кол-во коллекций дропа. <макс> - максимальное кол-во коллекций дропа"
+
+  cmd_player_not_found: "&cИгрок &e%player%&c не найден :("
+  cmd_no_perm_to_color: "&cНет прав для цвета %lb%"
+  
+gui:
+  exit: "&7[ &6Покинуть меню &7]"
+  get:
+    title: "&bПолучи лаки-блок &4&l:D"
+    no_money: "&cТребуется еще &e%eco% &cмонет"
+    success: "&aУспешно куплено &e%amount% &aлаки-блоков за &e%eco%"
+  count:
+    title: "&bВыбери количество &4&l:D"
+    remove: "&bУбрать %offset%"
+    add: "&bДобавить %offset%"
+    back: "&3Назад"
+    confirm: "&eПодтвердить"
+    get: "&fТы получишь: &6%amount%"
+    give: "&fТы отдашь: &c%price%"

@@ -461,7 +461,7 @@ grenade|2:
   cast_count: 0
   last_cast: 0
 supergather:
-  cast_count: 54
+  cast_count: 57
   last_cast: 0
 superblast:
   cast_count: 0
@@ -527,7 +527,7 @@ stash:
   cast_count: 0
   last_cast: 0
 missile|3:
-  cast_count: 28
+  cast_count: 49
   last_cast: 0
 mob:
   cast_count: 0
@@ -584,7 +584,7 @@ portal:
   cast_count: 0
   last_cast: 0
 pickpocket:
-  cast_count: 42
+  cast_count: 54
   last_cast: 0
 simulate:
   cast_count: 0
@@ -761,7 +761,7 @@ kill:
   cast_count: 0
   last_cast: 0
 gatling:
-  cast_count: 8
+  cast_count: 11
   last_cast: 0
 fxdemo:
   cast_count: 0
@@ -824,7 +824,7 @@ cure|3:
   cast_count: 0
   last_cast: 0
 flashbang:
-  cast_count: 6
+  cast_count: 9
   last_cast: 0
 cure|2:
   cast_count: 0

@@ -1,0 +1,96 @@
+texture: d019fe633a45fc3d353f9a2f09fd88e721de31c2bc969ae0aeeadf57c1be0bcc
+name: '&7Light gray LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ENTITY : MINECART_CHEST : 2'
+  - 'ENTITY : MINECART_MOB_SPAWNER : 4'
+  '1':
+  - 'ITEM : WHEAT : 53 : 0'
+  - 'ENTITY : ZOMBIE : 1'
+  - 'ITEM : VINE : 32 : 0'
+  '2':
+  - 'ITEM : ENDER_PORTAL_FRAME : 8 : 0'
+  - 'ENTITY : GUARDIAN : 1'
+  '3':
+  - 'ITEM : IRON_HELMET : 1 : 0'
+  '4':
+  - 'ITEM : MYCEL : 32 : 0'
+  - 'ITEM : SNOW : 16 : 0'
+  '5':
+  - 'ITEM : BONE : 27 : 0'
+  '6':
+  - 'ITEM : GLASS_BOTTLE : 43 : 0'
+  - 'ITEM : RABBIT_STEW : 1 : 0'
+  '7':
+  - 'ENTITY : FIREBALL : 2'
+  '8':
+  - 'ITEM : RECORD_11 : 1 : 0'
+  - 'ENTITY : ENDER_SIGNAL : 4'
+  '9':
+  - 'ENTITY : PAINTING : 3'
+  - 'ENTITY : THROWN_EXP_BOTTLE : 4'
+  '10':
+  - 'ITEM : COOKED_MUTTON : 3 : 0'
+  - 'ITEM : CLAY_BALL : 11 : 0'
+  - 'ITEM : BRICK : 8 : 0'
+  '11':
+  - 'ITEM : LEASH : 22 : 0'
+  - 'ENTITY : MINECART_COMMAND : 2'
+  '12':
+  - 'ITEM : OBSIDIAN : 32 : 0'
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  - 'ITEM : RECORD_11 : 1 : 0'
+  - 'ITEM : RECORD_3 : 1 : 0'
+  '13':
+  - 'ITEM : NAME_TAG : 2 : 0'
+  - 'ITEM : YELLOW_FLOWER : 16 : 0'
+  '14':
+  - 'LUCKY_BLOCK_ITEM : PURPLE : 2'
+  - 'ITEM : TNT : 16 : 0'
+  - 'ENTITY : THROWN_EXP_BOTTLE : 3'
+  '15':
+  - 'ENTITY : PIG : 1'
+  - 'ITEM : EMERALD_BLOCK : 16 : 0'
+  - 'ITEM : STONE_PLATE : 64 : 0'
+  '16':
+  - 'ITEM : IRON_LEGGINGS : 1 : 0'
+  - 'ITEM : REDSTONE_COMPARATOR : 16 : 0'
+  - 'ENTITY : ITEM_FRAME : 1'
+  '17':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  - 'LUCKY_BLOCK_ITEM : PURPLE : 4'
+  '18':
+  - 'ENTITY : ENDER_SIGNAL : 2'
+  '19':
+  - 'ITEM : IRON_FENCE : 64 : 0'
+  - 'LUCKY_BLOCK_ITEM : LIGHT_BLUE : 1'
+  - 'ITEM : DEAD_BUSH : 8 : 0'
+  '20':
+  - 'ENTITY : BOAT : 2'
+  - 'SPECIAL : LIGHTNING : 3'
+  '21':
+  - 'LUCKY_BLOCK_ITEM : PINK : 3'
+  - 'ITEM : SNOW_BLOCK : 32 : 0'
+  '22':
+  - 'ITEM : ENDER_PORTAL_FRAME : 64 : 0'
+  - 'SPECIAL : TNT_COLUMN : 5'
+  '23':
+  - 'ITEM : FENCE : 64 : 0'
+  '24':
+  - 'ITEM : RECORD_10 : 1 : 0'
+  - 'ENTITY : ENDERMITE : 3'
+  '25':
+  - 'ITEM : COMPASS : 26 : 0'
+  '26':
+  - 'ENTITY : WITCH : 3'
+  - 'ENTITY : PIG : 4'
+eco: true

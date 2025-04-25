@@ -1,0 +1,84 @@
+
+# Translation configuration author
+author: DenBeKKer
+
+special:
+  water_bucket: "&eCheck your inventory.. You have a &9water bucket&f!"
+
+custom_items:
+  item_not_found: "&cItem for identifier %identifier% not found"
+  list: "&7[&eLuckyBlock&7] &fCustom items list:"
+  
+  magic_wool: "&6&l&oMagic wool"
+  sword_of_justice: "&6&l&oSword Of Justice"
+  axe_of_perun: "&6&l&oAxe of Perun"
+  chilly_pants: "&6&l&oChilly Pants"
+  rage_armor: "&6&l&oRage Armor"
+  carrot_corrupter: "&6&l&oCarrot Corrupter"
+  mystery_meat: "&6&l&oMystery meat"
+  wither_blast_rod: "&6&l&oWither blast rod"
+
+craft:
+  allowed_one_layer: "&cCrafting is only possible with the use of each ingredient in a single amount for a separate slot"
+
+system:
+  loading_config: "&fLoading configuration... "
+  reloaded_config: "&aConfiguration has been reloaded, loaded %amount% luckyblock types..."
+
+  world_not_found: "&cWorld %world% not found"
+  lb_placed: "&fLuckyBlock &e%type%&f was placed on &e%location%"
+
+  lb_not_found: "&cLuckyBlock &e%lb%&c not found, skipping... "
+  lb_loading_exception: "&cLuckyBlock &e%lb%&c cant be loaded... Exception: &e%exception%"
+  lb_unknown_exception: "&cLuckyBlock &e%lb%&c is not found or an unknown exception happened, skipping... "
+  lb_loaded_zero: "&fLoaded 0 luckyblock types... Hm..."
+  lb_loaded_not_zero: "&fLoaded &e%amount%&f luckyblock types..."
+  
+  cant_use_command: "&cSorry, but you cant use any sub commands."
+  cant_use_subcommand: "&cSorry, but you cant use this sub command."
+  
+  cant_break_color: "&cSorry, but you cant break luckyblock type &e%lb%"
+  cant_interact_world: "&cSorry, but you cant interact with LuckyBlocks in world &e%world%"
+  
+  cmd_lb_disabled: "&cLuckyBlock type &e%lb%&c disabled :("
+  cmd_lb_not_found: "&cLuckyBlock type &e%lb%&c not found :("
+  cmd_lb_received: "&aReceived %amount% LuckyBlocks &7(%lb% &7color)"
+  cmd_ci_received: "&aReceived %item%"
+  cmd_destroyed_lb: "&cRemoved &e%amount% &cLuckyBlocks"
+  cmd_lb_give: "&aGave %amount% LuckyBlocks &7(%lb% &7color)"
+  
+  cmd:
+    help_title: "&eLuckyBlock's &fcommands help:"
+    get: "&8 > &e/%label% get <color> [amount] &f- get LuckyBlock"
+    customitemget: "&8 > &6/%label% customitemget <id> &f- Get custom item"
+    give: "&8 > &e/%label% give <player> <color> [amount] &f- give LuckyBlock"
+    gui: "&8 > &e/%label% gui <get/edit> &f- open gui"
+    iteminfo: "&8 > &6/%label% iteminfo &f- Item in hand info"
+    list: "&8 > &e/%label% list &f- list of LuckyBlock types"
+    customitemslist: "&8 > &6/%label% customitemslist &f- List custom items"
+    reload: "&8 > &e/%label% reload &f- reload all configs"
+    support: "&8 > &e/%label% support &f- get author contacts"
+    checkforupdates: "&8 > &e/%label% checkforupdates &f- check for updates"
+    destroy: "&8 > &e/%label% destroy <radius/chunk/(<xyz> [xyz] [world])> [-all] &f- destroy lb"
+    place: "&8 > &e/%label% place [world] <x> <y> <z> <type> &f- place lb"
+    generate: "&8 > &e/%label% generate <type> <factory> <min> <max> &f- generate drops"
+    generateFull: "With this command you can generate LuckyDrops inside your LuckyBlock. <type> - LuckyBlockType to be generated. <factory> - LB factory (Use `latest`). <min> - min EntryDrops. <max> - max EntryDrops"
+  
+  cmd_player_not_found: "&cPlayer &e%player%&c not found :("
+  cmd_no_perm_to_color: "&cNo permission for color %lb%"
+  cmd_no_perm: "&cSorry, but you don't have got permissions to execute this subcommand"
+  
+gui:
+  exit: "&7[ &6Exit from GUI &7]"
+  get:
+    title: "&bGet luckyblock &4&l:D"
+    no_money: "&cYou need &e%eco% &cmore money"
+    success: "&aYou have successfully bought &e%amount% &aluckyblock for &e%eco%"
+  count:
+    title: "&bSelect amount &4&l:D"
+    remove: "&bRemove %offset%"
+    add: "&bAdd %offset%"
+    back: "&3Go back"
+    confirm: "&eConfirm"
+    get: "&fYou will get: &6%amount%"
+    give: "&fYou are going to spend: &c%price%"

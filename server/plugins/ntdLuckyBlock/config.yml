@@ -1,0 +1,122 @@
+#
+#
+#█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+#█░░░░░░█████████░░░░░░██░░░░░░█░░░░░░░░░░░░░░█░░░░░░██░░░░░░░░█░░░░░░░░██░░░░░░░░█░░░░░░░░░░░░░░███░░░░░░█████████░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░██░░░░░░░░█
+#█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀░░██░░▄▀▄▀░░█░░▄▀▄▀░░██░░▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░███░░▄▀░░█████████░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀░░██░░▄▀▄▀░░█
+#█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░░░░░░░░░█░░▄▀░░██░░▄▀░░░░█░░░░▄▀░░██░░▄▀░░░░█░░▄▀░░░░░░▄▀░░███░░▄▀░░█████████░░▄▀░░░░░░▄▀░░█░░▄▀░░░░░░░░░░█░░▄▀░░██░░▄▀░░░░█
+#█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█████░░▄▀▄▀░░▄▀▄▀░░███░░▄▀░░██░░▄▀░░███░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░█████████░░▄▀░░██░░▄▀░░███
+#█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░█████████░░▄▀░░░░░░▄▀░░█████░░░░▄▀▄▀▄▀░░░░███░░▄▀░░░░░░▄▀░░░░█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░█████████░░▄▀░░░░░░▄▀░░███
+#█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░█████████░░▄▀▄▀▄▀▄▀▄▀░░███████░░░░▄▀░░░░█████░░▄▀▄▀▄▀▄▀▄▀▄▀░░█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░█████████░░▄▀▄▀▄▀▄▀▄▀░░███
+#█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░█████████░░▄▀░░░░░░▄▀░░█████████░░▄▀░░███████░░▄▀░░░░░░░░▄▀░░█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░█████████░░▄▀░░░░░░▄▀░░███
+#█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█████████░░▄▀░░███████░░▄▀░░████░░▄▀░░█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░█████████░░▄▀░░██░░▄▀░░███
+#█░░▄▀░░░░░░░░░░█░░▄▀░░░░░░▄▀░░█░░▄▀░░░░░░░░░░█░░▄▀░░██░░▄▀░░░░███████░░▄▀░░███████░░▄▀░░░░░░░░▄▀░░█░░▄▀░░░░░░░░░░█░░▄▀░░░░░░▄▀░░█░░▄▀░░░░░░░░░░█░░▄▀░░██░░▄▀░░░░█
+#█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀░░██░░▄▀▄▀░░███████░░▄▀░░███████░░▄▀▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀░░██░░▄▀▄▀░░█
+#█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░██░░░░░░░░███████░░░░░░███████░░░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░██░░░░░░░░█
+#█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+#                                                                                                                     MADE WITH LOVE BY DENBEKKER (RUSSIAN CODER)
+#
+#                    Join my DISCORD server for support & bug reporting & feature requesting - https://discord.gg/vbYW3sperj
+#                                        Plugin SpigotMC url: https://www.spigotmc.org/resources/92026
+#                                        Premium version url: https://www.spigotmc.org/resources/94872
+#
+#                       Setup documentation - https://github.com/danirod12/NTD-LuckyBlock/wiki/LuckyBlock-configuration
+#
+#
+#
+# Since 1.3 version you cant disable check-for-updates, but can disable player-join message about update
+# Command "/ntdluckyblock checkforupdates" will ignore this option
+#    (true - inform about updates; false - dont inform about updates)
+inform-about-update: true
+# Disable message when SpigotMC servers is unavailable
+web-unavailable-disable: false
+scheduled-update-check: true
+
+# LANGUAGE. You can find all languages list at https://github.com/danirod12/ntdluckyblock/wiki/Languages
+language: en
+
+# Prevent players to equip luckyblocks to hat like armor context (skulls)
+prevent-hat-luckyblocks: true
+
+# Use more RAM, but dont spam author in commands (Only in first command uses)
+reduce-command-author-info: false
+
+# [false - Permission luckyblock.get for all luckyblocks; true - Permission luckyblock.get.color (luckyblock.get.red) per color]
+permission-for-each-give-get: true
+
+# [false - Permission luckyblock.gui.get for all luckyblocks; true - Permission luckyblock.gui.get.color (luckyblock.gui.get.red) per color]
+permission-for-each-gui-get: false
+
+# Permission for luckyblock breaking (luckyblock.break.color or luckyblock.break.*)
+break-permissions: true
+
+# Permission for luckyblock breaking (luckyblock.break.color or luckyblock.break.*)
+craft-permissions: true
+
+# Disable author info for command /ntdluckyblock gui get
+# NOTE: This feature can be used only in premium plugin version
+disable-author-info: false
+
+# Check for available convertions (Disable join spam message that you can convert items)
+disable-json-convert-checking: false
+
+# Skip exceptions for broken entry drops from LBFactory
+skip-factory-broken: true
+
+# verify-UUID checks if placing skull UUID matchs with origin LuckyBlock UUID
+# verify-TAG checks if placing skull contains NBT tag compound luckyblock_type
+#
+#   WARNING: Both false disable all luckyblocks
+place:
+  verify-UUID: true
+  verify-TAG: true
+  
+  # Not needed. Enable it if you have used my plugin before 2.4.3
+  # This will check joining players inventories and all container change events
+  #		to replace old LuckyBlock items (Name & UUID) to new one (Tag & UUID)
+  convert-factory: false
+
+# Force update player inventory on luckyblock place
+force-update-inventory: false
+
+# DropChance weights (Actual only for premium version)
+chances:
+  lowest: 1
+  low: 3
+  medium: 6
+  high: 15
+  highest: 25
+
+# Set highest priority for event
+event-priority:
+  block-break-event: false
+
+# This setting is only for 1.13+. On 1.8-1.12 LuckyBlock should be a light source to fix a blacked out glitch.
+light-source: true
+
+# WorldEdit apply blocks to mask. These blocks will not be replaced with schematic
+worldedit-mask:
+  - BARRIER
+  - BEDROCK
+
+# Enabled colors of luckyblocks
+enabled:
+  - black
+  - blue
+  - brown
+  - cyan
+  - gray
+  - green
+  - light_blue
+  - light_gray
+  - lime
+  - magenta
+  - orange
+  - pink
+  - purple
+  - red
+  - white
+  - yellow
+
+# Do not change it
+config-level: "1.11"
+debug: false
