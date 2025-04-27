@@ -9,16 +9,16 @@ data-version: 1
   highest_score: 0
 a09d9599-c777-3d52-b647-797cdc1dc256:
   playername: Hamzah898933_
-  next_level_exp: 354
-  level: 1
-  games_played: 33
-  exp: 330
-  contribution_detective: 232
-  deaths: 19
-  contribution_murderer: 1
-  wins: 10
-  highest_score: 365
-  kills: 5
+  next_level_exp: 0
+  level: 0
+  games_played: 0
+  exp: 0
+  contribution_detective: 0
+  deaths: 0
+  contribution_murderer: 0
+  wins: 0
+  highest_score: 0
+  kills: 0
 d86678db-a54b-3284-9ce7-5bba6bf45426:
   playername: Isiss
   next_level_exp: 1000
