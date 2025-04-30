@@ -57,13 +57,12 @@ instances:
     - mm,627,13,-1098,0.0,0.0
     spectatorlocation: mm,618.93,10.0,-1136.14,-5.7,44.25
     goldvisuals: false
-    endlocation: mm,792.0,4.0,-1445.0,0.0,0.0
+    endlocation: lobby,224.64,72.0,1335.51,-89.85,4.35
     lobbylocation: mm,792.41,4.0,-1447.41,0.75,38.1
     signs:
     - world,-163,64,165,0.0,0.0
     - world,-165,64,164,0.0,0.0
     - world,-16,73,371,0.0,0.0
-    - mm,793,4,-1441,0.0,0.0
     - lobby,250,71,1344,0.0,0.0
   libary:
     isdone: true
@@ -143,7 +142,7 @@ instances:
     - mm2,-87,4,320,0.0,0.0
     - mm2,-92,4,321,0.0,0.0
     - mm2,-98,4,319,0.0,0.0
-    endlocation: mm2,65.0,1.0,274.0,0.0,0.0
+    endlocation: lobby,224.37,72.0,1335.5,-91.2,5.7
     lobbylocation: mm2,65.0,1.0,275.0,0.0,0.0
     mapname: best
     signs:

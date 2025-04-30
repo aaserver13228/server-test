@@ -1,4 +1,4 @@
-block_all_client_updates: false
+block_all_client_updates: true
 discard_login_packet_certs: false
 cert_packet_data_rate_limit: 524288
 enable_eagcert_folder: true

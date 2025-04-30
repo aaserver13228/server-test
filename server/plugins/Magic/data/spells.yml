@@ -41,7 +41,7 @@ cure:
   cast_count: 0
   last_cast: 0
 absorb:
-  cast_count: 0
+  cast_count: 1
   last_cast: 0
 animate:
   cast_count: 0
@@ -314,7 +314,7 @@ neutron:
   cast_count: 0
   last_cast: 0
 missile:
-  cast_count: 73
+  cast_count: 76
   last_cast: 0
 fillwand:
   cast_count: 0
@@ -584,7 +584,7 @@ portal:
   cast_count: 0
   last_cast: 0
 pickpocket:
-  cast_count: 54
+  cast_count: 56
   last_cast: 0
 simulate:
   cast_count: 0
@@ -761,7 +761,7 @@ kill:
   cast_count: 0
   last_cast: 0
 gatling:
-  cast_count: 11
+  cast_count: 12
   last_cast: 0
 fxdemo:
   cast_count: 0
@@ -845,7 +845,7 @@ fling|3:
   cast_count: 0
   last_cast: 0
 cage:
-  cast_count: 0
+  cast_count: 9
   last_cast: 0
 recall|2:
   cast_count: 0

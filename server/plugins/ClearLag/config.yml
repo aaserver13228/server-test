@@ -10,7 +10,7 @@
 # http://dev.bukkit.org/server-mods/clearlagg/pages/mob-types/nodes/ #
 #--------------------------------------------------------------------#
 settings:
-  auto-update: true
+  auto-update: false
   enable-signs: true
   config-version: six
   keep-spawn-in-memory: true

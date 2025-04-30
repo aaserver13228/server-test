@@ -1,0 +1,100 @@
+settings:
+  controlWorldAccess: false
+  loadChunks: false
+  warpEffect: true
+dynamics:
+  suggestWarps: true
+locale:
+  locale: en_US
+warpSafety:
+  enabled: true
+  searchRadius: 5
+  verticalTolerance: 5
+limits:
+  enabled: true
+  default:
+    maxTotal: 15
+    maxPublic: 5
+    maxPrivate: 10
+  user:
+    maxTotal: 8
+    maxPublic: 4
+    maxPrivate: 4
+timers:
+  enabled: false
+  coolDownNotify: false
+  warmUpNotify: true
+  abortOnMove: false
+  abortOnDamage: false
+  cooldowns:
+    default: 15
+    user: 30
+  warmups:
+    default: 15
+    user: 30
+economy:
+  enabled: false
+  informAfterTransaction: true
+  fees:
+    default:
+      accept: 0
+      create: 25
+      create-private: 25
+      delete: 25
+      give: 25
+      help: 0
+      info: 0
+      invite: 25
+      list: 0
+      listall: 0
+      point: 25
+      private: 25
+      public: 25
+      search: 0
+      uninvite: 25
+      update: 25
+      warp-player: 25
+      warp-sign-create: 25
+      warp-sign-use: 25
+      warp-to: 25
+      welcome: 25
+    user:
+      accept: 25
+      create: 50
+      create-private: 50
+      delete: 50
+      give: 25
+      help: 0
+      info: 0
+      invite: 25
+      list: 0
+      listall: 0
+      point: 25
+      private: 25
+      public: 25
+      search: 0
+      uninvite: 25
+      update: 50
+      warp-player: 50
+      warp-sign-create: 25
+      warp-sign-use: 25
+      warp-to: 50
+      welcome: 25
+mysql:
+  enabled: false
+  host: localhost
+  port: 3306
+  database: minecraft
+  table: warpTable
+  username: root
+  password: password
+dynmap:
+  enabled: false
+  layer:
+    displayName: MyWarp
+    hideByDefault: false
+    priority: 10
+  marker:
+    showLabel: false
+    iconID: mywarp_warp-32
+    minZoom: 0

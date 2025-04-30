@@ -1,0 +1,152 @@
+# Block protected by timer in sec
+# Category name can be any you like to be easily recognized
+# id can be actual block id (use /jobs blockinfo to get correct id) or use block name
+# By setting time to -1 will keep block protected until global cleanup, mainly used for structure blocks like diamond
+blocksTimer:
+  Sapling:
+    id: 6
+    cd: 60
+  leaves:
+    id: 18
+    cd: 60
+  grass:
+    id: longgrass
+    cd: 60
+  deadBush:
+    id: 32
+    cd: 60
+  rail:
+    id: 66
+    cd: 60
+  rail2:
+    id: 27
+    cd: 60
+  rail3:
+    id: 28
+    cd: 60
+  rail4:
+    id: 157
+    cd: 60
+  web:
+    id: 30
+    cd: 60
+  dandelion:
+    id: 37
+    cd: 60
+  poppy:
+    id: 38
+    cd: 60
+  flower:
+    id: 175
+    cd: 60
+  mushroom:
+    id: 39
+    cd: 60
+  mushroomRed:
+    id: 40
+    cd: 60
+  torch:
+    id: 50
+    cd: 60
+  redTorch:
+    id: 76
+    cd: 60
+  lader:
+    id: 65
+    cd: 5
+  carpet:
+    id: 171
+    cd: 60
+  button:
+    id: 77
+    cd: 5
+  button2:
+    id: 143
+    cd: 5
+  lever:
+    id: 69
+    cd: 60
+  snow:
+    id: 78
+    cd: 60
+  snow2:
+    id: 80
+    cd: 60
+  hook:
+    id: 131
+    cd: 60
+  tripWire:
+    id: 132
+    cd: 60
+  redstone:
+    id: 55
+    cd: 60
+  repeater:
+    id: 93
+    cd: 60
+  comparator:
+    id: 149
+    cd: 60
+  lily:
+    id: 111
+    cd: -1
+  vines:
+    id: 106
+    cd: -1
+  wheat:
+    id: 59
+    cd: 5
+  sugarcane:
+    id: 83
+    cd: -1
+  cactus:
+    id: 81
+    cd: -1
+  beatroot:
+    id: 207
+    cd: 60
+  potato:
+    id: 142
+    cd: 60
+  carrot:
+    id: 141
+    cd: 60
+  warts:
+    id: 115
+    cd: 60
+  pumpkin:
+    id: 86
+    cd: -1
+  pumpkinstem:
+    id: 104
+    cd: -1
+  melon:
+    id: 103
+    cd: -1
+  melonstem:
+    id: 105
+    cd: -1
+  goldore:
+    id: goldore
+    cd: -1
+  ironore:
+    id: ironore
+    cd: -1
+  coalore:
+    id: coalore
+    cd: -1
+  lapisore:
+    id: lapisore
+    cd: -1
+  diamondore:
+    id: diamondore
+    cd: -1
+  redstoneore:
+    id: redstoneore
+    cd: -1
+  emeraldore:
+    id: emeraldore
+    cd: -1
+  quartzore:
+    id: quartzore
+    cd: -1

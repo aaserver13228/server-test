@@ -1092,12 +1092,12 @@ protect:
     # Should people without the essentials.build permission be allowed to build?
     # Set true to disable building for those people.
     # Setting to false means EssentialsAntiBuild will never prevent you from building.
-    build: true
+    build: false
 
     # Should people without the essentials.build permission be allowed to use items?
     # Set true to disable using for those people.
     # Setting to false means EssentialsAntiBuild will never prevent you from using items.
-    use: true
+    use: false
 
     # Should we warn people when they are not allowed to build?
     warn-on-build-disallow: true

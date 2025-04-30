@@ -52,7 +52,7 @@ currency_string: 'dollars'
 broadcast_developers: true
 
 # Whether or not the plugin should automatically check for the latest version and download it
-check_for_updates: true
+check_for_updates: false
 
 # Whether command logging to the console should be disabled
 disable_command_logging: false
@@ -72,7 +72,7 @@ deposit_bank_name: 'server'
 alternate_command_dispatching: false
 
 # Whether or not you want to opt-out of Metrics statistic gathering through www.mcstats.org
-metrics_opt_out: false
+metrics_opt_out: true
 
 # A list of commands which cannot be attached to ServerSigns (to prevent console-only command exploits)
 blocked_commands:

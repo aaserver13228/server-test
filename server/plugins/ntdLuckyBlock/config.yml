@@ -26,10 +26,10 @@
 # Since 1.3 version you cant disable check-for-updates, but can disable player-join message about update
 # Command "/ntdluckyblock checkforupdates" will ignore this option
 #    (true - inform about updates; false - dont inform about updates)
-inform-about-update: true
+inform-about-update: false
 # Disable message when SpigotMC servers is unavailable
 web-unavailable-disable: false
-scheduled-update-check: true
+scheduled-update-check: false
 
 # LANGUAGE. You can find all languages list at https://github.com/danirod12/ntdluckyblock/wiki/Languages
 language: en

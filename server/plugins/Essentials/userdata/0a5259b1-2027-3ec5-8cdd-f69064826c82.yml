@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1745602089144
-  login: 1745602058318
+  logout: 1745932681176
+  login: 1745932653932
 money: '0'
 last-account-name: kingrobby102
 logoutlocation:
@@ -26,5 +26,5 @@ logoutlocation:
   x: 64.99974807195996
   y: 1.0
   z: 275.20095070459166
-  yaw: 294.1499938964844
-  pitch: 14.249993324279785
+  yaw: 166.6499786376953
+  pitch: 22.949993133544922

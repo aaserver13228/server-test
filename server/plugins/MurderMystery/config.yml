@@ -188,10 +188,10 @@ Spectators: true
 Update-Notifier:
   # Should we check for updates on plugin start/after admin join?
   # You REALLY should have this true!
-  Enabled: true
+  Enabled: false
   # Should we inform you when beta version is out?
   # BETA IS NOT ALWAYS AS STABLE AS NORMAL RELEASE!
-  Notify-Beta-Versions: true
+  Notify-Beta-Versions: false
 
 Corpses:
   # Should we override corpses spawn from CorpsesReborn plugin?

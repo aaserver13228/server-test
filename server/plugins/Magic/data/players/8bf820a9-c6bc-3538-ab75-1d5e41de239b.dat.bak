@@ -1,8 +1,8 @@
 id: 8bf820a9-c6bc-3538-ab75-1d5e41de239b
 name: Adam8989333
-last_cast: 1745595410492
+last_cast: 1745950957671
 cooldown_expiration: 0
-last_death_location: -134.31100241096865,14.0,328.88878101039114,mm2,-231.45003,21.000002
+last_death_location: -100.07012000848238,4.0,340.30000001192093,mm2,-255.90009,5.8500004
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -13,12 +13,6 @@ brush:
   scale: 1.0
   erase: true
 undo:
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- world: world
-  time_to_live: 0
-  name: Cloak
 - world: world
   time_to_live: 0
   name: Cloak
@@ -366,6 +360,12 @@ undo:
 - world: lobby2
   time_to_live: 0
   name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Gatling Gun
+- world: shop
+  time_to_live: 0
+  name: Gatling Gun
 spells:
   backup:
     cast_count: 2
@@ -413,8 +413,8 @@ spells:
     last_earn: 1743020608286
     cooldown_expiration: 1743020638286
   pickpocket:
-    cast_count: 56
-    last_cast: 1745595410495
+    cast_count: 61
+    last_cast: 1745950957671
     last_earn: 0
     cooldown_expiration: 0
   lightning:
@@ -583,10 +583,10 @@ spells:
     last_earn: 0
     cooldown_expiration: 1743098430853
   gatling:
-    cast_count: 12
-    last_cast: 1745258117618
-    last_earn: 1745258078917
-    cooldown_expiration: 1745258137618
+    cast_count: 14
+    last_cast: 1745950290811
+    last_earn: 1745950292811
+    cooldown_expiration: 1745950310811
   monster:
     cast_count: 1
     last_cast: 1743098204387
@@ -745,7 +745,7 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/3WSy47TMBSGDdMZhRYVwYJ1F4iVM8qlubEKG14A9pUvJ40VJ7ZsZ0ZIvN28GCdtp4wErKxz5PP/n3+fNSFrsnpkk4zIrXmcwJHNV8nGuqmbPM8jEgUYrWYByC2To5oi8kEYoyXePTiQswjKTOQmvU8i8hG6DkQ4WOaCEhoOpus8BHKT3C9KJ/mDkuRTzbs6S1gTi5KLOC/yOma8KuJUFrBPJWR5w5GHm3mSZBXcDBFZKYFG29FMPqAMHI/+SxaRjQQvnLInjHffjNudMP3OTPrnP5Ack2r2CxIOb9WE46iPr+Aanq3eMqwf4OAtaE3WVonBGjFAQArLQk/uRrZAoIAwPrzMIVtyeGOdCegKV/jtBYPPHH381ejSFkYbRz7XFWdVAk0pBND/FggxANhrLhMbgWx+9LD73s++X7DeY1R+HuGvH3q9pC8K2aRdV8ZpyXi8r+sqbmQm4woSSPJMQJmIiNydXu/JE2dimG2bUK7VNPzatykV2rChzegRwwDX5rQHpts91fCgAu5KW9BRea804PWS2p55aKvzeZGr6Z9Y24Y6OAJuxzKbJlhZplybptTPFhx3xoxtmp2ri2man8uXk/vn1nm8oEGN2C4x6d4EzhwmPU+BvEpxcXC3nLGWXT+ekN9XBrEoDgMAAA==
+        internal: H4sIAAAAAAAA/3WSz47TMBDGLba7CltUBAfOPSBOzipO0ibhFC68ANwr/5k0VpzYsp1dIfF2vBiTtltWAk7WjDzf9/nnuSfknqye+KQScmufJvBk/UXxsW7qpiiKhCQRRmd4BHLL1ainhLyX1hqFdw8e1CyjthO5YQ9ZQj5A14GMB8d91NLAwXZdgEhusodF6SR/0Ip8rEVX5xlvUrkXMi12RZ1yUe1SpnZQMgV50QjMI+w8KbKKfoaErLREo81opxBRBo7H8DlPyFpBkF67U4y3X63fnmKGrZ3Mj39E8lzpOSyRcHijJxxHfXyFMPBs9YZj/QiH4MAYcu+0HJyVA0RM4Xjsyd3IlxAoIG2ILznkC4fXztuIrnANv7nEELNAn3A1urSlNdaTT3UleJVBs5cS6H8LDDEAuCuXiY9A1t972H7r59Avsd4hqjCP8NcPvVroQ1NCLhjiZlWVlnlRpA3PVFrJjLE921cs6xJyd3p9IL8El8Ps2owKo6fhZ9kyKo3lQ5vTI8IA3xa0B27akhp41BF3pd3RUYegDeD1PXU9D9BW5/MiV9M/WNuGejgCbscyyzKsHNe+ZYyG2YEX3tqxZfm5upiy4ly+nCyfW+fxHY16xPYeSfc2Cu6R9DzFC4w1bpe3zvHr1xPyG86hdU4QAwAA
     wand:
       active_spell: pickpocket
       path: master
@@ -765,7 +765,7 @@ wands:
       keep: true
       spells: backup@0,blink|4@1,cloak@2,gather@3,heal@4,levitate@5,missile|4@6,phase@7,phasebackup@8,pickpocket@9,regenerate@10,repair@11,superbroom@12,supergather@13,superregenerate@14,superrepair@15,time@16
       protected: true
-      id: c5d91ff6-16ab-4887-9d2d-7e0e032ce60c
+      id: e94e2b15-1177-4233-9a0d-7c011616710f
       owner: Adam8989333
       owner_id: 8bf820a9-c6bc-3538-ab75-1d5e41de239b
       name: The Shusher
@@ -777,7 +777,7 @@ wands:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §6Magic Missile§f (§3Wand§f)
+        display-name: §6Gatling Gun§f (§3Wand§f)
         lore:
         - §o§aWizard Magic Wand
         - §o§3Bound to Adam8989333
@@ -795,9 +795,9 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/2VUwW7cNhBl7HWgJG5TpEjPOeQ4a0iktCvd6A9oCxQtclyMpJFEWCIJkpvdFv2z/FxHG7s10os05IhvHt+80WshXovNCW2fibc0DNSlg8eQTDeTePX7r59+Odz/8dt9JrJEi58xkXi5YEwUMvHy7A8LnsW1rPJM/OiDS3zcOHvw05/RdDiL6/yu5rPuZCkcTC8+1u1Qyxybbbdru62qVL3Fdl9ti76isuhJqqbNxMZ0zopsdHN/wDNl4k1PsQvGr+jih48e0/ThZxxN9+HThfpP31A/BOzNMa71ZSbeP6NGZz+7yFF8JLdZwf671C1fKpmFYsLFi++KfVlVTSV35T7fcfaxTudmF8TGOsvk3n9bvHNHm8QLrny13lmWeV/VRb8dyjbflijltu53cqtqyuWuV01eDaxm9DTP8cUXDMGdAhqrc2hnitHYURccGvugJb9dqxW0zi26hDYQdpOuoJuc1zu4lKZwwdJ76E3EsOh6DQwnxsAd1A1wL3WRA9mEdpxJFwUMuJjZYNCFhMEE3lMwzLhQmpgP8X65ruPU4sqn4sWF2A4GFzr+fA9DcDHpooYR09dkA2Mgiz1pmXPoTloWMGHoyWopOUpaKpgIZy1LYHSuIysOPqOWO5jNOCW7Isk9LMYyTM1vlmSmv5WWDSzcSL6vVjksR/acVgX4iXG0krD6lcktWinwzkRntSo5CglnCK57oATh2LYUzF8EkZ3UMoUEcWL1+BlYcYje2ZGziZVeIOEIiWWDFLB7YGZwMmmiACcWno14O7nUYniyQMHW5f3gvEfupdikcGTHvH1myFXrRyveXOZEvLnvcambulFK8bdsyEAjcQYv9r9ap+1/hnfDECmtQHzmpl3ZPFX73lgeH4654DMS756TwHltmLgu7hj8Fnn3Mx0uLhKv/hWch+WByD8BbCy7Q2y+TuDV2Ysb/hHc5UL8A8c2J7lVBAAA
+        internal: H4sIAAAAAAAA/2VUwY7cNgxVk9mtm100aYv0nEOOnIUl2zv2TXvosS1QtMhxQNu0LawtCZImMy36Z/250rOz6CK9WJQoPT6Sj34jxBuxOaLtM/GWhoG6tPcYkulmEt/8/uunX/YPf/z2kIks0eJnTCSuF4yJQiauT36/4ElcqSq/yzPxgw8uMYBxdu+nP6PpcBav87uaX7ujpbA3vfhYt0Otcmy23X3bbYuqqLfY7qqt7CsqZU+qaNpMbEznrMhGN/d7PFEmbnqKXTB+RRfvPnpM04efcTTdh09n8j9+QX4fsDeHuMZXmXj/ghqd/OwiW/FCbrOC/ZfWLaeVzEIx4eLFd/JuV1ZNldeNLMvyJ8lot5dYnZtdEBvrLBN8/yWBzh1sEq/VWppXa+YDDhI7ardS0W7LuXLmddVum7KTdVO2JJHBr6OneY5f/YMhuGNAY3UO7UwxGjtqyaaxj1rx6lpdQOvcoktoA2E36Qq6yXl9D+fgFM5Yege9iRgWXa+GYccYuJO6Ae6pljmQTWjHmbSUMOBiZoNBSwWDCXxWwDDjQmliPsTn5bqPU4srn4o3Z2L3MLjQ8fUdDMHFpGUNI6YnZwNjIIs9aZWz6Y5aSZgw9GS1UmwlrQqYCGetSmB0jqMqNj6jVvcwm3FKdkVSO1iMZZiaVy7JTH8XWjWwcDs5X13ksBxYebqQ4CfG0YWCVbdMbtFFAd6Z6KwuSrZCwhmC6x4pQTi0LQXzF0FkPbVMIUGcuHr8DVxxiN7Zkb2JK71AwhESlw1SwO6RmcHRpIkCHLnwLMfbyaUWw7MI5CqCG/YE5z1yN8UmhQOr5u0LYa7Vvkjy6jwv4uahx6Vu6qYoCr7Lwgw0EnvwPAabp7n7n/TdMERKKxS/umpXRs/xvjWWB4ltDvmCxvcvaeC8Nu1C+hb59DPtz0oSX186ykPzSOSfn28s60Nsnibx1clffglC/AuLNZxZXwQAAA==
     wand:
-      active_spell: missile|3
+      active_spell: gatling
       path: master
       template: master
       xp: 250.0
@@ -819,13 +819,13 @@ wands:
       protection_fire: 0.8
       protection_explosions: 0.8
       spells: arrowrain@0,blessing@1,blink@2,blob@3,boom@4,breach@5,chop@6,counterspell@7,disarm@8,disintegrate@9,emp@10,entangle@11,familiar@12,fire@13,flamethrower@14,flashbang@15,fling@16,force@17,frost@18,gatling@19,grenade@20,grow@21,harden@22,hat@23,heal@24,laser@25,lava@26,lightning@27,mine@28,missile|3@29,monster@30,music@31,phase@32,platform@33,poison@34,portal,rocket,rubberize,sandblast,shell,shrink,sponge,stream,tag,tent,tracking,wither,wound
-      id: 240d581d-f4b0-4a22-8d62-38e026d3905f
+      id: faf1aceb-12e7-41d8-a85b-94c1894be1a2
       owner: Adam8989333
       owner_id: 8bf820a9-c6bc-3538-ab75-1d5e41de239b
       name: Wand
       description: $path Magic Wand
-      xp_timestamp: 1.745595264706E12
+      xp_timestamp: 1.745950891444E12
 open_wand: false
 gave_welcome_wand: false
 data:
-  sp: 422
+  sp: 432
