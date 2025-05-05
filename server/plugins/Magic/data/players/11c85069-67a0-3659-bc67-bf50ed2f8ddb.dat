@@ -1,8 +1,8 @@
 id: 11c85069-67a0-3659-bc67-bf50ed2f8ddb
 name: HeLLo
-last_cast: 0
+last_cast: 1746125171798
 cooldown_expiration: 0
-last_death_location: -101.39052974337316,4.785027703789236,272.4027521640309,mm2,40.95001,22.650002
+last_death_location: -170.53457735775459,86.5625,110.71543182758784,world,240.55035,8.7000065
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -12,8 +12,336 @@ brush:
   schematic: ''
   scale: 1.0
   erase: true
-undo: []
-spells: {}
+undo:
+- time_to_live: 0
+  name: Tunnel
+- time_to_live: 0
+  name: Tunnel
+- time_to_live: 0
+  name: Tunnel
+- time_to_live: 0
+  name: Tunnel
+- world: world
+  blocks:
+  - -190,63,168,world|12:0
+  - -190,63,167,world|12:0
+  - -190,63,166,world|12:0
+  - -191,63,168,world|12:0
+  - -191,63,167,world|12:0
+  - -191,63,166,world|12:0
+  - -192,63,168,world|12:0
+  - -192,63,167,world|12:0
+  - -192,63,166,world|12:0
+  - -193,63,168,world|12:0
+  - -193,63,167,world|12:0
+  - -194,63,168,world|12:0
+  - -194,63,167,world|12:0
+  - -195,63,168,world|12:0
+  - -195,63,167,world|12:0
+  - -196,63,168,world|12:0
+  - -196,63,167,world|12:0
+  - -197,63,168,world|12:0
+  - -197,63,167,world|12:0
+  time_to_live: 0
+  name: Tunnel
+- time_to_live: 0
+  name: Tunnel
+- time_to_live: 0
+  name: Tunnel
+- time_to_live: 0
+  name: Tunnel
+- time_to_live: 0
+  name: Tunnel
+- time_to_live: 0
+  name: Tunnel
+- time_to_live: 0
+  name: Tunnel
+- time_to_live: 0
+  name: Tunnel
+- time_to_live: 0
+  name: Tunnel
+- time_to_live: 0
+  name: Tunnel
+- time_to_live: 0
+  name: Tunnel
+- time_to_live: 0
+  name: Tunnel
+- time_to_live: 0
+  name: Tunnel
+- time_to_live: 0
+  name: Wound
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: Wound
+- time_to_live: 0
+  name: Wound
+- world: world
+  time_to_live: 0
+  name: Wound
+- world: world
+  time_to_live: 0
+  name: Wound
+- time_to_live: 0
+  name: Wound
+- time_to_live: 0
+  name: Wound
+- time_to_live: 0
+  name: Wound
+- time_to_live: 0
+  name: Wound
+- time_to_live: 0
+  name: Wound
+- time_to_live: 0
+  name: Wound
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- world: world
+  time_to_live: 0
+  name: SuperGather
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+spells:
+  phase:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  repair:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  superbroom:
+    cast_count: 5
+    last_cast: 1746119385298
+    last_earn: 0
+    cooldown_expiration: 0
+  backup:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  levitate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  superregenerate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  gather:
+    cast_count: 2
+    last_cast: 1746125171798
+    last_earn: 0
+    cooldown_expiration: 0
+  kill:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  superrepair:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  phasebackup:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  wound:
+    cast_count: 2
+    last_cast: 1746119015227
+    last_earn: 1746119002526
+    cooldown_expiration: 1746119016477
+  regenerate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  cloak:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  missile:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  heal:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  time:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  pickpocket:
+    cast_count: 1
+    last_cast: 1746119399271
+    last_earn: 0
+    cooldown_expiration: 0
+  missile|4:
+    cast_count: 0
+    last_cast: 1746119290053
+    last_earn: 0
+    cooldown_expiration: 0
+  supergather:
+    cast_count: 7
+    last_cast: 1746119109684
+    last_earn: 0
+    cooldown_expiration: 0
+  blink|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  tunnel:
+    cast_count: 5
+    last_cast: 1746118339178
+    last_earn: 0
+    cooldown_expiration: 0
+wands:
+  default:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Tunnel§f (§3Wand§f)
+        lore:
+        - §o§aBeginner Magic Wand
+        - §o§3Bound to HeLLo
+        - Knows 3 Spells
+        - '§d§oMana: 50'
+        - '§r§dMana Regeneration: 5/s'
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        internal: H4sIAAAAAAAA/22Ru2/bMBDGD4ntCmnQx1IgW4Z0swxSD0ravBTokM4dBT6ONhFKZCmq9p9fyqkzZbzD3X2/77s7gDtYnfioMsgiDt7yiPBBoeazjRms3WnEAOuf+PzsMticfT/wM6xqsiMZfE5lwAOmER6NG+G2XtrfUGuUsfc8RCMt9k7rCSPckl2ZZC4ne6PgiVLZ1oR1OWs4yUtWd7mQrMmFrgmqQrdKicQg3DwqWMUwYwYrI5NQdnJO9UeH76gFrsw8LWpFBh8VTjIYf8H78uR5PD7+4gcjH39fTH8yY5pIp2U0wuJV5Z6n+i/2k0drYRPncUSbxJd9yAQeTGqENJcSiGZIF/jg4SvdNRWjtC2rhrX0B00A9//xpLMuwPe6YdgqJuu6qrdSlk3bUNIo3BatqlAXkgjdJaEXRP9meeRDInsFvjn7a/zrP7NZYqVLcbME2tGurIRq8kKwMq8IlnnHUeVSY6WQEIqyTUhHFwUPCWker+ubi9MJHl6MtXu6Hcw0GYt7sn31vl+yTG8Iznv+FhTAP8T3s7hBAgAA
+    wand:
+      active_spell: tunnel
+      path: beginner
+      template: default
+      xp: 50.0
+      xp_regeneration: 5.0
+      xp_max: 50.0
+      bound: true
+      indestructible: true
+      undroppable: true
+      effect_color: 576e8d6c5545,cc3787107de,28d4ef2c0bf9
+      effect_particle_radius: 0.2
+      effect_particle_offset: 0.3
+      hotbar_count: 1.0
+      icon: wood_hoe
+      keep: true
+      quiet: 1.0
+      spells: kill@1,missile@0,tunnel@2
+      id: 91934bd7-2b63-40e3-9aed-cfe4de001ec8
+      owner: HeLLo
+      owner_id: 11c85069-67a0-3659-bc67-bf50ed2f8ddb
+      name: Wand
+      description: $path Magic Wand
+      xp_timestamp: 1.746118347681E12
+  admin:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGGS
+      damage: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Gather§f (§3The Shusher§f)
+        lore:
+        - §o§aFor admins only
+        - §o§3Bound to HeLLo
+        - Knows 19 Spells
+        - §bManifestation
+        - §bCost Reduction X
+        - §bCooldown Reduction V
+        - §3Invulnerability
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        internal: H4sIAAAAAAAA/3WSPW/bMBCG2cY21CRw0Q6dPRSdqECULFnupKnokK3dDX6cLEKUSJBUjAL5mf1BPX/ECNB2ku6o996Hr+6WkFsyO/BRJWRuDyN4Mv8Oj482IUmEwRkegcy5GvSYkI/SWqPwq50HNcmo7Uhu2EOWkE/QtiDjznEftTSws20bIJKb7KHASafBO63IZ8ZkXWbVNq02PEuLqtymQlabVLRlBipva6UEkgg7jYrMop8gITMt0Wg52DFEHAP7ffiaJ+ROQZBeuxPG+2/Wr06YYWVH8+sfSJ4rPYUjEoqXekQ5zsdbCAMvVvcc6yfYBQfGkMWexw48Ejh8IYuBHwFQLG2IrzPIjxm8c95GdIQr+PKCICaBHuFqcmlLa6wnX+pNW9bA+UZARv9bIEQP4K6ZjHwAcvezg9WPbgonyg8YU5gG+OvvvD0mX1c52+aFSqt1m6VrjvGLtuJpobaVlEJkUNYJWZxuHshvwWU/uSajwuixf143jEpjed/k9JxKU9AOuGnWtNfGNCU18KQjrktT0UGHoA2gakNdxwM09fl5mbqlTsveWdlDbFhGPewBN+QoZgwrx7VvWE7D5MALb+3QsOJcXczZ+ly+VpYvrbO8olEP2N7Qw3GbGobXu+9sFNxj9NMYyRuGW4RH3jrHr1tAyB/kHOa7FQMAAA==
+    wand:
+      active_spell: gather
+      path: master
+      template: admin
+      bound: true
+      indestructible: true
+      undroppable: true
+      consume_reduction: 1.0
+      cost_reduction: 2.0
+      cooldown_reduction: 1.0
+      effect_bubbles: true
+      effect_color: 87f58eaa7be0,87f58eaa7be0,87f58eaa7be0
+      effect_particle_radius: 0.2
+      effect_particle_offset: 0.3
+      hotbar_count: 1.0
+      icon: monster_eggs:2
+      keep: true
+      spells: backup@0,blink|4@1,cloak@2,gather@3,heal@4,kill@5,levitate@6,missile|4@7,phase@8,phasebackup@9,pickpocket@10,regenerate@11,repair@12,superbroom@13,supergather@14,superregenerate@15,superrepair@16,time@17,wound@18
+      protected: true
+      id: 8621923d-64f0-4aa0-bf6a-3d96ccbb0e58
+      owner: HeLLo
+      owner_id: 11c85069-67a0-3659-bc67-bf50ed2f8ddb
+      name: The Shusher
+      description: For admins only
 open_wand: false
 gave_welcome_wand: false
-data: {}
+data:
+  sp: 8

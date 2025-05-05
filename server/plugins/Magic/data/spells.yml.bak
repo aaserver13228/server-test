@@ -23,7 +23,7 @@ counterspell|2:
   cast_count: 0
   last_cast: 0
 rocket:
-  cast_count: 0
+  cast_count: 11
   last_cast: 0
 commit:
   cast_count: 0
@@ -41,7 +41,7 @@ cure:
   cast_count: 0
   last_cast: 0
 absorb:
-  cast_count: 1
+  cast_count: 24
   last_cast: 0
 animate:
   cast_count: 0
@@ -212,7 +212,7 @@ chop|2:
   cast_count: 0
   last_cast: 0
 superbroom:
-  cast_count: 2
+  cast_count: 8
   last_cast: 0
 curse|2:
   cast_count: 0
@@ -254,7 +254,7 @@ monster:
   cast_count: 1
   last_cast: 0
 blast:
-  cast_count: 0
+  cast_count: 4
   last_cast: 0
 pull:
   cast_count: 0
@@ -308,7 +308,7 @@ life3:
   cast_count: 0
   last_cast: 0
 spellshop:
-  cast_count: 1
+  cast_count: 18
   last_cast: 0
 neutron:
   cast_count: 0
@@ -347,7 +347,7 @@ wandshop:
   cast_count: 0
   last_cast: 0
 levitate:
-  cast_count: 4
+  cast_count: 5
   last_cast: 0
 quests:
   cast_count: 0
@@ -368,7 +368,7 @@ superconvert:
   cast_count: 0
   last_cast: 0
 gather:
-  cast_count: 8
+  cast_count: 11
   last_cast: 0
 boon|4:
   cast_count: 0
@@ -461,7 +461,7 @@ grenade|2:
   cast_count: 0
   last_cast: 0
 supergather:
-  cast_count: 57
+  cast_count: 66
   last_cast: 0
 superblast:
   cast_count: 0
@@ -506,7 +506,7 @@ colorshop:
   cast_count: 0
   last_cast: 0
 time:
-  cast_count: 25
+  cast_count: 27
   last_cast: 0
 bubble|2:
   cast_count: 0
@@ -515,10 +515,10 @@ missile|4:
   cast_count: 44
   last_cast: 0
 wither:
-  cast_count: 0
+  cast_count: 1
   last_cast: 0
 tunnel:
-  cast_count: 0
+  cast_count: 5
   last_cast: 0
 missile|2:
   cast_count: 51
@@ -584,7 +584,7 @@ portal:
   cast_count: 0
   last_cast: 0
 pickpocket:
-  cast_count: 56
+  cast_count: 66
   last_cast: 0
 simulate:
   cast_count: 0
@@ -593,13 +593,13 @@ emeraldshop:
   cast_count: 0
   last_cast: 0
 phase:
-  cast_count: 17
+  cast_count: 18
   last_cast: 0
 tpshop:
   cast_count: 0
   last_cast: 0
 worm:
-  cast_count: 0
+  cast_count: 56
   last_cast: 0
 tendril:
   cast_count: 0
@@ -671,10 +671,10 @@ automatashop:
   cast_count: 0
   last_cast: 0
 anvil:
-  cast_count: 0
+  cast_count: 19
   last_cast: 0
 wear:
-  cast_count: 0
+  cast_count: 1
   last_cast: 0
 lootshop:
   cast_count: 0
@@ -737,7 +737,7 @@ ledger:
   cast_count: 0
   last_cast: 0
 tornado:
-  cast_count: 0
+  cast_count: 5
   last_cast: 0
 fury:
   cast_count: 0
@@ -845,7 +845,7 @@ fling|3:
   cast_count: 0
   last_cast: 0
 cage:
-  cast_count: 9
+  cast_count: 12
   last_cast: 0
 recall|2:
   cast_count: 0
@@ -875,7 +875,7 @@ wither|3:
   cast_count: 0
   last_cast: 0
 alter:
-  cast_count: 0
+  cast_count: 54
   last_cast: 0
 superdisc:
   cast_count: 0
@@ -953,7 +953,7 @@ repair:
   cast_count: 0
   last_cast: 0
 tent:
-  cast_count: 0
+  cast_count: 3
   last_cast: 0
 tweakshop:
   cast_count: 0
@@ -977,7 +977,7 @@ shell|4:
   cast_count: 0
   last_cast: 0
 platform:
-  cast_count: 0
+  cast_count: 9
   last_cast: 0
 breach|3:
   cast_count: 0
@@ -986,7 +986,7 @@ harden:
   cast_count: 0
   last_cast: 0
 wound:
-  cast_count: 0
+  cast_count: 2
   last_cast: 0
 flamethrower:
   cast_count: 17
@@ -1004,7 +1004,7 @@ supertorch:
   cast_count: 0
   last_cast: 0
 ghast:
-  cast_count: 0
+  cast_count: 4
   last_cast: 0
 breach|2:
   cast_count: 0

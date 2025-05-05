@@ -1,0 +1,199 @@
+#This is the english language file, set "language-file" in the config.yml to "lang-en.yml" to use this file!
+
+#You can see this site for all color codes ----> https://minecraft.tools/en/color-code.php
+
+#All variables you can use;
+#!!Please note that all variables only work in the current line they are located!!
+
+#%shopsection%       = the shopsection that has to be called
+#%amounttopay%       = the amount that the item will cost
+#%playername%        = the player's name
+#%amount%            = the amount of an item
+#%material%          = the material from a item
+#%amounttogive%      = the amount of money that a player received from another player
+#%minimumamount%     = the minimum amount of money you need to pay someone if you use the command
+#%amountofmoney%     = the amount of money that you have on you
+#%spawner-type%      = the spawner type that broke and was applied to the player's inventory
+#%location%          = the location of the current item that is called inside shops.yml/sections.yml configuration file
+#%languagefile%      = the current languagefile that's being called
+#%version%           = the version of minecraft that uses the plugin
+#%spawnertype%       = the spawner type that the spawner item has
+#%bought/sold%       = if the item is sold or bought
+#%buy/sell-method%   = the way a player bought/sold an item Ex: Buy-screen or sellall command
+#%fileName%          = the name of the file that's being called
+
+
+#StartUp/Reload
+shops,yml-not-found: "Shops.yml is not found, creating one..."
+shops,yml-created: "Shops.yml successful created!"
+shops,yml-found: "Shops.yml has been found!"
+sections,yml-not-found: "Sections.yml is not found, creating one..."
+sections,yml-created: "Sections.yml successful created!"
+sections,yml-found: "Sections.yml has been found!"
+updating-shop-settings: "Updating Shop settings..."
+adding-new-shop-shops,yml: "Adding a new shop called %shopsection% to shops.yml."
+adding-new-shop-sections,yml: "Adding a new shop called %shopsection% to sections.yml."
+disabled-due-no-vault: "Disabled due to no Vault dependency found!"
+update-available: "There is an update available!"
+done: "Done!"
+updating-sections-config: "Updating sections config..."
+debug-mode-enabled: "Debug mode is enabled."
+economy-provider-null: "EconomyProvider is null."
+successfully-hooked-into-vault: "Successfully hooked up into Vault."
+language-file-using: "Using %languagefile% as language file."
+cannot-find-language-file: "Can not find language file!"
+minecraft-version-using: "Using minecraft version %version%..."
+checking-each-item: "Checking each item for wrong/missing value's..."
+loading-items: "Loading all items..."
+could-not-find-valid-version: "Could not find a valid implementation for this server version."
+
+#Main Shop Inventory
+inventory-main-shop-title: "Server Shop"
+profile: "&aProfile"
+name: "&6Name"
+money: "&6Money"
+level: "&6Level"
+
+#Buystacks Inventory title
+inventory-buystacks-title: "&8How many &cstacks &8you want to &cbuy&8?"
+
+#HowMuchSell/HowMuchBuy Inventory
+inventory-howmuchsell-title: "&8How much do you want to &csell&8?"
+inventory-howmuchbuy-title: "&8How much do you want to &cbuy&8?"
+plus-one: "&b+1"
+min-one: "&5-1"
+plus-sixteen: "&b+16"
+min-sixteen: "&5-16"
+plus-thirty-two: "&b+32"
+min-thirty-two: "&5-32"
+sell: "&aSell?"
+sell-all: "&cWant to sell all?"
+buy: "&aBuy?"
+buy-stacks: "&cBuy stacks?"
+
+#All Inventory's
+back: "&4Back"
+cancel: "&4Cancel"
+
+#Previous/Next/Current page
+previous-page: "&dPrevious Page"
+next-page: "&bNext Page"
+current-page: "&7Page:"
+
+#Buy/Sell Controls
+left-click-buy: "&aLeft Click: Buy: &c%amounttopay%"
+right-click-sell: "&6Right Click: Sell: &c%amounttopay%"
+
+#Buy/Sell Messages
+pay-confirmation: "&aYou have successfully bought &1%amount% x &b%material% &afor &c%amounttopay%"
+sell-confirmation: "&aYou have successfully sold &1%amount% x &b%material% &afor &c%amounttopay%"
+sell-confirmation-multiple-items: "&aYou have successfully sold &1%amount% &aitems for &c%amounttopay%"
+no-item-to-be-sold: "&cYou do not have any of this item inside your inventory."
+item-cannot-be-bought: "&cItem cannot be bought."
+item-cannot-be-sold: "&cItem cannot be sold."
+player-made-transaction: "%playername% %bought/sold% %amount% x %material% for %amountofmoney% with the %buy/sell-method%."
+buy-screen: "buy screen"
+sell-screen: "sell screen"
+buystacks-screen: "buy stacks screen"
+sellall-screen: "sell all screen"
+sellall-command: "sell all command"
+bought: "bought"
+sold: "sold"
+
+#CurrencySymbol
+currencysymbol: "$"
+
+#Reload Command
+configs-reloaded: "&aAll configs reloaded."
+
+#Balance Command
+check-balance: "&bYou currently have &c%amountofmoney%&b."
+check-balance-other-player: "&b%playername% &acurrently has &c%amountofmoney%&a."
+
+#Givemoney Command
+givemoneycommand-example: "&9/givemoney <player> <amount>"
+givemoney-complete: "&aGivemoney complete."
+
+#Pay Command
+minimum-amount: "&cThe minimum amount to pay a player is %minimumamount%."
+payment-complete: "&aPayment complete."
+player-received-money: "&aYou received &c%amounttogive% &afrom &2%playername%&a!"
+need-player-and-amount: "&9You need to give a player and a amount of money."
+need-amount: "&9You need to give a amount of money."
+paycommand-example: "&9/pay <player> <amount>"
+
+#Player breaks spawner
+spawner-broke-and-applied-to-inventory: "&aYou successfully mined a &9%spawner-type% &aspawner, the item is applied to your inventory."
+need-silk-touch: "&cYou need to use an silk touch pickaxe to mine this!"
+
+#Item error's
+displayname-null: "Could not get displayname."
+item-name-null: "Could not get the name of the item."
+need-item-material: "Can not create item with a blank material value."
+item-material-null: "Could not get the item material. If you think this is a bug, please report it to our discord support server which you can find at the plugin page. %material%"
+item-enchantment-null: "Could not get the enchantment of the item."
+need-item-enchantment: "Can not create enchantment with a blank value."
+item-enchantment-not-supported: "This enchantment is not supported in this minecraft version."
+enchantment-cannot-apply-to-item: "To apply an enchantment to the item, the material needs to be enchanted book or a tool that fits the enchantment."
+item-spawnertype-null: "Could not get the spawner type of the item."
+need-item-spawnertype: "Can not create spawner with a empty spawner-type."
+material-needs-to-be-spawner: "To apply a Spawner-Type(Entity-Type) to the item, the material of the item needs to be a spawner."
+item-potiontype-null: "Could not get the potion type of the item."
+need-item-potiontype: "Can not create a potiontype with a blank value."
+potiontype-not-supported: "This potion type is not supported in this minecraft version."
+material-needs-to-be-potion: "To apply an potion effect, the material needs to be a kind of a potion or a tipped arrow."
+cant-bind-multiple-applyments: "Can not create an item with multiple applyments like enchantments/spawner-types or potion effect types."
+item-error: "&cItem Error, look in the console."
+material-not-supported: "This item material is not supported in this minecraft version."
+item-needs-buy-and-sell-value: "Every item in the shop needs to have a buy/sell value."
+sell-value-wrong: "The sell value needs to be a decimal or a number."
+buy-value-wrong: "The buy value needs to be a decimal or a number."
+option-type-changed: "Please change option 'type' to option 'spawnertype' to create a spawner in the shop. The name of the option has changed in version 2.2 for clarity."
+option-meta-changed: "Please change option 'meta' to option 'displayname' to create a item with a displayname in the shop. The name of the option has changed in version 2.2 for clarity."
+cannot-display-shopsection: "Cannot create shop section '%shopsection%' because the place of the item needs to be in a range from 0 - 45."
+nbtdata_needs_curly_brackets: "The NBT data specified, needs to start and end with a curly bracket."
+empty-nbtdata: "The NBT data cannot be empty."
+cannot-get-nbtdata: "Could not add the NBT data to the item, either the NBT data is spelled wrong or doesn't exist."
+need-recipe-material: "Cannot create the recipe material with a blank value."
+cannot-get-recipe-material: "Cannot create the recipe material, please check the material name for any spelling mistakes and if it exists."
+recipe-material-not-supported: "The given recipe material is not supported in this minecraft version."
+material-needs-to-be-book: "To apply an recipe to the item, the material of the item needs to be a KnowLedge book."
+need-skullowner: "Cannot create the PlayerHead without a specified player (Skull Owner)."
+material-needs-to-be-skull: "To apply an skull texture (Skull Owner) to the item, the material of the item needs to be a Player Head."
+
+#Item path
+items-path-in-shops-config: "Item path in shops.yml config: %location%"
+items-path-in-sections-config: "Item path in sections.yml config: %location%"
+
+#Compatibility
+silkspawners-compatibility-enabled: "SilkSpawners compatibility has been enabled in config."
+silkspawners-not-found: "SilkSpawners not found, using EconomyShopGUI spawners..."
+silkspawners-found: "SilkSpawners found, integrating..."
+could-not-integrate-with-silkspawners: "Could not integrate with SilkSpawners."
+using-silkspawners-spawners: "Using SilkSpawners spawners..."
+using-default-spawners: "Using plugin default spawners..."
+
+#Error's
+disabling-plugin: "Disabling the plugin..."
+command-disabled: "This command is disabled.  %command%"
+not-spawn-able: "This entity type is not spawn able. '%spawnertype%'"
+real-player: "You need to be a real player to use that command."
+player-not-online: "&cThat player does not exist or is not online."
+cannot-sell-air: "&cYou cannot sell air..."
+no-permissions: "&cYou do not have permissions for that!"
+no-permissions-to-open-shop: "&cYou do not have the required permission to open this shop section."
+cannot-do-that: "&4You can not do that!!"
+not-enough-space-inside-inventory: "&4You do not have enough space in your inventory, dropping the other items on ground."
+insufficient-money: "&cYou do not have enough money."
+no-items-in-section: "Can not open shop section %shopsection% because there are no items found!"
+no-item-found: "&cNo item(s) found."
+item-null: "&cThe item does not exist."
+item-cannot-be-sold-to-server: "&cThe item (%material%) cannot be sold to the server because the item has a error inside the shop. Please report this issue to server admins or the owner."
+could-not-save-shops,yml: "&4Could not save shops.yml config."
+could-not-save-sections,yml: "&4Could not save the sections.yml config."
+no-shop-found: "&cCan not find a shop section called by that name!"
+no-valid-amount: "&cThis is not a valid amount."
+restart-plugin: "Can not open the shop section, try restarting the plugin or join the discord server for support."
+could-not-check-for-updates: "&cCould not check for updates."
+cannot-update-config: "&cCannot update the config.yml configuration file."
+cannot-read-config: "Cannot read %fileName% config because it is mis-configured, use a online Yaml parser with the error underneath here to find out the cause of the problem and to solve it. If you cannot find the cause yourself, join our discord support server that can be found at a plugin page of EconomyShopGUI."

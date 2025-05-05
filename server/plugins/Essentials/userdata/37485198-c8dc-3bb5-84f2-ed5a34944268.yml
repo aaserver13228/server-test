@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1746203035317
+  login: 1746203011497
+money: '0'
+last-account-name: kignrobby101
+logoutlocation:
+  world: 854cd819-ca61-441a-9eb8-86ecddeac9cb
+  world-name: world
+  x: -166.0
+  y: 68.0
+  z: 252.0
+  yaw: -52.95000457763672
+  pitch: 42.45000457763672

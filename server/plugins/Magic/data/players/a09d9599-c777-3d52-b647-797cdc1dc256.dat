@@ -1,8 +1,8 @@
 id: a09d9599-c777-3d52-b647-797cdc1dc256
 name: Hamzah898933_
-last_cast: 1745981458027
+last_cast: 1746122908418
 cooldown_expiration: 0
-last_death_location: -87.91799386260917,4.0,314.3576049959429,mm2,-200.70001,7.200001
+last_death_location: -119.20065559556916,15.0,306.12497396555256,mm2,-2.5500183,6.2999926
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -13,107 +13,6 @@ brush:
   scale: 1.0
   erase: true
 undo:
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: Heal
-- world: world
-  time_to_live: 0
-  name: Heal
-- time_to_live: 0
-  name: Heal
-- time_to_live: 0
-  name: Heal
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: Time
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: SuperGather
 - time_to_live: 0
   name: SuperGather
 - time_to_live: 0
@@ -281,20 +180,139 @@ undo:
   name: Magic Missile
 - time_to_live: 0
   name: Magic Missile
+- time_to_live: 0
+  name: Wear
+- time_to_live: 0
+  name: Time
+- time_to_live: 0
+  name: Whip
+- time_to_live: 0
+  name: Whip
+- time_to_live: 0
+  name: Whip
+- world: m
+  time_to_live: 0
+  name: Rocket
+- world: m
+  time_to_live: 0
+  name: Rocket
+- world: m
+  time_to_live: 0
+  name: Rocket
+- world: m
+  time_to_live: 0
+  name: Rocket
+- time_to_live: 0
+  name: Torture
+- world: world
+  time_to_live: 0
+  name: Rocket
+- world: world
+  time_to_live: 0
+  name: Rocket
+- world: world
+  time_to_live: 0
+  name: Rocket
+- world: world
+  time_to_live: 0
+  name: Rocket
+- world: world
+  time_to_live: 0
+  name: Rocket
+- world: world
+  time_to_live: 0
+  name: Rocket
+- world: world
+  time_to_live: 0
+  name: Rocket
+- time_to_live: 0
+  name: Wear
+- time_to_live: 0
+  name: Time
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: SuperKill
 spells:
   repair:
     cast_count: 0
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
+  tent:
+    cast_count: 3
+    last_cast: 1746117924771
+    last_earn: 1746117924871
+    cooldown_expiration: 1746117954771
   backup:
     cast_count: 58
     last_cast: 1743699184063
     last_earn: 0
     cooldown_expiration: 0
+  anvil:
+    cast_count: 2
+    last_cast: 1746119111774
+    last_earn: 0
+    cooldown_expiration: 1746119116774
+  rocket:
+    cast_count: 11
+    last_cast: 1746117973772
+    last_earn: 1746117699390
+    cooldown_expiration: 1746117977522
+  wear:
+    cast_count: 2
+    last_cast: 1746118009670
+    last_earn: 0
+    cooldown_expiration: 0
   absorb:
-    cast_count: 1
-    last_cast: 1745932073545
+    cast_count: 24
+    last_cast: 1746122908419
     last_earn: 0
     cooldown_expiration: 0
   virus:
@@ -307,29 +325,54 @@ spells:
     last_cast: 1745981457328
     last_earn: 0
     cooldown_expiration: 1745981459828
+  platform:
+    cast_count: 9
+    last_cast: 1746117912371
+    last_earn: 1746117887919
+    cooldown_expiration: 1746117913621
+  whip:
+    cast_count: 0
+    last_cast: 1746117696589
+    last_earn: 0
+    cooldown_expiration: 1746117697839
   cage:
-    cast_count: 9
-    last_cast: 1745943154557
-    last_earn: 1745943146460
-    cooldown_expiration: 1745943162057
+    cast_count: 12
+    last_cast: 1746024390016
+    last_earn: 1746024371124
+    cooldown_expiration: 1746024397516
+  nuke:
+    cast_count: 0
+    last_cast: 1746117995772
+    last_earn: 0
+    cooldown_expiration: 1746118010772
+  walls:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   spellshop:
-    cast_count: 9
-    last_cast: 1745980930639
+    cast_count: 24
+    last_cast: 1746118614281
     last_earn: 0
     cooldown_expiration: 0
   heal:
     cast_count: 5
     last_cast: 1744287533025
     last_earn: 1744223585799
-    cooldown_expiration: 1744287538025
+    cooldown_expiration: 0
   missile:
     cast_count: 3
     last_cast: 1745932032683
     last_earn: 1745932032683
     cooldown_expiration: 1745932033683
+  superfly:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   pickpocket:
     cast_count: 12
-    last_cast: 1744224313173
+    last_cast: 1746038458015
     last_earn: 0
     cooldown_expiration: 0
   supergather:
@@ -337,16 +380,31 @@ spells:
     last_cast: 1744374699844
     last_earn: 0
     cooldown_expiration: 0
+  ghast:
+    cast_count: 4
+    last_cast: 1746117790556
+    last_earn: 0
+    cooldown_expiration: 1746117798056
+  arrowrain|2:
+    cast_count: 0
+    last_cast: 1746122830532
+    last_earn: 0
+    cooldown_expiration: 1746122833032
   phase:
     cast_count: 14
     last_cast: 1744374747744
     last_earn: 1744374738055
-    cooldown_expiration: 1744374751494
+    cooldown_expiration: 0
   superbroom:
-    cast_count: 0
-    last_cast: 0
+    cast_count: 1
+    last_cast: 1746122875116
     last_earn: 0
     cooldown_expiration: 0
+  tornado:
+    cast_count: 1
+    last_cast: 1746119026236
+    last_earn: 1746118675130
+    cooldown_expiration: 1746119028736
   levitate:
     cast_count: 4
     last_cast: 1744224391381
@@ -367,21 +425,46 @@ spells:
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
-  gather:
-    cast_count: 7
-    last_cast: 1744308006474
+  meteor:
+    cast_count: 0
+    last_cast: 0
     last_earn: 0
-    cooldown_expiration: 1744308013974
+    cooldown_expiration: 0
+  superkill:
+    cast_count: 0
+    last_cast: 1746122835217
+    last_earn: 0
+    cooldown_expiration: 1746122835342
+  gather:
+    cast_count: 8
+    last_cast: 1746117352816
+    last_earn: 0
+    cooldown_expiration: 0
+  kill:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   superrepair:
     cast_count: 0
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
+  blast:
+    cast_count: 7
+    last_cast: 1746119014127
+    last_earn: 0
+    cooldown_expiration: 1746119019127
   phasebackup:
     cast_count: 0
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
+  torture:
+    cast_count: 0
+    last_cast: 1746117808257
+    last_earn: 0
+    cooldown_expiration: 1746117815757
   regenerate:
     cast_count: 3
     last_cast: 1743685445664
@@ -392,21 +475,36 @@ spells:
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
-  time:
-    cast_count: 22
-    last_cast: 1744374830594
+  curse:
+    cast_count: 0
+    last_cast: 0
     last_earn: 0
-    cooldown_expiration: 1744374833094
+    cooldown_expiration: 0
+  lift:
+    cast_count: 0
+    last_cast: 1746117721960
+    last_earn: 0
+    cooldown_expiration: 1746117722460
+  time:
+    cast_count: 24
+    last_cast: 1746119059592
+    last_earn: 0
+    cooldown_expiration: 1746119062092
   missile|4:
     cast_count: 47
-    last_cast: 1745980930723
+    last_cast: 1746119309461
     last_earn: 1744374809696
-    cooldown_expiration: 1745980930973
+    cooldown_expiration: 1746119309711
   blink|4:
     cast_count: 5
     last_cast: 1743685718941
     last_earn: 1743685710608
     cooldown_expiration: 0
+  wither:
+    cast_count: 1
+    last_cast: 1746117344413
+    last_earn: 1746032650952
+    cooldown_expiration: 1746117345663
 wands:
   default:
     item:
@@ -507,11 +605,12 @@ wands:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §6Wave§f (§3The Shusher§f)
+        display-name: §6Absorb§f (§3The Shusher§f)
         lore:
         - §o§aFor admins only
-        - §o§3Bound to ADMIN
-        - Knows 20 Spells
+        - §o§3Bound to Hamzah898933_
+        - Knows 22 Spells
+        - Has 6 Materials
         - §bManifestation
         - §bCost Reduction X
         - §bCooldown Reduction V
@@ -523,9 +622,10 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/3VSS4/TMBC22HYVtqsiOHDuAXFyVm3TrjfckBASB7jAvfJj0lhxbMuPrlbiF/ErmaShWgm4RJ5ovsd8MzeE3JDZI7eqIHP3aCGQ+cdPX798K0iRoPeGJyBzrnptC/JGOmcUdh0CqCyTdpZcbe7WBXkLTQMyHTwPSUsDB9c0ERK5Wt9VyDQSH7Qi7/i6VvW+rkvJGCsrtd+W4n7HSlYzqeRGye3+Hp0Il60isxQyFGSmJQote2djQho4HuOHbUEWCqIM2o82Xn12YTXajCtnzdM/LAWudI6DJQQvtUU48uMUwsAfqVuO9QkO0YMxQy6nQd/z1JLrng/yCJUupucJbIcEXvrgEurBxfZyMiCyQIV4kZh+S2dcIO8fGDBeMSarTUP/W6CJDsBfErG8B7L40cLqe5tjO9h6jSHF3MNfu3kx5L6vdhLYuipFxUS541yUQtRVuVf3rKqb9fYBMPfrce5Ifgkuu+ypMNp2P3dU8iNQaRzv6BGzgEBb4IYaOOmEB0J7HaM2gJ2+5RHO34nDa9l5JztINMAR8BAGRADPdaAxewgiONefnxP7+H7WPdUjJOke6EmHHOl5PbetS4IHDDTbNM28wPMJznt+2S0hvwE214U06wIAAA==
+        internal: H4sIAAAAAAAA/3VTPW/bMBC9Nk6gfDRBO3TO0HaiA33YkpVJU9G93YUjebYIUyJBUjFS5H93LeWPIkDQReId797D3Xu8AriC2Q4HmcAdiqCeqO0xkFOo4Xzj0PsEkkC91TEL5yh7NcSM2Q3kWiXhC6a1rJd1PRdVVc0LucznvFxU86quhBSZFPmyTGCmhBngtjeDj+AtbTb+MU/gWpIXTtmg4u3dd+Pu9wT+3gz6OYHPtF6TCK1FF5TQ1DqUavRwlj7E5pnF0MFFjxNkArfC+NA6kqPYw53lD2kCl9aZEDFIwiy4kRK4OYIKo42Db6sKxYqLRVrkyP4bJPAxDuDHnl4zZBPD+2kLxaouypTjfJGuq/gp0nmdyXpeFqIq6pLzdbFM4MJb0trDH+TeON5kNcPhSekmWzF0zuwcquElZxzFdrRNyrhWw/Zl0WRMaIPbJmebODO5pmAdoW4WTNOTClGaZsl65b3SFMtLZjv01FSH/xFuxawSW2vElkJTM0cbiiJOvVkaI4vKNVnG/GjJcWdM32T5ITqSZsUh3CqtD6fXGItT6gC0ZEH1MV2yYNyA0jRZFZffmcDRxeWPQ4B3WbTAOEhnrEWu6STR+d5e8OEH9r+xW9VxuUWbwCdhjJbx7o0Gb4xi1mtPYTJKEeF4ZPun/60aouviOQK84rw5un8vEVwcFIrVR2Q+8ljsT9WXp0fi4etewscFk8oFtn8y08iieyzYbqpiO2Pi85ptieypfzZgT3D9q6P7n93o43YB/gLZX78HjAMAAA==
     wand:
-      active_spell: wave
+      active_spell: absorb
+      active_material: grass
       path: master
       template: admin
       bound: true
@@ -535,20 +635,21 @@ wands:
       cost_reduction: 2.0
       cooldown_reduction: 1.0
       effect_bubbles: true
-      effect_color: 87e7a377c31f,87e7a377c31f,87e7a377c31f
+      effect_color: 87ac8bc4032a,87ac8bc4032a,87ac8bc4032a
       effect_particle_radius: 0.2
       effect_particle_offset: 0.3
       hotbar_count: 1.0
       icon: monster_eggs:2
       keep: true
-      spells: backup,blink|4,cage,cloak,gather,heal,levitate,missile|4,phase,phasebackup,pickpocket,regenerate,repair,superbroom,supergather,superregenerate,superrepair,time,virus,wave
+      materials: anvil:4,dirt,grass,torch:3,water,wood
+      spells: absorb@19,anvil@18,arrowrain|2,backup@0,blink|4@1,cloak@2,gather@3,heal@4,levitate@5,missile|4@6,phase@7,phasebackup@8,pickpocket@9,regenerate@10,repair@11,superbroom@12,supergather@13,superkill,superregenerate@14,superrepair@15,time@16,tornado@17
       protected: true
-      id: 534ce703-b37b-4aab-bb93-5d6739f028e6
-      owner: ADMIN
+      id: 389360ba-40f7-4030-91d9-63c7396bbf35
+      owner: Hamzah898933_
       owner_id: a09d9599-c777-3d52-b647-797cdc1dc256
       name: The Shusher
       description: For admins only
 open_wand: false
 gave_welcome_wand: false
 data:
-  sp: 84
+  sp: 125

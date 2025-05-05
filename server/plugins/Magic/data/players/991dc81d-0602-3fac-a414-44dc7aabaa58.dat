@@ -1,0 +1,19 @@
+id: 991dc81d-0602-3fac-a414-44dc7aabaa58
+name: leshaundinglenut
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: -161.46233398080182,69.0,245.05334648770196,world,-94.95007,7.800009
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells: {}
+open_wand: false
+gave_welcome_wand: false
+data: {}

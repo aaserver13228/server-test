@@ -1,8 +1,8 @@
 id: d86678db-a54b-3284-9ce7-5bba6bf45426
 name: Isiss
-last_cast: 0
+last_cast: 1746038280320
 cooldown_expiration: 0
-last_death_location: 619.1431735730486,11.015555072702202,-1096.3513578186555,mm,-42.150005,-2.5500002
+last_death_location: -57.65277635041868,4.785027703789236,312.3305611313198,mm2,59.700073,12.149993
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -12,8 +12,171 @@ brush:
   schematic: ''
   scale: 1.0
   erase: true
-undo: []
-spells: {}
+undo:
+- time_to_live: 0
+  name: Wound
+- time_to_live: 0
+  name: Wound
+- time_to_live: 0
+  name: Wound
+- time_to_live: 0
+  name: Wound
+- time_to_live: 0
+  name: Wound
+- time_to_live: 0
+  name: Wound
+spells:
+  phase:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  repair:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  backup:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  superbroom:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  levitate:
+    cast_count: 2
+    last_cast: 1746038123107
+    last_earn: 0
+    cooldown_expiration: 1746038130607
+  superregenerate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  gather:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  superrepair:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  wave:
+    cast_count: 2
+    last_cast: 1746038280320
+    last_earn: 1746038264342
+    cooldown_expiration: 1746038282820
+  phasebackup:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  cage:
+    cast_count: 2
+    last_cast: 1746038155837
+    last_earn: 1746038140015
+    cooldown_expiration: 1746038163337
+  wound:
+    cast_count: 0
+    last_cast: 1746038228037
+    last_earn: 0
+    cooldown_expiration: 1746038229287
+  regenerate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  cloak:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  heal:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  time:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  missile|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  pickpocket:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  blink|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  supergather:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+wands:
+  admin:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGGS
+      damage: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Wound§f (§3The Shusher§f)
+        lore:
+        - §o§aFor admins only
+        - §o§3Bound to Isiss
+        - Knows 20 Spells
+        - §bManifestation
+        - §bCost Reduction X
+        - §bCooldown Reduction V
+        - §3Invulnerability
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        internal: H4sIAAAAAAAA/3WSQY/TMBCFB7Zdhd1VERw494A4OaskTdKEU05InOFe2c6kserElu1shcS/3D/EpO1WKwEna0Z+8z4/zx3AHSyOfGwjWJrjiA6W373yPoIo4GA1DwhL3g5qjOCjNEa3dGvnsJ1kUGaEm/QxieATdh3KsLPcBSU17kzXeQxwkzxuaNJp8E618LmtynJbtSLmRS7iTVblcS1xGxdC8FJ0eZFnJZEIM40tLIKbMIKFkmS0GszoA43B/d5/zSK4b9FLp+wJ4/0349YnTL82o/71DyTHWzX5GYnEKzWSnObTK4TGF6sHTvUT7rxFrWF5nDEIwPLQw+3AZ3/SSuPD6wiyOYJ31plAhnjlXl0IxCTIwl89Lm1ptHHwpdp2WboRoq5QsP8WBHFAtNdIRj4g3P/scf2jn3w/Y32glPw04F+f83YOHruqrQTfxKLmRZznBcY8qZO440klRVcnRVdHcHt6uIdnweVhsk3ChFbj4XfepEzyPTKpDT80GdtTIuiaDeuR6yZnGp9UoF1pCjbQ9iiNpCmZ7bnHZns+LzMrZpU8WCMPGJqaOdwjbcesTROqLFeuSVPmJ4tOOGOGJs3O1cU03ZzL18r8pXWWFyyogdolO/InZJd/fOhNENxR8tMY4E1KO0R9Z6zl1x0A+ANAw0LYEwMAAA==
+    wand:
+      active_spell: wound
+      path: master
+      template: admin
+      bound: true
+      indestructible: true
+      undroppable: true
+      consume_reduction: 1.0
+      cost_reduction: 2.0
+      cooldown_reduction: 1.0
+      effect_bubbles: true
+      effect_color: 87f213bb98eb,87f213bb98eb,87f213bb98eb
+      effect_particle_radius: 0.2
+      effect_particle_offset: 0.3
+      hotbar_count: 1.0
+      icon: monster_eggs:2
+      keep: true
+      spells: backup@0,blink|4@1,cage,cloak@2,gather@3,heal@4,levitate@5,missile|4@6,phase@7,phasebackup@8,pickpocket@9,regenerate@10,repair@11,superbroom@12,supergather@13,superregenerate@14,superrepair@15,time@16,wave,wound
+      protected: true
+      id: ef8d8ba3-b9a5-445e-a090-fa08cbf905f9
+      owner: Isiss
+      owner_id: d86678db-a54b-3284-9ce7-5bba6bf45426
+      name: The Shusher
+      description: For admins only
 open_wand: false
 gave_welcome_wand: false
-data: {}
+data:
+  sp: 13

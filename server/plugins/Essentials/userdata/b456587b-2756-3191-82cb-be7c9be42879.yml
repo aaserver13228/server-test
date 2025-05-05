@@ -16,15 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1745595095273
-  login: 1745590628294
+  logout: 1746038806329
+  login: 1746037477042
 money: '0'
 last-account-name: jasonvoorreal
 logoutlocation:
+  world: 36af6b2a-0c96-46dd-8690-67a0aab0cdb2
+  world-name: lobby
+  x: 224.37
+  y: 72.0
+  z: 1335.5
+  yaw: -91.19999694824219
+  pitch: 5.699999809265137
+lastlocation:
   world: 1e229015-d072-4f98-b58b-e93b83a810cb
   world-name: mm2
-  x: 65.0
-  y: 1.0
-  z: 274.0
-  yaw: 0.0
-  pitch: 0.0
+  x: -154.02260424247044
+  y: 4.0
+  z: 323.27830737052074
+  yaw: 149.6998291015625
+  pitch: 1.8000109195709229

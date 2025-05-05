@@ -1,8 +1,8 @@
 id: 8bf820a9-c6bc-3538-ab75-1d5e41de239b
 name: Adam8989333
-last_cast: 1745950957671
+last_cast: 1746120778109
 cooldown_expiration: 0
-last_death_location: -100.07012000848238,4.0,340.30000001192093,mm2,-255.90009,5.8500004
+last_death_location: 0.0,-212.17589115904903,0.0,OneBlock,-23.550003,81.450005
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -392,6 +392,11 @@ spells:
     last_cast: 1743020514185
     last_earn: 1743020514185
     cooldown_expiration: 1743020634185
+  spellshop:
+    cast_count: 1
+    last_cast: 1746120778109
+    last_earn: 0
+    cooldown_expiration: 0
   frost:
     cast_count: 1
     last_cast: 1743098346396
@@ -413,8 +418,8 @@ spells:
     last_earn: 1743020608286
     cooldown_expiration: 1743020638286
   pickpocket:
-    cast_count: 61
-    last_cast: 1745950957671
+    cast_count: 62
+    last_cast: 1746120355395
     last_earn: 0
     cooldown_expiration: 0
   lightning:
@@ -745,7 +750,7 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/3WSz47TMBDGLba7CltUBAfOPSBOzipO0ibhFC68ANwr/5k0VpzYsp1dIfF2vBiTtltWAk7WjDzf9/nnuSfknqye+KQScmufJvBk/UXxsW7qpiiKhCQRRmd4BHLL1ainhLyX1hqFdw8e1CyjthO5YQ9ZQj5A14GMB8d91NLAwXZdgEhusodF6SR/0Ip8rEVX5xlvUrkXMi12RZ1yUe1SpnZQMgV50QjMI+w8KbKKfoaErLREo81opxBRBo7H8DlPyFpBkF67U4y3X63fnmKGrZ3Mj39E8lzpOSyRcHijJxxHfXyFMPBs9YZj/QiH4MAYcu+0HJyVA0RM4Xjsyd3IlxAoIG2ILznkC4fXztuIrnANv7nEELNAn3A1urSlNdaTT3UleJVBs5cS6H8LDDEAuCuXiY9A1t972H7r59Avsd4hqjCP8NcPvVroQ1NCLhjiZlWVlnlRpA3PVFrJjLE921cs6xJyd3p9IL8El8Ps2owKo6fhZ9kyKo3lQ5vTI8IA3xa0B27akhp41BF3pd3RUYegDeD1PXU9D9BW5/MiV9M/WNuGejgCbscyyzKsHNe+ZYyG2YEX3tqxZfm5upiy4ly+nCyfW+fxHY16xPYeSfc2Cu6R9DzFC4w1bpe3zvHr1xPyG86hdU4QAwAA
+        internal: H4sIAAAAAAAA/3WSzY7TMBSFLaYzClNUBAvWXSBWzijOT5uwChteAPaVf24aK05s2c6MkHg7XoybtlNGAlbWtXzP+XzuvSfknqye+KQScmufJvBk/UXxsW7qpiiKhCQRRmd4BHLL1ainhLyX1hqFbw8e1CyjthO5YQ9ZQj5A14GMB8d91NLAwXZdgEhusodF6SR/0Ip8rEVX5xlvUrkTMi2qok652FcpUxWUTEFeNAJ5hJ0nRVbRz5CQlZZotBntFCLKwPEYPucJWSsI0mt3wnj71frtCTNs7WR+/APJc6XnsCBh80ZP2I76+Ath4NnqDcf6EQ7BgTHk3mk5OCsHiEjheOzJ3cgXCBSQNsSXOeRLDq+dtxFd4Qq/uWCIWaBPuBpdrqU11pNP9V7wfQbNTkqg/y0QYgBw11wmPgJZf+9h+62fQ79gvcOowjzCXxN6taTfdZlSZZenVabytBRKpjxT+7RgrIF8BzgOlpC70+8D+SW4HGbXZlQYPQ0/y5ZRaSwf2pweMQzwbUF74KYtqYFHHXFX2oqOOgRtAJ/vqOt5gHZ/Pi9yNf0Ta9tQD0fA7Vh6WYaV49q3jNEwO/DCWzu2LD9XF1NWnMuXneXz1bm9olGPeL3DpHsbBfeY9DzFSxhr3C5vnePX0RPyG9KeAvQQAwAA
     wand:
       active_spell: pickpocket
       path: master
@@ -765,7 +770,7 @@ wands:
       keep: true
       spells: backup@0,blink|4@1,cloak@2,gather@3,heal@4,levitate@5,missile|4@6,phase@7,phasebackup@8,pickpocket@9,regenerate@10,repair@11,superbroom@12,supergather@13,superregenerate@14,superrepair@15,time@16
       protected: true
-      id: e94e2b15-1177-4233-9a0d-7c011616710f
+      id: ff0dd4f2-50d2-4bdc-a0d7-3119e26e5381
       owner: Adam8989333
       owner_id: 8bf820a9-c6bc-3538-ab75-1d5e41de239b
       name: The Shusher
@@ -795,7 +800,7 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/2VUwY7cNgxVk9mtm100aYv0nEOOnIUl2zv2TXvosS1QtMhxQNu0LawtCZImMy36Z/250rOz6CK9WJQoPT6Sj34jxBuxOaLtM/GWhoG6tPcYkulmEt/8/uunX/YPf/z2kIks0eJnTCSuF4yJQiauT36/4ElcqSq/yzPxgw8uMYBxdu+nP6PpcBav87uaX7ujpbA3vfhYt0Otcmy23X3bbYuqqLfY7qqt7CsqZU+qaNpMbEznrMhGN/d7PFEmbnqKXTB+RRfvPnpM04efcTTdh09n8j9+QX4fsDeHuMZXmXj/ghqd/OwiW/FCbrOC/ZfWLaeVzEIx4eLFd/JuV1ZNldeNLMvyJ8lot5dYnZtdEBvrLBN8/yWBzh1sEq/VWppXa+YDDhI7ardS0W7LuXLmddVum7KTdVO2JJHBr6OneY5f/YMhuGNAY3UO7UwxGjtqyaaxj1rx6lpdQOvcoktoA2E36Qq6yXl9D+fgFM5Yege9iRgWXa+GYccYuJO6Ae6pljmQTWjHmbSUMOBiZoNBSwWDCXxWwDDjQmliPsTn5bqPU4srn4o3Z2L3MLjQ8fUdDMHFpGUNI6YnZwNjIIs9aZWz6Y5aSZgw9GS1UmwlrQqYCGetSmB0jqMqNj6jVvcwm3FKdkVSO1iMZZiaVy7JTH8XWjWwcDs5X13ksBxYebqQ4CfG0YWCVbdMbtFFAd6Z6KwuSrZCwhmC6x4pQTi0LQXzF0FkPbVMIUGcuHr8DVxxiN7Zkb2JK71AwhESlw1SwO6RmcHRpIkCHLnwLMfbyaUWw7MI5CqCG/YE5z1yN8UmhQOr5u0LYa7Vvkjy6jwv4uahx6Vu6qYoCr7Lwgw0EnvwPAabp7n7n/TdMERKKxS/umpXRs/xvjWWB4ltDvmCxvcvaeC8Nu1C+hb59DPtz0oSX186ykPzSOSfn28s60Nsnibx1clffglC/AuLNZxZXwQAAA==
+        internal: H4sIAAAAAAAA/2VUwY7bNhBlE2/iZBdN0iI555DjeCGRsiXduIce2wJBihyNkTSSiJVIgqRjt+if9ec68nrRRXqRhhzxzeObN3otxGuxOqLt1uIN9T21ae8xJNNOJF59+f3rb/u7Pz7frcU60ewnTCRezBgThbV4cfL7GU/iSm6z22wtfvbBJQYwzu79+Gc0LU7ieXZb8Wl3tBT2phOfqqavZIb1pt017UZtVbXBptxu8m5LRd6RVHWzFivTOivWg5u6PZ5oLa47im0wfkEXbz95TOPHX3Ew7cevZ/IfviO/D9iZQ1zqy7V4/4QanfzkIkfxQm61gP13rRu+VjIzxYSzF+/y27LYZarYlXWRVb/kjHZzqdW6yQWxss4ywfffE2jdwSbxXC7SPFtu3uz6grKt3HSF6jdFVXabqmubTVZnTVViW/ZdzqpGT9MUf/gHQ3DHgMbqDJqJYjR20DmHxt5ryW/XaAWNc7MuoAmE7ai30I7O6x2ci1M4Y+kSOhMxzLpaAsOJIXAndQ3cU51nQDahHSbSeQ49zmYyGHQuoTeB9xT0E86URuZDvF8s6zg2uPDZ8uJMbAe9Cy1/XkIfXEw6r2DA9JCsYQhksSMtMw7dUcscRgwdWS0lR0lLBSPhpGUBjM515JaDb6jlDiYzjMkuSLKE2ViGqfjNkkz0t9KyhpnbyffVKoP5wM7TKgc/Mo5WEhbfMrlZKwXemeisVgVHIeEEwbX3lCAcmoaC+Ysgsp8appAgjqwePwMrDtE7O3A2sdIzJBwgsWyQArb3zAyOJo0U4MjCsx1vRpcaDI8myBcTXHMmOO+RuylWKRzYNW+eGHNR+2LJq/O8iOu7DueqrmqlFH/Lxgw0EGfwPAarh7n7n/Vd30dKCxSfumoWRo/1fjSWB4ljLvmExk9PaeC0NO1C+gZ59xvtz04SLy8d5aG5J/KPx1eW/SFWD5P47OQvvwQh/gUZ9CoPXwQAAA==
     wand:
       active_spell: gatling
       path: master
@@ -819,12 +824,12 @@ wands:
       protection_fire: 0.8
       protection_explosions: 0.8
       spells: arrowrain@0,blessing@1,blink@2,blob@3,boom@4,breach@5,chop@6,counterspell@7,disarm@8,disintegrate@9,emp@10,entangle@11,familiar@12,fire@13,flamethrower@14,flashbang@15,fling@16,force@17,frost@18,gatling@19,grenade@20,grow@21,harden@22,hat@23,heal@24,laser@25,lava@26,lightning@27,mine@28,missile|3@29,monster@30,music@31,phase@32,platform@33,poison@34,portal,rocket,rubberize,sandblast,shell,shrink,sponge,stream,tag,tent,tracking,wither,wound
-      id: faf1aceb-12e7-41d8-a85b-94c1894be1a2
+      id: b6f4e052-d43f-487d-8dcb-090b87ac7fd1
       owner: Adam8989333
       owner_id: 8bf820a9-c6bc-3538-ab75-1d5e41de239b
       name: Wand
       description: $path Magic Wand
-      xp_timestamp: 1.745950891444E12
+      xp_timestamp: 1.746034679408E12
 open_wand: false
 gave_welcome_wand: false
 data:

@@ -1,0 +1,105 @@
+Default-Category: None
+Category:
+  None:
+    Whitelist: false
+    Items: []
+    Modules: []
+    Item-Collection: []
+    Reflection-boolean:
+      Enabled: false
+      Methods: []
+    Display-Name: 'Null'
+  Others:
+    Whitelist: false
+    Items: []
+    Modules:
+    - Armor
+    - Weapons
+    - Tools
+    - Foods
+    - Potions
+    - Blocks
+  Armor:
+    Whitelist: true
+    Modules: []
+    Items:
+    - GOLDEN_HELMET
+    - GOLDEN_CHESTPLATE
+    - GOLDEN_LEGGINGS
+    - GOLDEN_BOOTS
+    - DIAMOND_HELMET
+    - DIAMOND_CHESTPLATE
+    - DIAMOND_LEGGINGS
+    - DIAMOND_BOOTS
+    - CHAINMAIL_HELMET
+    - CHAINMAIL_CHESTPLATE
+    - CHAINMAIL_LEGGINGS
+    - CHAINMAIL_BOOTS
+    - IRON_HELMET
+    - IRON_CHESTPLATE
+    - IRON_LEGGINGS
+    - IRON_BOOTS
+  Weapons:
+    Whitelist: true
+    Modules: []
+    Items:
+    - WOODEN_SWORD
+    - STONE_SWORD
+    - IRON_SWORD
+    - GOLDEN_SWORD
+    - DIAMOND_SWORD
+    - WOODEN_AXE
+    - STONE_AXE
+    - IRON_AXE
+    - GOLDEN_AXE
+    - DIAMOND_AXE
+    - BOW
+    - TRIDENT
+    - CROSSBOW
+  Tools:
+    Whitelist: true
+    Modules: []
+    Items:
+    - WOODEN_PICKAXE
+    - WOODEN_AXE
+    - WOODEN_SHOVEL
+    - WOODEN_HOE
+    - GOLDEN_PICKAXE
+    - GOLDEN_AXE
+    - GOLDEN_SHOVEL
+    - GOLDEN_HOE
+    - STONE_SHOVEL
+    - IRON_SHOVEL
+    - DIAMOND_SHOVEL
+    - STONE_PICKAXE
+    - IRON_PICKAXE
+    - DIAMOND_PICKAXE
+    - STONE_AXE
+    - IRON_AXE
+    - DIAMOND_AXE
+    - STONE_HOE
+    - IRON_HOE
+    - DIAMOND_HOE
+  Foods:
+    Whitelist: true
+    Modules: []
+    Items: []
+    Reflection-boolean:
+      Enabled: true
+      Methods:
+      - isEdible
+  Potions:
+    Whitelist: true
+    Modules: []
+    Items:
+    - POTION
+    - SPLASH_POTION
+    - LINGERING_POTION
+  Blocks:
+    Whitelist: true
+    Modules: []
+    Items: []
+    Reflection-boolean:
+      Enabled: true
+      Methods:
+      - isBlock

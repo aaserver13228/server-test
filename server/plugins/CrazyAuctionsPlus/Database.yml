@@ -1,0 +1,23 @@
+Items:
+  '1':
+    Owner: Adam8989333:8bf820a9-c6bc-3538-ab75-1d5e41de239b
+    Price: 1000.0
+    ShopType: SELL
+    Time-Till-Expire: 1746888631215
+    Full-Time: 1746888631215
+    UID: 1
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16454
+  '2':
+    Owner: Adam8989333:8bf820a9-c6bc-3538-ab75-1d5e41de239b
+    Price: 900.0
+    ShopType: SELL
+    Time-Till-Expire: 1746903631115
+    Full-Time: 1746903631115
+    UID: 2
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8262

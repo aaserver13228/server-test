@@ -1,0 +1,13 @@
+wins: 0
+losses: 0
+kills: 0
+deaths: 0
+pareffect: none
+proeffect: none
+glasscolor: none
+winsound: none
+killsound: none
+taunt: none
+uuid: 592d4b49-aa65-37fe-bebf-09bf5a3f63e2
+player_name: ninja
+xp: 0

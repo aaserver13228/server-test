@@ -63,14 +63,6 @@ data:
     name: haha1243
     destroyedBeds: 0
     deaths: 0
-  7dc190a7-211d-3c2e-a04d-b92de0d2fd31:
-    kills: 0
-    wins: 1
-    score: 50
-    loses: 0
-    name: abdullah
-    destroyedBeds: 0
-    deaths: 0
   8b45f39c-cb14-3b9b-9c53-f36423fea3b1:
     kills: 0
     wins: 0
@@ -141,5 +133,13 @@ data:
     score: 0
     loses: 0
     name: Nari
+    destroyedBeds: 0
+    deaths: 0
+  7dc190a7-211d-3c2e-a04d-b92de0d2fd31:
+    kills: 0
+    wins: 1
+    score: 50
+    loses: 0
+    name: abdullah
     destroyedBeds: 0
     deaths: 0

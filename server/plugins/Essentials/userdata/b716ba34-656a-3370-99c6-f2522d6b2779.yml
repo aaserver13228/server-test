@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1745952422322
-  login: 1745952023873
+  logout: 1746208658854
+  login: 1746207280772
 money: '1000'
 last-account-name: Nari
 logoutlocation:
   world: 854cd819-ca61-441a-9eb8-86ecddeac9cb
   world-name: world
-  x: -162.94411183384878
-  y: 63.0
-  z: 179.2434871720358
-  yaw: 52.25006103515625
-  pitch: 41.54999542236328
+  x: -223.43731694835404
+  y: 64.0
+  z: 176.22663197511912
+  yaw: -116.050048828125
+  pitch: 90.0
 lastlocation:
   world: 854cd819-ca61-441a-9eb8-86ecddeac9cb
   world-name: world

@@ -1,0 +1,131 @@
+#Here you can find all the setting from a shop section!
+
+#All options that you can use:
+
+# Option 'name-config': is the name that is be used in the configs for the current shop section. If you change this the names that are used in the config for the current shop will apply after you reload the plugin with /sreload.
+# Option 'enable': means if you want to enable this shop section in the main shop.
+# Option 'material': means what type of block/item you want to set the shop section to.
+# Option 'displayname': is the name of the item in the main shop menu. (You can use all color codes, listed here: https://www.digminecraft.com/lists/color_list_pc.php)
+# Option 'place': means in what slot you want to place the item in the main shop menu.
+# Option 'potion/glow": if set to true the potion has a glow effect, if set to false the potion has none potion effect (material has to be "potion" for this effect to work)
+# Option 'lore': this option makes it possible for you to create custom lore on a item (Any minecraft color codes can be used)
+
+#Here is an example customized shop section called "Wood":
+
+# Wood:
+#   enable: true
+#   material: "oak_log"
+#   displayname: "&8Wood"
+#   place: 30
+#   lore:
+#   - "Hey,"
+#   - "this is a example lore."
+
+#Here is an example customized potion shop section called "Potions":
+
+# Potions:
+#   enable: true
+#   material: "potion"
+#   potion-glow
+#   displayname: "&dPotions"
+#   place: 25
+
+ShopSections:
+
+  Blocks:
+    enable: true
+    material: "GRASS_BLOCK"
+    displayname: "&l&2Blocks"
+    place: 19
+
+  Decoration:
+    enable: true
+    material: "TUBE_CORAL"
+    displayname: "&l&9Decoration"
+    place: 30
+
+  Dyes:
+    enable: true
+    material: "CYAN_DYE"
+    displayname: "&l&2Dyes"
+    place: 23
+
+  Enchanting:
+    enable: true
+    material: "ENCHANTED_BOOK"
+    displayname: "&l&dEnchanting"
+    place: 22
+    lore:
+      - "&l&5Gear up with enchantments!"
+
+  Farming:
+    enable: true
+    material: "WHEAT"
+    displayname: "&l&aFarming"
+    place: 20
+
+  Food:
+    enable: true
+    material: "COOKED_BEEF"
+    displayname: "&l&6Food"
+    place: 25
+
+  Mobs:
+    enable: true
+    material: "GUNPOWDER"
+    displayname: "&l&7Mobs"
+    place: 21
+
+  Music:
+    enable: true
+    material: "MUSIC_DISC_STRAD"
+    displayname: "&l&6Music"
+    place: 14
+
+  Ores:
+    enable: true
+    material: "IRON_INGOT"
+    displayname: "&l&fOres"
+    place: 13
+
+  Others:
+    enable: true
+    material: "SADDLE"
+    displayname: "&l&cOthers"
+    place: 24
+
+  Potions:
+    enable: true
+    material: "POTION"
+    displayname: "&l&dPotions + Tipped Arrows"
+    potion-glow: true
+    place: 40
+
+  Redstone:
+    enable: true
+    material: "REDSTONE"
+    displayname: "&l&cRedstone"
+    place: 32
+    lore:
+      - "&l&4For all redstone geeks!"
+
+  Spawners:
+    enable: true
+    material: "SPAWNER"
+    displayname: "&l&8Spawners"
+    place: 31
+
+  Workstations:
+    enable: true
+    material: "GRINDSTONE"
+    displayname: "&l&7Workstations"
+    place: 12
+    lore:
+      - "&l&8Give your villager a job,"
+      - "&l&8or use it for your own."
+
+  SpawnEggs:
+    enable: false
+    material: "BAT_SPAWN_EGG"
+    displayname: "&l&8SpawnEggs"
+    place: 4
