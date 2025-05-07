@@ -12,7 +12,7 @@
 		"eaglercraft_opts.js"
 	],
 	"removeScripts": [],
-	"injectInOffline": [],
+	"inujectInOffline": [],
 	"mavenURL": "https://repo1.maven.org/maven2/",
 	"mavenLocal": "/tmp/teavm",
 	"generateOfflineDownload": true,

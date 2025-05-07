@@ -1,6 +1,6 @@
 id: b35e4648-3bf4-3ee5-a1df-a82db4f06500
 name: Reggie
-last_cast: 1746124029131
+last_cast: 1746533872451
 cooldown_expiration: 0
 last_death_location: -165.51963392880927,86.0,123.91109865975638,world,175.00043,13.950009
 fall_protection_count: 0
@@ -15,421 +15,29 @@ brush:
 undo:
 - world: world
   time_to_live: 0
-  name: Phase
+  name: Blaster
+- world: world
+  time_to_live: 0
+  name: Blaster
+- world: world
+  time_to_live: 0
+  name: Blaster
 - time_to_live: 0
-  name: Magic Missile
+  name: Blaster
 - time_to_live: 0
-  name: Magic Missile
+  name: Blaster
 - time_to_live: 0
-  name: Magic Missile
+  name: Blaster
 - time_to_live: 0
-  name: Magic Missile
+  name: Blaster
 - time_to_live: 0
-  name: Magic Missile
+  name: Blaster
 - time_to_live: 0
-  name: Magic Missile
+  name: Blaster
 - time_to_live: 0
-  name: Magic Missile
+  name: Blaster
 - time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- time_to_live: 0
-  name: Magic Missile
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- world: world
-  time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: Alter
-- time_to_live: 0
-  name: Alter
-- time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,69,239,world|17:1
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:1
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:2
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,69,239,world|17:2
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:3
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:4
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:5
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:6
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:7
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:8
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:9
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:10
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:11
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:12
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:13
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:14
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:15
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:0
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:1
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:2
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:3
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:4
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:5
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:6
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:7
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:8
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,69,239,world|17:3
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,69,239,world|17:4
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,69,239,world|17:5
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,69,239,world|17:6
-  time_to_live: 0
-  name: Alter
-- time_to_live: 0
-  name: Alter
-- time_to_live: 0
-  name: Alter
-- time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -168,87,120,world|5:0
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -168,87,120,world|5:1
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -168,87,120,world|5:2
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -168,87,120,world|5:3
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -168,87,120,world|5:4
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -168,87,120,world|5:5
-  time_to_live: 0
-  name: Alter
-- time_to_live: 0
-  name: Alter
-- time_to_live: 0
-  name: Alter
-- time_to_live: 0
-  name: Alter
-- time_to_live: 0
-  name: Alter
-- time_to_live: 0
-  name: Alter
-- time_to_live: 0
-  name: Alter
-- time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,87,120,world|5:0
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,87,120,world|5:1
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,87,120,world|5:2
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,87,120,world|5:3
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,87,120,world|5:4
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,87,120,world|5:5
-  time_to_live: 0
-  name: Alter
-- time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -166,88,120,world|5:0
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -166,88,120,world|5:1
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -167,88,120,world|5:0
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -167,88,120,world|5:1
-  time_to_live: 0
-  name: Alter
-- time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -167,88,120,world|5:2
-  time_to_live: 0
-  name: Alter
-- time_to_live: 0
-  name: Alter
-- time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -166,88,120,world|5:2
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -167,88,120,world|5:3
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -166,88,120,world|5:3
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -167,88,120,world|5:4
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -166,88,120,world|5:4
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -167,88,120,world|5:5
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -166,88,120,world|5:5
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:9
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,69,239,world|17:7
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:10
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,69,239,world|17:8
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,69,239,world|17:9
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,69,239,world|17:10
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:11
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,70,239,world|17:12
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,69,239,world|17:11
-  time_to_live: 0
-  name: Alter
-- world: world
-  blocks:
-  - -165,69,239,world|17:12
-  time_to_live: 0
-  name: Alter
+  name: Blaster
 - time_to_live: 0
   name: Blaster
 - time_to_live: 0
@@ -440,6 +48,272 @@ undo:
 - world: world
   time_to_live: 0
   name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- world: world
+  time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- world: world
+  time_to_live: 0
+  name: Blaster
+- world: world
+  time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- world: world
+  time_to_live: 0
+  name: Blaster
+- world: world
+  time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- world: world
+  time_to_live: 0
+  name: Blaster
+- world: world
+  time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- world: world
+  time_to_live: 0
+  name: Blaster
+- world: world
+  time_to_live: 0
+  name: Blaster
+- world: world
+  time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blind
+- world: world
+  time_to_live: 0
+  name: Blind
+- world: world
+  time_to_live: 0
+  name: Blind
+- world: world
+  time_to_live: 0
+  name: Blind
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- world: world
+  time_to_live: 0
+  name: Blaster
+- world: world
+  time_to_live: 0
+  name: Blaster
+- world: world
+  time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Blaster
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
+- time_to_live: 0
+  name: Magic Missile
+- world: world
+  time_to_live: 0
+  name: Magic Missile
 spells:
   phase:
     cast_count: 1
@@ -462,9 +336,9 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   blind:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
+    cast_count: 3
+    last_cast: 1746450331918
+    last_earn: 1746450324954
     cooldown_expiration: 0
   tornado:
     cast_count: 4
@@ -477,10 +351,10 @@ spells:
     last_earn: 0
     cooldown_expiration: 1746118857400
   anvil:
-    cast_count: 19
-    last_cast: 1746123722769
+    cast_count: 21
+    last_cast: 1746533872451
     last_earn: 0
-    cooldown_expiration: 1746123727769
+    cooldown_expiration: 1746533877451
   superregenerate:
     cast_count: 0
     last_cast: 0
@@ -532,15 +406,15 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   pickpocket:
-    cast_count: 8
-    last_cast: 1746123125119
+    cast_count: 15
+    last_cast: 1746533683541
     last_earn: 0
     cooldown_expiration: 0
   missile|4:
-    cast_count: 0
-    last_cast: 1746118813802
-    last_earn: 0
-    cooldown_expiration: 0
+    cast_count: 23
+    last_cast: 1746533830096
+    last_earn: 1746533826399
+    cooldown_expiration: 1746533830346
   supergather:
     cast_count: 2
     last_cast: 1746118995127
@@ -552,10 +426,10 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   blaster:
-    cast_count: 2
-    last_cast: 1746124029131
+    cast_count: 29
+    last_cast: 1746533670683
     last_earn: 0
-    cooldown_expiration: 1746124029381
+    cooldown_expiration: 1746533670933
   alter:
     cast_count: 64
     last_cast: 1746123745867
@@ -570,7 +444,7 @@ wands:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §6Blaster§f (§3The Shusher§f)
+        display-name: §6Anvil§f (§3The Shusher§f)
         lore:
         - §o§aFor admins only
         - §7Bedrock
@@ -587,9 +461,9 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/3VTyW7bMBBlEidVFiRoDz37UPREBSKtLT3p1A9oeze4jGzClEiQVIIC/fiOvBQGgl6EmdHMe9K8N3eE3JHFmxh1Rp6ESuYV1oNIEIyw5IMEHZzaZSRLMHiLdXIt9GBGrLi3EcLaaPJFrioo67LNV7Iv8xVAlQum+1y0XMuyL+qqKDKyMMqN5HFwY0T4NWw28RvPyL2GqILxyeDbp+8uLPcEcelG+zsjn6HvQaW1FyEZZWEdhDZTJFfFMw4vvEhbcjOIGTIjj8rFtA6gJ7WHu+LPSHzrg0uIAZosUpggIw9HUOWsC+Rr27CmrbnoVVPT/yYZ+Yg/EKcBzhnYzHA5b0G0Qje1rPJetTovmeC5rJoyZyCqhvfA63qVkZvowdp4cSksfnLHqBjNvO+uwOjV2K6lUqjd5LsXKu3+vzpWYGhGvX/u/pQdY1RZJ3Yd43SDG5h7VnQLwnaspBZeTZohWUUHE6OxMM/U1G9FxGpzCI40rKXeqJ1HmSF17IUG2AAqOwPwAjMvTOg4o3HyEGRwbug4P2RHbr46pOeT5al0GK9oMgOWa5pcGIV2HW9Qh61LUgTUYRoTuWDohmlEx3kvpIWTWtd7p5GbH2gZg/kn5ZzVWHynwzuzuL6PkGaz4OqvJdL888AjLhQixghwRvZwvIG9THgA9mStI7ScJHbHU/vt6Vbi2bEsdgD+1LEYxQDk/tcWlj+3U8R9EfIXSgCQJnUDAAA=
+        internal: H4sIAAAAAAAA/3VTuW7cMBClY9mRD9hIitQuglSUIereVKryAUn6BY/RLrGUSJCUjQD++Iz2CBYwUmlmNPMeOe/xlpBbkrzySaXkkcuoX2A98ghec0M+ClDeyl1K0gijM1gnV1yNesKKfZ3Ar7UiX0VZQ9VUXVaKocpKgDrjTA0Z7wolqiFv6jxPSaKlncjDaKeA8GvYbML3IiV3CoL02kWNfx9/WP+0JwhPdjJ/UvIFhgFkXDvuo5YG1p4rPQdymT/jcOJ43JLrkS+QKXmQNsS1BzXLPdxl8YzEN87biBigSBL9DCm5P4JKa6wn37qWtV1T8EG2Df1vkpJPeIEwj3DOwBaGD8sWylUjsFdkdcmGrFJ1ma1E3WYrCUp2TNWtFCm5Dg6MCRcJN3jknlE+6WXffY7RizZ9RwWXu9n1KyrM/l49yzHUk+qL/Xf3VvWMUWks3/WsoBvcwdJV0i1w07OKGnjRcQFlNR11CNrAMtNQt+UBq+0hOBKxjjotdw6FhtizFfWwAdR2AShyzBzXvi8YDbMDL7y1Y18Uh+zIXZSH9HyyOpUO4zWNesRyQ6P1E1e2L1pUYmuj4B6VmKdILhj6YZ7Qc85xYeCk19Xea+T6J5pGY/5ZWmsUFt8p8c4udhgCxMUuJeIIpPnnggdcKQSMEeCM7P74CvZCod0XVbD5CCxmgb3h1Hxzeivh7LEkOwB36kgmPgK5+72Fp1/bOeC2CPkLa8y8cHUDAAA=
     wand:
-      active_spell: blaster
+      active_spell: anvil
       active_material: bedrock
       path: master
       template: admin
@@ -607,9 +481,9 @@ wands:
       icon: monster_eggs:2
       keep: true
       materials: bedrock
-      spells: alter@1,animate@0,anvil@8,backup@9,blaster@10,blind,blink|4@11,cloak@12,gather@13,heal@14,levitate@15,missile|4@16,phase@17,phasebackup@18,pickpocket@19,regenerate@20,repair@21,superbroom@22,supergather@23,superregenerate@24,superrepair@25,time@26,tornado@27
+      spells: alter@1,animate@0,anvil@8,backup@9,blaster@10,blind@2,blink|4@11,cloak@12,gather@13,heal@14,levitate@15,missile|4@16,phase@17,phasebackup@18,pickpocket@19,regenerate@20,repair@21,superbroom@22,supergather@23,superregenerate@24,superrepair@25,time@26,tornado@27
       protected: true
-      id: a8ad76b5-fc8d-41a2-b574-1ea572fe2663
+      id: 396b862b-531f-4d53-9b57-9cedc81d57cb
       owner: Reggie
       owner_id: b35e4648-3bf4-3ee5-a1df-a82db4f06500
       name: The Shusher
@@ -617,4 +491,4 @@ wands:
 open_wand: false
 gave_welcome_wand: false
 data:
-  sp: 58
+  sp: 79

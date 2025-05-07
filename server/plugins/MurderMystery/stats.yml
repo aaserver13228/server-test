@@ -27,15 +27,15 @@ a09d9599-c777-3d52-b647-797cdc1dc256:
 d86678db-a54b-3284-9ce7-5bba6bf45426:
   playername: Isiss
   next_level_exp: 1000
-  contribution_detective: 1
+  contribution_detective: 221
   level: 2
   deaths: 39
-  games_played: 79
-  exp: 790
+  games_played: 80
+  exp: 800
   loses: 6
-  contribution_murderer: 68
+  contribution_murderer: 415
   kills: 39
-  wins: 28
+  wins: 29
   highest_score: 1200
 8b45f39c-cb14-3b9b-9c53-f36423fea3b1:
   playername: jellybean21
@@ -55,10 +55,10 @@ d86678db-a54b-3284-9ce7-5bba6bf45426:
   playername: HeLLo
   next_level_exp: 1000
   level: 2
-  deaths: 48
-  games_played: 92
-  exp: 920
-  contribution_detective: 135
+  deaths: 49
+  games_played: 93
+  exp: 930
+  contribution_detective: 1
   loses: 3
   contribution_murderer: 1
   highest_score: 1265
@@ -122,16 +122,16 @@ b716ba34-656a-3370-99c6-f2522d6b2779:
   kills: 1
 d0a47a7b-a7d5-3748-819f-ea87e6e3bd5e:
   playername: haha1243
-  next_level_exp: 354
-  contribution_detective: 194
-  level: 1
-  deaths: 5
-  contribution_murderer: 578
-  games_played: 11
-  exp: 110
-  wins: 4
-  highest_score: 750
-  kills: 1
+  next_level_exp: 0
+  contribution_detective: 0
+  level: 0
+  deaths: 0
+  contribution_murderer: 0
+  games_played: 0
+  exp: 0
+  wins: 0
+  highest_score: 0
+  kills: 0
 7e4428a8-63f4-377f-8710-bc9faa02dd2a:
   playername: the_milk_man
   next_level_exp: 354
@@ -162,6 +162,14 @@ d0a47a7b-a7d5-3748-819f-ea87e6e3bd5e:
   highest_score: 0
 0ed28c56-14e1-3a07-bf88-0c465613ec7f:
   playername: Reggie11
+  next_level_exp: 354
+  contribution_detective: 222
+  level: 1
+  contribution_murderer: 288
+  games_played: 1
+  kills: 1
+  exp: 10
+  wins: 1
 ef1df7cc-78dd-3734-9808-2c8bb9908cfb:
   playername: i_see_you_
 6bcf3174-1378-34b3-989d-9baf660926ef:
@@ -241,3 +249,11 @@ c1b57c04-ef64-30b8-8327-43163adcd1ba:
   playername: leshaundinglenut
 37485198-c8dc-3bb5-84f2-ed5a34944268:
   playername: kignrobby101
+9bb4197b-9d0b-3c42-a5a8-ef6f67bfe58e:
+  playername: kev
+11d15640-f289-3dc6-94c7-1379b46e1228:
+  playername: KINGROBBY10W2
+7ed1feb3-aac3-381f-b682-9be33533bc53:
+  playername: Sixtailsasuke27
+45e7682a-fd91-3bd5-8e89-b39dea40db51:
+  playername: mariamboii

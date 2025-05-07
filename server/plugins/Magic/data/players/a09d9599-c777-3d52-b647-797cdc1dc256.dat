@@ -1,6 +1,6 @@
 id: a09d9599-c777-3d52-b647-797cdc1dc256
 name: Hamzah898933_
-last_cast: 1746122908418
+last_cast: 1746464488367
 cooldown_expiration: 0
 last_death_location: -119.20065559556916,15.0,306.12497396555256,mm2,-2.5500183,6.2999926
 fall_protection_count: 0
@@ -13,36 +13,6 @@ brush:
   scale: 1.0
   erase: true
 undo:
-- time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: SuperGather
-- time_to_live: 0
-  name: SuperGather
 - time_to_live: 0
   name: SuperGather
 - time_to_live: 0
@@ -279,6 +249,46 @@ undo:
   name: Magic Missile
 - time_to_live: 0
   name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
+- time_to_live: 0
+  name: SuperKill
 spells:
   repair:
     cast_count: 0
@@ -351,8 +361,8 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   spellshop:
-    cast_count: 24
-    last_cast: 1746118614281
+    cast_count: 26
+    last_cast: 1746464488367
     last_earn: 0
     cooldown_expiration: 0
   heal:
@@ -372,7 +382,7 @@ spells:
     cooldown_expiration: 0
   pickpocket:
     cast_count: 12
-    last_cast: 1746038458015
+    last_cast: 1746450194839
     last_earn: 0
     cooldown_expiration: 0
   supergather:
@@ -386,10 +396,10 @@ spells:
     last_earn: 0
     cooldown_expiration: 1746117798056
   arrowrain|2:
-    cast_count: 0
-    last_cast: 1746122830532
-    last_earn: 0
-    cooldown_expiration: 1746122833032
+    cast_count: 4
+    last_cast: 1746450129709
+    last_earn: 1746448230199
+    cooldown_expiration: 1746450132209
   phase:
     cast_count: 14
     last_cast: 1744374747744
@@ -431,10 +441,10 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   superkill:
-    cast_count: 0
-    last_cast: 1746122835217
+    cast_count: 4
+    last_cast: 1746464375833
     last_earn: 0
-    cooldown_expiration: 1746122835342
+    cooldown_expiration: 1746464375958
   gather:
     cast_count: 8
     last_cast: 1746117352816
@@ -451,10 +461,10 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   blast:
-    cast_count: 7
-    last_cast: 1746119014127
+    cast_count: 8
+    last_cast: 1746449808146
     last_earn: 0
-    cooldown_expiration: 1746119019127
+    cooldown_expiration: 1746449813146
   phasebackup:
     cast_count: 0
     last_cast: 0
@@ -506,6 +516,56 @@ spells:
     last_earn: 1746032650952
     cooldown_expiration: 1746117345663
 wands:
+  battle:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Master Sword
+        lore:
+        - §o§aWarrior Magic Wword
+        - §o§3Bound to Hamzah898933_
+        - Knows 9 Spells
+        - '§d§oMana: 50'
+        - '§r§dMana Regeneration: 5/s'
+        - §bPhysical Protection II
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        internal: H4sIAAAAAAAA/21Ry5LaMBAcCFAOyyaVSlXOHLZysrf8wNj+g1z2lEOOLj3GoEK2FEkOZL8+A4Qsh/hgWzOt7p7pJcASFnw8HFSYwGynzXFCldmRDTKCKGBvNQtIEBaCxggWJ9v27ATTMo3gs3UmoAjKDK3d//ZKMA3v0ueCrprjgK5VEp5Y2simbJpEVFWVFLLME77dVEnVVEKKTIq83EYwU8IMsNwZLVt/NI7kHyR64ZQ988OnJ8vCfv3Cdkqsf1wBX7DrSL61zAUlNLaOSTX6s4WcGM8X3pyvyHlQPfrAeguPWbXZlnW9req8zqj7l0oYbRx8zbL03xN33d3hvhPB9Dwg7yrOsyxPsiJLk02Z1wmva5nkssCKZ1tOnwjmP0eFASYktvAWtfZQM+fMMebG9LEYnce4U+764kzreOdwYBLjXnmvNMZ2pKId/Z787k3gzJHfcbiSPoyDdMZaxjXCLLiRZp5fUoDHb6x/Zfu6qZuiaCP4SKtwuEPqsctyJ+V/lmm6zpPha55zTkLyxvtBDZQN/VP2d3LveyOxFcyHW2XFCPEL28vAlAgNcIOdzd5gswPi22FgPcLqhWjQrb9fo56eqF+mzynAHwBl/oG0AgAA
+    wand:
+      active_spell: pull
+      path: battle
+      template: battle
+      xp: 50.0
+      xp_regeneration: 5.0
+      xp_max: 50.0
+      bound: true
+      indestructible: true
+      undroppable: true
+      effect_color: 110000000000,ff0000000000,110000000000
+      effect_particle_radius: 0.2
+      effect_particle_offset: 0.3
+      hotbar_count: 1.0
+      icon: gold_sword
+      mode_cast: true
+      mode_drop: true
+      keep: true
+      quiet: 1.0
+      protection_physical: 0.3
+      spells: arrow,boom,curse,fire,fireball,grenade,missile,pull,push
+      id: bf7bb112-1310-4528-b88d-2d3e7b16b3e7
+      owner: Hamzah898933_
+      owner_id: a09d9599-c777-3d52-b647-797cdc1dc256
+      name: Master Sword
+      description: $path Magic Wword
+      xp_timestamp: 1.746588678281E12
   default:
     item:
       ==: org.bukkit.inventory.ItemStack
@@ -605,7 +665,7 @@ wands:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §6Absorb§f (§3The Shusher§f)
+        display-name: §6SuperKill§f (§3The Shusher§f)
         lore:
         - §o§aFor admins only
         - §o§3Bound to Hamzah898933_
@@ -622,9 +682,9 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/3VTPW/bMBC9Nk6gfDRBO3TO0HaiA33YkpVJU9G93YUjebYIUyJBUjFS5H93LeWPIkDQReId797D3Xu8AriC2Q4HmcAdiqCeqO0xkFOo4Xzj0PsEkkC91TEL5yh7NcSM2Q3kWiXhC6a1rJd1PRdVVc0LucznvFxU86quhBSZFPmyTGCmhBngtjeDj+AtbTb+MU/gWpIXTtmg4u3dd+Pu9wT+3gz6OYHPtF6TCK1FF5TQ1DqUavRwlj7E5pnF0MFFjxNkArfC+NA6kqPYw53lD2kCl9aZEDFIwiy4kRK4OYIKo42Db6sKxYqLRVrkyP4bJPAxDuDHnl4zZBPD+2kLxaouypTjfJGuq/gp0nmdyXpeFqIq6pLzdbFM4MJb0trDH+TeON5kNcPhSekmWzF0zuwcquElZxzFdrRNyrhWw/Zl0WRMaIPbJmebODO5pmAdoW4WTNOTClGaZsl65b3SFMtLZjv01FSH/xFuxawSW2vElkJTM0cbiiJOvVkaI4vKNVnG/GjJcWdM32T5ITqSZsUh3CqtD6fXGItT6gC0ZEH1MV2yYNyA0jRZFZffmcDRxeWPQ4B3WbTAOEhnrEWu6STR+d5e8OEH9r+xW9VxuUWbwCdhjJbx7o0Gb4xi1mtPYTJKEeF4ZPun/60aouviOQK84rw5un8vEVwcFIrVR2Q+8ljsT9WXp0fi4etewscFk8oFtn8y08iieyzYbqpiO2Pi85ptieypfzZgT3D9q6P7n93o43YB/gLZX78HjAMAAA==
+        internal: H4sIAAAAAAAA/3VTuW7cMBCdxGtDPmIjKVK7SFJRhqhjJblSFaRP+gWP2RUhSiRIyosE/u+04V6GASMVOcOZ9zDzHq8ArmCxZZNM4I6JoJ5wNbKATjEN5xvHvE8gCThaHbNwzuSoppgx2wndSkn4wrJWtlXbpqKu67SQVZ7yZVmndVsLKagUebVMYKGEmeB2NJOP4CvcbPxjnsC1RC+cskHF17vvxt3vCfy9mfTvBD7jeo0irCxzQQmNK8ekmj2cZQ+xeWFZ6OFiZDvIBG6F8WHlUM5iD3eWP2QJXFpnQsRACYvgZkzg5ggqjDYOvjU1Ew0XZVbkjPw3SOBjHMDPI75moDuG9/stNCirmlcpbZZZWtaCpqxts5Q3bVtgU1MuIsaFt6i1h7+Me+N4R1vCpielO9oQ5pzZOqam55xwJobZdhnhWk3Dc9lRIrRhQ5eTTZwZXVeQHpnuSqLxSYUoTVeRUXmvNMbyJbE989jVh/MI1xCrxGCNGDB0LXG4wSjirpdmMbJMuY5S4meLjjtjxo7mh+hISotDOCitD7fXGOUpdQCqSFBjTC9JMG5i0nS0jsvvTeDMxeXPU4B3NFpgnqQz1jKu8STR+d5e8OEHG/+wvmmbtihWCXwSxmgZ395o8MYoZr32GHZGKSIcj2wv+t+qKbou3iPAK86bo/v3EsHly6Cx4QjOZx7r/anh8vRPPHzdq/hYEqlcIPtfs5ta9I8F2e6qyNaY+MMWA6I99S8mNiJc/+rx/mc/+7hggH+CiTgdjwMAAA==
     wand:
-      active_spell: absorb
+      active_spell: superkill
       active_material: grass
       path: master
       template: admin
@@ -644,7 +704,7 @@ wands:
       materials: anvil:4,dirt,grass,torch:3,water,wood
       spells: absorb@19,anvil@18,arrowrain|2,backup@0,blink|4@1,cloak@2,gather@3,heal@4,levitate@5,missile|4@6,phase@7,phasebackup@8,pickpocket@9,regenerate@10,repair@11,superbroom@12,supergather@13,superkill,superregenerate@14,superrepair@15,time@16,tornado@17
       protected: true
-      id: 389360ba-40f7-4030-91d9-63c7396bbf35
+      id: a8ed57b5-1860-47c1-a990-b8993e871bca
       owner: Hamzah898933_
       owner_id: a09d9599-c777-3d52-b647-797cdc1dc256
       name: The Shusher
@@ -652,4 +712,4 @@ wands:
 open_wand: false
 gave_welcome_wand: false
 data:
-  sp: 125
+  sp: 130

@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1745843394570
-  login: 1745843377418
+  logout: 1746448189966
+  login: 1746448184832
 money: '0'
 last-account-name: URWEIRD
 logoutlocation:
@@ -26,5 +26,5 @@ logoutlocation:
   x: -166.0
   y: 68.0
   z: 252.0
-  yaw: -163.50001525878906
-  pitch: 39.749996185302734
+  yaw: -131.85000610351562
+  pitch: 85.80000305175781

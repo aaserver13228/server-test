@@ -5,6 +5,7 @@ listener_01:
   tab_list: GLOBAL_PING
   default_server: lobby
   force_default_server: false
+  allow_voice: true
   forward_ip: false
   forward_ip_header: X-Real-IP
   redirect_legacy_clients_to: 'null'
