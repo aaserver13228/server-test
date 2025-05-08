@@ -16,15 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1746467821049
-  login: 1746467041004
+  logout: 1746643783407
+  login: 1746643677035
 money: '100'
 last-account-name: ninja
 logoutlocation:
   world: 854cd819-ca61-441a-9eb8-86ecddeac9cb
   world-name: world
-  x: -580.7575303050901
-  y: 75.0
-  z: 438.44032459200116
-  yaw: 85.97036743164062
-  pitch: 7.499992847442627
+  x: -156.19287722308164
+  y: 64.0
+  z: 157.69999998807907
+  yaw: -172.00001525878906
+  pitch: 39.95000457763672
+lastlocation:
+  world: 6ec66a31-f4c9-462a-a83b-b3904a24c69c
+  world-name: cool
+  x: 53.062184612312194
+  y: 80.0
+  z: 92.36069478975294
+  yaw: -132.19027709960938
+  pitch: 13.92435073852539

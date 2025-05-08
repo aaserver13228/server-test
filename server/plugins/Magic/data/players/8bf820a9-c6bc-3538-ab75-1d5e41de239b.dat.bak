@@ -1,8 +1,8 @@
 id: 8bf820a9-c6bc-3538-ab75-1d5e41de239b
 name: Adam8989333
-last_cast: 1746120778109
+last_cast: 1746641488405
 cooldown_expiration: 0
-last_death_location: ''
+last_death_location: -147.34255611799296,73.0,145.35810781661732,world,-261.8507,14.099993
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -13,18 +13,6 @@ brush:
   scale: 1.0
   erase: true
 undo:
-- world: world
-  time_to_live: 0
-  name: Cloak
-- world: world
-  time_to_live: 0
-  name: Cloak
-- world: world
-  time_to_live: 0
-  name: Cloak
-- world: world
-  time_to_live: 0
-  name: Cloak
 - world: world
   time_to_live: 0
   name: Cloak
@@ -366,6 +354,18 @@ undo:
 - world: shop
   time_to_live: 0
   name: Gatling Gun
+- world: world
+  time_to_live: 0
+  name: Cloak
+- world: world
+  time_to_live: 0
+  name: Cloak
+- world: lobby
+  time_to_live: 0
+  name: Cloak
+- world: lobby
+  time_to_live: 0
+  name: Cloak
 spells:
   backup:
     cast_count: 2
@@ -418,8 +418,8 @@ spells:
     last_earn: 1743020608286
     cooldown_expiration: 1743020638286
   pickpocket:
-    cast_count: 62
-    last_cast: 1746120355395
+    cast_count: 69
+    last_cast: 1746641488405
     last_earn: 0
     cooldown_expiration: 0
   lightning:
@@ -603,10 +603,10 @@ spells:
     last_earn: 1743702293688
     cooldown_expiration: 1743702428857
   cloak:
-    cast_count: 8
-    last_cast: 1743701924055
-    last_earn: 1743701924054
-    cooldown_expiration: 0
+    cast_count: 12
+    last_cast: 1746641435205
+    last_earn: 1746641427307
+    cooldown_expiration: 1746641442705
   arrowrain:
     cast_count: 3
     last_cast: 1744203992958
@@ -750,7 +750,7 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/3WSzY7TMBSFLaYzClNUBAvWXSBWzijOT5uwChteAPaVf24aK05s2c6MkHg7XoybtlNGAlbWtXzP+XzuvSfknqye+KQScmufJvBk/UXxsW7qpiiKhCQRRmd4BHLL1ainhLyX1hqFbw8e1CyjthO5YQ9ZQj5A14GMB8d91NLAwXZdgEhusodF6SR/0Ip8rEVX5xlvUrkTMi2qok652FcpUxWUTEFeNAJ5hJ0nRVbRz5CQlZZotBntFCLKwPEYPucJWSsI0mt3wnj71frtCTNs7WR+/APJc6XnsCBh80ZP2I76+Ath4NnqDcf6EQ7BgTHk3mk5OCsHiEjheOzJ3cgXCBSQNsSXOeRLDq+dtxFd4Qq/uWCIWaBPuBpdrqU11pNP9V7wfQbNTkqg/y0QYgBw11wmPgJZf+9h+62fQ79gvcOowjzCXxN6taTfdZlSZZenVabytBRKpjxT+7RgrIF8BzgOlpC70+8D+SW4HGbXZlQYPQ0/y5ZRaSwf2pweMQzwbUF74KYtqYFHHXFX2oqOOgRtAJ/vqOt5gHZ/Pi9yNf0Ta9tQD0fA7Vh6WYaV49q3jNEwO/DCWzu2LD9XF1NWnMuXneXz1bm9olGPeL3DpHsbBfeY9DzFSxhr3C5vnePX0RPyG9KeAvQQAwAA
+        internal: H4sIAAAAAAAA/3WSy47TMBSGDdMZhRYVwYJ1F4iVM8qtubAKG14A9pUvJ40VJ7ZsZ0ZIvN28GCdtp4wErJJz5PP/n3+fNSFrsnpkk4zIrXmcwJHNV8nGuqmbPM8jEgUYrWYByC2To5oi8kEYoyWePTiQswjKTOQmvU8i8hG6DkQ4WOaCEhoOpus8BHKT3C9KJ/mDkuRTzbs6S1gTi5KLON/ndcx4tY9TuYcilZDlDUcebuZJklVwM0RkpQQabUcz+YAycDz6L1lENhK8cMqeMN59M253wvQ7M+mf/0ByTKrZL0g4vFUTjqM+3oJreLZ6y7B+gIO3oDVZWyUGa8QAASksCz25G9kCgQLC+PAyh2zJ4Y11JqArXOG3Fww+c/TxV6NLWxhtHPlcV0zUXBRJnjH63wIhBgB7zWViI5DNjx523/vZ9wvWe4zKzyP89UKvl/Sbbi+TuoM4LwXERQldzCv8q2oomUjToqy6iNydbu/JE2dimG2bUK7VNPwq2pQKbdjQZvSIYYBrc9oD021BNTyogLvS7umovFca8HhJbc88tNX5e5Gr6Z9Y24Y6OAJuxzKbJlhZplybptTPFhx3xoxtmp2ri2man8uXk8Vz6zy+p0GN2C4x6d4EzhwmPU+BvEpxcXC3nLGWXR+ekN9JZuWrDgMAAA==
     wand:
       active_spell: pickpocket
       path: master
@@ -762,7 +762,7 @@ wands:
       cost_reduction: 2.0
       cooldown_reduction: 1.0
       effect_bubbles: true
-      effect_color: 87ba70e96cce,87ba70e96cce,87ba70e96cce
+      effect_color: 87ac8bc4032a,87ac8bc4032a,87ac8bc4032a
       effect_particle_radius: 0.2
       effect_particle_offset: 0.3
       hotbar_count: 1.0
@@ -770,7 +770,7 @@ wands:
       keep: true
       spells: backup@0,blink|4@1,cloak@2,gather@3,heal@4,levitate@5,missile|4@6,phase@7,phasebackup@8,pickpocket@9,regenerate@10,repair@11,superbroom@12,supergather@13,superregenerate@14,superrepair@15,time@16
       protected: true
-      id: ff0dd4f2-50d2-4bdc-a0d7-3119e26e5381
+      id: 9f5d08fe-36ce-46ef-b7ce-78e6ac11467f
       owner: Adam8989333
       owner_id: 8bf820a9-c6bc-3538-ab75-1d5e41de239b
       name: The Shusher
@@ -833,4 +833,4 @@ wands:
 open_wand: false
 gave_welcome_wand: false
 data:
-  sp: 432
+  sp: 442

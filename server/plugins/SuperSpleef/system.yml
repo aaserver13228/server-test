@@ -1,0 +1,7 @@
+spleef:
+  arenas:
+    arenano: 2
+    '1':
+      enabled: true
+    '2':
+      enabled: true

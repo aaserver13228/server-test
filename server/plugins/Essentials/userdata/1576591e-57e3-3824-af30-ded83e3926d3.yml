@@ -16,23 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1746038808126
-  login: 1746038050005
+  logout: 1746639099234
+  login: 1746638905109
 money: '0'
 last-account-name: Freddy_fazbear
 logoutlocation:
   world: 36af6b2a-0c96-46dd-8690-67a0aab0cdb2
   world-name: lobby
-  x: 224.37
-  y: 72.0
-  z: 1335.5
-  yaw: -91.19999694824219
-  pitch: 5.699999809265137
+  x: 246.67203637762464
+  y: 69.0
+  z: 1329.9501145901813
+  yaw: 15.30029296875
+  pitch: -1.5000008344650269
 lastlocation:
-  world: 854cd819-ca61-441a-9eb8-86ecddeac9cb
-  world-name: world
-  x: -303.0462089834129
-  y: 70.0
-  z: 263.419151551243
-  yaw: 100.550048828125
-  pitch: 10.25
+  world: 36af6b2a-0c96-46dd-8690-67a0aab0cdb2
+  world-name: lobby
+  x: 226.8020544499053
+  y: 71.5
+  z: 1334.8723363302345
+  yaw: -43.04999542236328
+  pitch: 28.80000114440918

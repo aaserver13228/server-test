@@ -1,107 +1,107 @@
 data-version: 1
 8bf820a9-c6bc-3538-ab75-1d5e41de239b:
   playername: Adam8989333
-  next_level_exp: 0
-  level: 0
+  next_level_exp: 354
+  level: 1
   deaths: 0
-  games_played: 0
-  exp: 0
+  games_played: 1
+  exp: 10
   highest_score: 0
-  contribution_murderer: 0
-  contribution_detective: 0
-  wins: 0
+  contribution_murderer: 33
+  contribution_detective: 299
+  wins: 1
 a09d9599-c777-3d52-b647-797cdc1dc256:
   playername: Hamzah898933_
-  next_level_exp: 0
-  level: 0
-  games_played: 0
-  exp: 0
-  contribution_detective: 0
-  deaths: 0
-  contribution_murderer: 0
-  wins: 0
-  highest_score: 0
-  kills: 0
-  loses: 0
+  next_level_exp: 354
+  level: 1
+  games_played: 4
+  exp: 40
+  contribution_detective: 551
+  deaths: 2
+  contribution_murderer: 345
+  wins: 1
+  highest_score: 1050
+  kills: 5
+  loses: 1
   pass_detective: 0
 d86678db-a54b-3284-9ce7-5bba6bf45426:
   playername: Isiss
   next_level_exp: 1000
-  contribution_detective: 221
+  contribution_detective: 266
   level: 2
-  deaths: 39
-  games_played: 80
-  exp: 800
-  loses: 6
-  contribution_murderer: 415
-  kills: 39
-  wins: 29
-  highest_score: 1200
+  deaths: 6
+  games_played: 67
+  exp: 670
+  loses: 0
+  contribution_murderer: 1
+  kills: 5
+  wins: 4
+  highest_score: 0
 8b45f39c-cb14-3b9b-9c53-f36423fea3b1:
   playername: jellybean21
   next_level_exp: 354
-  contribution_detective: 311
+  contribution_detective: 163
   level: 1
-  deaths: 3
-  games_played: 6
-  kills: 4
-  exp: 60
-  contribution_murderer: 161
-  wins: 3
-  highest_score: 400
+  deaths: 13
+  games_played: 25
+  kills: 15
+  exp: 250
+  contribution_murderer: 1
+  wins: 11
+  highest_score: 750
   loses: 0
   pass_detective: 0
 11c85069-67a0-3659-bc67-bf50ed2f8ddb:
   playername: HeLLo
-  next_level_exp: 1000
-  level: 2
-  deaths: 49
-  games_played: 93
-  exp: 930
+  next_level_exp: 1838
+  level: 3
+  deaths: 65
+  games_played: 116
+  exp: 1160
   contribution_detective: 1
-  loses: 3
-  contribution_murderer: 1
+  loses: 4
+  contribution_murderer: 70
   highest_score: 1265
-  kills: 34
-  wins: 34
+  kills: 37
+  wins: 40
 7dc190a7-211d-3c2e-a04d-b92de0d2fd31:
   playername: abdullah
-  next_level_exp: 354
-  level: 1
-  contribution_murderer: 347
-  games_played: 32
-  kills: 17
-  exp: 320
-  contribution_detective: 89
-  deaths: 15
-  wins: 14
+  next_level_exp: 1000
+  level: 2
+  contribution_murderer: 266
+  games_played: 37
+  kills: 28
+  exp: 370
+  contribution_detective: 643
+  deaths: 16
+  wins: 18
   highest_score: 800
   loses: 2
 b35e4648-3bf4-3ee5-a1df-a82db4f06500:
   playername: Reggie
   next_level_exp: 354
   level: 1
-  deaths: 3
-  games_played: 11
-  exp: 110
-  contribution_detective: 106
+  deaths: 11
+  games_played: 30
+  exp: 300
+  contribution_detective: 145
   loses: 1
-  contribution_murderer: 574
-  kills: 7
-  wins: 7
-  highest_score: 15
+  contribution_murderer: 178
+  kills: 32
+  wins: 18
+  highest_score: 750
 4136aea5-ee37-34c9-934d-698807690984:
   playername: cris00
   next_level_exp: 354
   level: 1
-  deaths: 3
-  games_played: 6
-  exp: 60
-  contribution_detective: 1
-  contribution_murderer: 102
-  highest_score: 30
-  kills: 2
-  wins: 2
+  deaths: 0
+  games_played: 1
+  exp: 10
+  contribution_detective: 169
+  contribution_murderer: 185
+  highest_score: 0
+  kills: 0
+  wins: 1
 cf082672-3126-352f-bb39-02a47a4b8e5e:
   playername: jose
 cc718aa1-908b-3956-905f-59993300b324:
@@ -111,37 +111,38 @@ b716ba34-656a-3370-99c6-f2522d6b2779:
 1576591e-57e3-3824-af30-ded83e3926d3:
   playername: Freddy_fazbear
   next_level_exp: 354
-  contribution_detective: 230
+  contribution_detective: 1
   level: 1
-  deaths: 1
-  contribution_murderer: 539
-  games_played: 4
-  exp: 40
-  wins: 3
+  deaths: 5
+  contribution_murderer: 116
+  games_played: 9
+  exp: 90
+  wins: 4
   highest_score: 500
-  kills: 1
+  kills: 2
 d0a47a7b-a7d5-3748-819f-ea87e6e3bd5e:
   playername: haha1243
+  next_level_exp: 354
+  contribution_detective: 286
+  level: 1
+  deaths: 4
+  contribution_murderer: 253
+  games_played: 8
+  exp: 80
+  wins: 3
+  highest_score: 450
+  kills: 7
+  loses: 1
+7e4428a8-63f4-377f-8710-bc9faa02dd2a:
+  playername: the_milk_man
   next_level_exp: 0
   contribution_detective: 0
   level: 0
-  deaths: 0
   contribution_murderer: 0
   games_played: 0
+  kills: 0
   exp: 0
   wins: 0
-  highest_score: 0
-  kills: 0
-7e4428a8-63f4-377f-8710-bc9faa02dd2a:
-  playername: the_milk_man
-  next_level_exp: 354
-  contribution_detective: 126
-  level: 1
-  contribution_murderer: 222
-  games_played: 1
-  kills: 1
-  exp: 10
-  wins: 1
 7342bacc-32c5-3372-8755-44a1f2702cee:
   playername: hamza898933
 1cfab861-da8e-3aa5-9ddc-d20d60f705e8:
@@ -162,14 +163,14 @@ d0a47a7b-a7d5-3748-819f-ea87e6e3bd5e:
   highest_score: 0
 0ed28c56-14e1-3a07-bf88-0c465613ec7f:
   playername: Reggie11
-  next_level_exp: 354
-  contribution_detective: 222
-  level: 1
-  contribution_murderer: 288
-  games_played: 1
-  kills: 1
-  exp: 10
-  wins: 1
+  next_level_exp: 0
+  contribution_detective: 0
+  level: 0
+  contribution_murderer: 0
+  games_played: 0
+  kills: 0
+  exp: 0
+  wins: 0
 ef1df7cc-78dd-3734-9808-2c8bb9908cfb:
   playername: i_see_you_
 6bcf3174-1378-34b3-989d-9baf660926ef:
@@ -189,17 +190,17 @@ ef1df7cc-78dd-3734-9808-2c8bb9908cfb:
   playername: i_see_you_lol
 b456587b-2756-3191-82cb-be7c9be42879:
   playername: jasonvoorreal
-  next_level_exp: 354
-  level: 1
-  games_played: 22
-  exp: 220
-  contribution_detective: 1
-  loses: 3
-  deaths: 7
-  contribution_murderer: 1
-  highest_score: 960
-  kills: 15
-  wins: 10
+  next_level_exp: 0
+  level: 0
+  games_played: 0
+  exp: 0
+  contribution_detective: 0
+  loses: 0
+  deaths: 0
+  contribution_murderer: 0
+  highest_score: 0
+  kills: 0
+  wins: 0
 f120e45a-eb13-3e72-ada9-c45d4ab4f99c:
   playername: offical_dream
 f0e76966-c8d8-3edf-94f7-85b37f36bebe:
@@ -214,17 +215,17 @@ f0e76966-c8d8-3edf-94f7-85b37f36bebe:
   highest_score: 0
 90fe57db-9ef5-33ca-a308-6f0e48dbd918:
   playername: kingrobby101
-  next_level_exp: 0
-  level: 0
-  deaths: 0
-  games_played: 0
-  exp: 0
-  highest_score: 0
-  contribution_detective: 0
-  contribution_murderer: 0
-  wins: 0
+  next_level_exp: 354
+  level: 1
+  deaths: 3
+  games_played: 6
+  exp: 60
+  highest_score: 790
+  contribution_detective: 191
+  contribution_murderer: 309
+  wins: 2
   loses: 0
-  kills: 0
+  kills: 1
 4de04a78-340a-3894-b916-8821810320e8:
   playername: i_see_youylol
 6f2d68b6-54a4-3e98-bf6a-c5dbd9e4191e:
@@ -257,3 +258,26 @@ c1b57c04-ef64-30b8-8327-43163adcd1ba:
   playername: Sixtailsasuke27
 45e7682a-fd91-3bd5-8e89-b39dea40db51:
   playername: mariamboii
+4ef57b15-f746-3cad-bb17-26e59a26cb72:
+  playername: jellybean21aaa
+3d0dbeca-8573-31db-81b9-5937da6f9135:
+  playername: angryracist12
+d92b00c8-301c-36f2-a0d6-e5f89076cf6d:
+  playername: i_see__youlol
+5b62a19b-483d-3617-8a30-cb4ffe5f9fd6:
+  playername: angryracist
+eb45124b-0d09-364c-9084-cf5639872565:
+  playername: SUPERANGRYRACIST
+  next_level_exp: 354
+  level: 1
+  deaths: 2
+  games_played: 3
+  exp: 30
+1153265b-1278-385a-a13c-a172ce527ad9:
+  next_level_exp: 1000
+  level: 2
+  deaths: 2
+  games_played: 58
+  exp: 580
+  playername: ULQIORRA_
+  highest_score: 750

@@ -2,7 +2,7 @@ id: 11c85069-67a0-3659-bc67-bf50ed2f8ddb
 name: HeLLo
 last_cast: 1746125171798
 cooldown_expiration: 0
-last_death_location: -203.48767849250808,73.0,256.30000001192093,world,0.74994093,9.899993
+last_death_location: -152.30000001192093,16.0,318.6771085863238,mm2,311.70007,2.3999922
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -316,7 +316,7 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/3WSS4/TMBSFLaatwnRUBAvWXSBWziiP5lFWWSEWs4N95cdNY8WJLduZComfyQ/ipu1UIwGr5F7n3PP55N4Tck8WJzbKiCzNaQRHlt/g6clEJAowWM0CkCWTgxoj8kEYoyV+dXAgJxGUGcld+phE5CO0LYhwsMwFJTQcTNt6COQuecxx0nnwQUnyKU1FXSTlPi4rlsR5WexjLsoq5m2RgMzaWkqOJNxMoySL4CaIyEIJNNoMZvQBx8Dx6L9kEVlL8MIpe8Z499W47RnTb82of/4DyTGpJj8joXijRpTjfLwF1/Bi9cCwfoaDt6A1WR1Z6MAhgcUXshrYDIBiYXx4nUE2Z/DWOhPQEW7gmysCnzh6+JvJtS2MNo58rqu2qIGxikNC/1sgRA9gb5mMbACy/tHB9ns3+TPle4zJTwP89XfezMnXZZbus1zG5a5N4h3D+HlbsjiX+1IIzhMo6oiszjf35Ddnop9sk1Cu1dj/2jUpFdqwvsnoJZUmpx0w3exor7RuCqrhWQVcl6akg/JeaUBVRW3HPDT15XmduqdWid4a0UNo0oQ6OAJuyCxOU6wsU65JM+onC447Y4YmzS/V1TzdXcrXyuKldZGXNKgB2xU9zdvUpHi9h84EzhxGP43hms4aD52xlt32gJA/sD2szxcDAAA=
+        internal: H4sIAAAAAAAA/3WSS4/TMBSFDdOOwgwqggXrLhArZxTn0SasskIsZgf7yo+bxooTW7YzFRI/kx/E7WOqkYBVcq9z7vl8cu8IuSOLA59UQpb2MIEny2/w+GgTkkQYneERyJKrUU8J+SCtNQq/2nlQs4zaTuSGPWQJ+QhdBzLuHPdRSwM723UBIrnJHgqcdBq804p8YkzWVbZp0s2WZ2mxqZpUyM02FV2Vgcq7WimBJMLOkyKL6GdIyEJLNFqNdgoRx8B+H77kCblXEKTX7oTx7qv16xNmWNvJ/PwHkudKz+GIhOKVnlCO8/EWwsCz1VuO9RPsggNjyO2exx48Ejh8IbcjPwKgWNoQX2aQHzN447yN6AhX8NUFQcwCPcLV5NKW1lhPPtfbrqqB862AjP63QIgBwF0zmfgI5P5HD+vv/RxOlO8xpjCP8NffeX1MHqBgdZ4XqQJRpGUjMXRVi1SVFa9U2TS8rBJye7p5IL8Fl8Ps2owKo6fhV9kyKo3lQ5vTcyptQXvgpi3poI1pK2rgSUdcl3ZDRx2CNoCqLXU9D9DW5+dlakOdloOzcoDYsox62ANuyFHMGFaOa9+ynIbZgRfe2rFlxbm6mLPyXL5UVs+ts3xDox6xvaWH4za1rMboexsF9xj9PEXyiuEW4ZG3zvHrFhDyBwPhH20VAwAA
     wand:
       active_spell: gather
       path: master
@@ -336,7 +336,7 @@ wands:
       keep: true
       spells: backup@0,blink|4@1,cloak@2,gather@3,heal@4,kill@5,levitate@6,missile|4@7,phase@8,phasebackup@9,pickpocket@10,regenerate@11,repair@12,superbroom@13,supergather@14,superregenerate@15,superrepair@16,time@17,wound@18
       protected: true
-      id: 8621923d-64f0-4aa0-bf6a-3d96ccbb0e58
+      id: ee318223-deb3-49c7-bd8b-d45a5d499a45
       owner: HeLLo
       owner_id: 11c85069-67a0-3659-bc67-bf50ed2f8ddb
       name: The Shusher

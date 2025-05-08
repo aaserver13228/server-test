@@ -1,8 +1,8 @@
 id: d86678db-a54b-3284-9ce7-5bba6bf45426
 name: Isiss
-last_cast: 1746038280320
+last_cast: 1746639463752
 cooldown_expiration: 0
-last_death_location: -57.65277635041868,4.785027703789236,312.3305611313198,mm2,59.700073,12.149993
+last_death_location: 621.6237769335817,13.015555072702202,-1094.8932303401762,mm,211.95001,-11.550001
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -13,6 +13,20 @@ brush:
   scale: 1.0
   erase: true
 undo:
+- time_to_live: 0
+  name: Wound
+- time_to_live: 0
+  name: Wound
+- time_to_live: 0
+  name: Wound
+- time_to_live: 0
+  name: Wound
+- time_to_live: 0
+  name: Wound
+- time_to_live: 0
+  name: Wound
+- time_to_live: 0
+  name: Wound
 - time_to_live: 0
   name: Wound
 - time_to_live: 0
@@ -83,9 +97,9 @@ spells:
     cooldown_expiration: 1746038163337
   wound:
     cast_count: 0
-    last_cast: 1746038228037
+    last_cast: 1746639463752
     last_earn: 0
-    cooldown_expiration: 1746038229287
+    cooldown_expiration: 1746639465002
   regenerate:
     cast_count: 0
     last_cast: 0
@@ -151,7 +165,7 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/3WSQY/TMBCFLbZdhe2qCA6ce0CcnFWSJm3CKSckznCvxs6kserElu1shcS/5A8xabPVSsApmnHevM/P88DYA1ucYWgitjTnAR1bfvPK+4hFAXurISBbQtOrIWIfpDG6ob8ODptRBmUGdpc+JRH7iG2LMhwsuKCkxoNpW4+B3SVPW5p0GXxQDfvUlLvdvmxEDEUu4m1W5nElcR8XQsBOtHmRZzsiEWYcGrYIbsSILZQko3VvBh9oDB6P/ksWsVWDXjplLxjvvhq3uWD6jRn0z38gOWjU6CckEq/VQHKaT7cQGl+sHoHqZzx4i1qz5XnCIAALoWP3PUz+pJXGh9cRZFMEb60zgQzxxr2eCcQoyMLfPOa2NNo49rnct1m6FaIqUfD/FgRxQrS3SAboka1+dLj53o2+m7DeU0p+7PGvx3kzBY9t2ZQCtrGooIjzvMAYkiqJW0hKKdoqKdoqYveXi3v2W4A8jbZOuNBqOP3K65RLOCKX2sCpzviREkFXb3mHoOuca3xWgXalLnhP26M0kmbHbQce6/31O88suVXyZI08Yagr7vCItB2TNk2osqBcnabcjxadcMb0dZpdq9k03V7L18r8pXWVFzyonto7foZn5PM7PnYmCHCU/DiEOZwVnThjLdy2gLE/vOirExUDAAA=
+        internal: H4sIAAAAAAAA/3WST4+bMBDFrW6yoptVqvbQcw6rnsyK/5CeOFXqeXuPbDMEC4Mt2ySq1G/ZL9QhYaOV2p5gBt68n5/ngZAHsjqzsQnIWp9HsGT93UnnAhJ4GIxiHsiaNYMcA/JJaK0a/OtgoZmEl3okd/FzFJDP0LYg/MEw66VQcNBt68CTu+g5xUmXwQfZkKemKoqyanjI8oyHaVJl4V5AGeacs4K3WZ4lBZJwPY0NWXk7QUBWUqDRdtCj8zgGjkf3NQnIpgEnrDQXjA/ftN1dMN1Oj+rnP5Asa+TkZiQUb+WIcpyPp+AKXq0eGdYnODgDSpH1ecZAAMN8R+4HNvujVmjn30aQzBG8N1Z7NIQb93Yh4BNHC3fzWNpCK23Jl6pskzjlfF8Bp/8tEKIHMLdIRjYA2fzoYPfSTa6bsT5iSm4a4K/LeTcHn5VciDwRIWtZEWZFPr/xMiz2bZVEsYj2KQvI/eXgjvzmTPSTqSPKlRz7X1kdU8GOQIXSrK8TesREwNYp7YCpOqMKTtLjrtQ5HXB7pALUFNR0zEFdXp/LzIoaKXqjRQ++3lMLR8DtmLVxhJVh0tZxTN1kwHKr9VDHybVaTOP0Wr5VZq+tqzynXg7YLuiZnYAu9/jYac+ZxeSn0S/hbPCL1caw2xYQ8gfVEvLtFQMAAA==
     wand:
       active_spell: wound
       path: master
@@ -171,7 +185,7 @@ wands:
       keep: true
       spells: backup@0,blink|4@1,cage,cloak@2,gather@3,heal@4,levitate@5,missile|4@6,phase@7,phasebackup@8,pickpocket@9,regenerate@10,repair@11,superbroom@12,supergather@13,superregenerate@14,superrepair@15,time@16,wave,wound
       protected: true
-      id: ef8d8ba3-b9a5-445e-a090-fa08cbf905f9
+      id: 47bcc52c-afa6-465c-afb7-69f8201c093a
       owner: Isiss
       owner_id: d86678db-a54b-3284-9ce7-5bba6bf45426
       name: The Shusher

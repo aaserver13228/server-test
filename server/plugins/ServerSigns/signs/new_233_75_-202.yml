@@ -38,7 +38,7 @@ hi_criteria:
 loops: -1
 loop_delay: 1
 uses_limit: 0
-uses_tally: 8
+uses_tally: 9
 protectedBlocks:
 - new,233,75,-201
 displayInternalMessages: true

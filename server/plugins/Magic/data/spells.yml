@@ -263,7 +263,7 @@ torture:
   cast_count: 0
   last_cast: 0
 cloak:
-  cast_count: 8
+  cast_count: 15
   last_cast: 0
 grab:
   cast_count: 0
@@ -308,7 +308,7 @@ life3:
   cast_count: 0
   last_cast: 0
 spellshop:
-  cast_count: 20
+  cast_count: 23
   last_cast: 0
 neutron:
   cast_count: 0
@@ -584,7 +584,7 @@ portal:
   cast_count: 0
   last_cast: 0
 pickpocket:
-  cast_count: 71
+  cast_count: 80
   last_cast: 0
 simulate:
   cast_count: 0
@@ -671,7 +671,7 @@ automatashop:
   cast_count: 0
   last_cast: 0
 anvil:
-  cast_count: 19
+  cast_count: 27
   last_cast: 0
 wear:
   cast_count: 1
@@ -737,7 +737,7 @@ ledger:
   cast_count: 0
   last_cast: 0
 tornado:
-  cast_count: 5
+  cast_count: 6
   last_cast: 0
 fury:
   cast_count: 0
@@ -755,7 +755,7 @@ torch:
   cast_count: 0
   last_cast: 0
 superkill:
-  cast_count: 4
+  cast_count: 7
   last_cast: 0
 kill:
   cast_count: 0
@@ -1055,7 +1055,7 @@ blink|5:
   cast_count: 0
   last_cast: 0
 blink|4:
-  cast_count: 5
+  cast_count: 7
   last_cast: 0
 collapse:
   cast_count: 0
