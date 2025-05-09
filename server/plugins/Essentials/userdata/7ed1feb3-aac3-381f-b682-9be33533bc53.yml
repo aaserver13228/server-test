@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1746534003023
-  login: 1746533972344
+  logout: 1746816053737
+  login: 1746815819153
 money: '0'
 last-account-name: Sixtailsasuke27
 logoutlocation:
   world: 854cd819-ca61-441a-9eb8-86ecddeac9cb
   world-name: world
-  x: -166.0
-  y: 68.0
-  z: 252.0
-  yaw: -253.95001220703125
-  pitch: 24.450002670288086
+  x: -161.620119818049
+  y: 64.0
+  z: 165.7761342693044
+  yaw: 250.49557495117188
+  pitch: 6.3122944831848145

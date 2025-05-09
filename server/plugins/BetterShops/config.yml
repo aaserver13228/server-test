@@ -1,0 +1,68 @@
+# 
+#                 Better Shop's Config File
+Version: 2.1.2
+Auto Add: true
+Permissions: false
+Anvil: true
+Titles: true
+Metrics: true
+UseChests: true
+RemoveAfter: 0
+SellingShops: true
+DefaultPrice: 5.0
+MaxPrice: 1.0E9
+DeleteByBreak: true
+UseOnClose: false
+UseTransactions: true
+SellToBuy: true
+StockLimit: 0
+Trades: true
+Creation Limit: false
+Limit: 3
+CostOnShops: false
+CostForShops: 19.99
+EnableNPC: true
+NPC:
+  Bat: true
+  Blaze: true
+  Cave Spider: true
+  Chicken: true
+  Cow: true
+  Creeper: true
+  Enderman: true
+  Endermite: true
+  Ghast: true
+  Giant: true
+  Guardian: true
+  Horse: true
+  Iron Golem: true
+  Magma Cube: true
+  Mushroom Cow: true
+  Ocelot: true
+  Player: true
+  Pig: true
+  Pig Zombie: true
+  Rabbit: true
+  Sheep: true
+  Silverfish: true
+  Skeleton: true
+  Slime: true
+  Snowman: true
+  Spider: true
+  Squid: true
+  Villager: true
+  Witch: true
+  Wither: true
+  Wolf: true
+  Zombie: true
+EnableAllowShopsFlag: false
+NPCOverride: true
+HoloShops: true
+UseLiveEco: true
+SQL: false
+host: localhost
+port: 3306
+username: root
+password: ''
+database: bettershops
+prefix: bs_

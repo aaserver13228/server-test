@@ -750,7 +750,7 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/3WSy47TMBSGDdMZhRYVwYJ1F4iVM8qtubAKG14A9pUvJ40VJ7ZsZ0ZIvN28GCdtp4wErJJz5PP/n3+fNSFrsnpkk4zIrXmcwJHNV8nGuqmbPM8jEgUYrWYByC2To5oi8kEYoyWePTiQswjKTOQmvU8i8hG6DkQ4WOaCEhoOpus8BHKT3C9KJ/mDkuRTzbs6S1gTi5KLON/ndcx4tY9TuYcilZDlDUcebuZJklVwM0RkpQQabUcz+YAycDz6L1lENhK8cMqeMN59M253wvQ7M+mf/0ByTKrZL0g4vFUTjqM+3oJreLZ6y7B+gIO3oDVZWyUGa8QAASksCz25G9kCgQLC+PAyh2zJ4Y11JqArXOG3Fww+c/TxV6NLWxhtHPlcV0zUXBRJnjH63wIhBgB7zWViI5DNjx523/vZ9wvWe4zKzyP89UKvl/Sbbi+TuoM4LwXERQldzCv8q2oomUjToqy6iNydbu/JE2dimG2bUK7VNPwq2pQKbdjQZvSIYYBrc9oD021BNTyogLvS7umovFca8HhJbc88tNX5e5Gr6Z9Y24Y6OAJuxzKbJlhZplybptTPFhx3xoxtmp2ri2man8uXk8Vz6zy+p0GN2C4x6d4EzhwmPU+BvEpxcXC3nLGWXR+ekN9JZuWrDgMAAA==
+        internal: H4sIAAAAAAAA/3WSz47TMBDGLba7CltUBAfOPSBOySp/m5RTuPACcK/G9qSx4sSW7ewKibfjxZi03bIScLJm5Pm+zz/PPWP3bPUEk4zYrXma0LH1Fwljs2/2RVFELAo4Wg0B2S3IUU0Rey+M0ZLuHhzKWQRlJnaTPaQR+4BdhyIcLLighMaD6TqPgd2kD4vSSf6gJPvY8K7JU9gnYsdFUlRFkwCvqySTFZaZxLzYc8rDzTxJtgpuxoitlCCjzWgmH0gGj0f/OY/YWqIXTtlTjLdfjdueYvqtmfSPf0RyINXsl0g0vFETjZM+vYJrfLZ6A1Q/4sFb1JrdWyUGa8SAgVJYCD27G2EJQQLC+PCSQ75weG2dCeSK1/CbSww+c/LxV6NLWxhtHPvU1CAaLsq0yCH+b0EhBkR75TLBiGz9vcftt372/RLrHaHy84h//dCrhT7mVS6h7pJG1JCU5S5LGpBNIkQpiHydVtBF7O70es9+cRDDbNs05lpNw8+yzWKhDQxtHh8JBrq2iHsE3ZaxxkcVaFfaKh6V90ojXd/FtgePbX0+L3JN/Adru48dHpG2Y5nNUqosKNdmWexni447Y8Y2y8/VxTQrzuXLyfK5dR6v4qBGau+IdG8CB0ek5ylcYKxpu5yxFq5fz9hvx+sFnRADAAA=
     wand:
       active_spell: pickpocket
       path: master
@@ -770,7 +770,7 @@ wands:
       keep: true
       spells: backup@0,blink|4@1,cloak@2,gather@3,heal@4,levitate@5,missile|4@6,phase@7,phasebackup@8,pickpocket@9,regenerate@10,repair@11,superbroom@12,supergather@13,superregenerate@14,superrepair@15,time@16
       protected: true
-      id: 9f5d08fe-36ce-46ef-b7ce-78e6ac11467f
+      id: e252da7f-8c7a-4461-8ad8-cc4c239705af
       owner: Adam8989333
       owner_id: 8bf820a9-c6bc-3538-ab75-1d5e41de239b
       name: The Shusher

@@ -263,7 +263,7 @@ torture:
   cast_count: 0
   last_cast: 0
 cloak:
-  cast_count: 13
+  cast_count: 15
   last_cast: 0
 grab:
   cast_count: 0
@@ -584,7 +584,7 @@ portal:
   cast_count: 0
   last_cast: 0
 pickpocket:
-  cast_count: 74
+  cast_count: 82
   last_cast: 0
 simulate:
   cast_count: 0

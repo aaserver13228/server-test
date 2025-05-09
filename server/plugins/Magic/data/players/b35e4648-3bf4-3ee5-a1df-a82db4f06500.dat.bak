@@ -1,8 +1,8 @@
 id: b35e4648-3bf4-3ee5-a1df-a82db4f06500
 name: Reggie
-last_cast: 1746533872451
+last_cast: 1746798213339
 cooldown_expiration: 0
-last_death_location: -115.42500001192093,4.3125,315.44436355050584,mm2,-90.95007,60.100002
+last_death_location: 627.3000000119209,24.00133597911215,-1140.6197558829463,mm,-79.45002,45.350002
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -406,8 +406,8 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   pickpocket:
-    cast_count: 15
-    last_cast: 1746533683541
+    cast_count: 16
+    last_cast: 1746798213339
     last_earn: 0
     cooldown_expiration: 0
   missile|4:
@@ -441,10 +441,11 @@ wands:
       ==: org.bukkit.inventory.ItemStack
       type: MONSTER_EGGS
       damage: 2
+      amount: 0
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §6Anvil§f (§3The Shusher§f)
+        display-name: §6Pickpocket§f (§3The Shusher§f)
         lore:
         - §o§aFor admins only
         - §7Bedrock
@@ -461,9 +462,9 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/3VTuW7cMBBlYtmRD9hIitRbBKkoQ9S9qVTlA5L0Cx6jXWIpkSApGwHy8RntESxgpNLMaOY9ct7jHSF3JHnlk0rJE5dRv8Bm5BG85oZ8EKC8lfuUpBFGZ7BOrrka9YQV+zqB32hFvoiyhqqpuqwUQ5WVAHXGmRoy3hVKVEPe1HmekkRLO5HH0U4B4Tew3YZvRUruFQTptYsa/z59t351IAgrO5nfKfkMwwAybhz3UUsDG8+VngO5yp9xOHE87sjNyBfIlDxKG+LGg5rlAe6qeEbiW+dtRAxQJIl+hpQ8nEClNdaTr13L2q4p+CDbhv43SclHvECYR7hkYAvD+2UL5boR2CuyumRDVqm6zNaibrO1BCU7pupWipTcBAfGhHcJN3jknlE+6WXffY7RizZ9RwWX+9n1ayrM4V49yzHUk+qLw3f/p+oZo9JYvu9ZQbe4g6WrpDvgpmcVNfCi4wLKajrqELSBZaahbscDVttjcCJiHXVa7h0KDbFna+phC6jtAlDkmDmufV8wGmYHXnhrx74ojtmJuyiP6eVkdS4dx2sa9YjlhkbrJ65sX7SoxM5GwT0qMU/xtM37eULXOceFgbNi1we3kZsfaBuN+SdprVFYfKPFG8PYYQgQF8OUiCOQ6J8PHnGpEDBGgAuyh9M7OEiFhl90weYTsJgF9oZz8+35tYSL55LsAdy5I5n4COT+1w5WP3dzwH0R8heJnz0PdwMAAA==
+        internal: H4sIAAAAAAAA/3VTy27bMBBkGyVVHkjRHnrOoeiJCkTqYaUnnfoBbe8GHyubMCUSJJWgQD++Kz9aA0FP3l1zZsSZ5Q0hNyR7EZPOyXuhknmG9SgSBCMseSdBB6d2OckTjN7inFwKPZoJJ+5lgrA2mnyWVQN1W3dFJYe6qACaQjA9FKLjWtZD2TZlmZPMKDeR+9FNEenXsNnErzwntxqiCsYng/++/+bCw14gPrjJ/srJJxgGUGntRUhGWVgHoc0cyUX5iODMi7QlV6NYKHNyr1xM6wB6Vnu6C/6Iwtc+uIQcoEmWwgw5uTuSKmddIF+6FVt1LReDWrX0v01OPuAF4jzCuQJbFN4uLlScsW6F12Za8qJu2FMhWauLdjVUJZNCNYDSV9GDtfFNJix+cs+omMzid19i9Wxs31E8upt9/0Sl3d+rZyWWZtI93//uftc9Y1RZJ3Y943SDHiynKroFYXtWUwvPJi2krKGjidFYWDAt9VsRcbo6FEch1lFv1M5j0JB69kQDbACzXQh4iZ0XJvSc0Th7CDI4N/acH7qjNq8O7TmyPo0O8IYmM+K4pcmFSWjX8xUmsXVJioBJzFM6unk7T7h13gtp4ZTY5X7byNV3XBuD/UflnNU4fJXFq4VxwxAhLQtTIY9Eob97cI+mQsQaCc7E7o7vYB8VuflnDiKO7HKWCIgnxPXpycSzN5PtAPzpRDaJEcjtzy08/NjOEU0j5A/3vUUvfAMAAA==
     wand:
-      active_spell: anvil
+      active_spell: pickpocket
       active_material: bedrock
       path: master
       template: admin
@@ -483,7 +484,7 @@ wands:
       materials: bedrock
       spells: alter@1,animate@0,anvil@8,backup@9,blaster@10,blind@2,blink|4@11,cloak@12,gather@13,heal@14,levitate@15,missile|4@16,phase@17,phasebackup@18,pickpocket@19,regenerate@20,repair@21,superbroom@22,supergather@23,superregenerate@24,superrepair@25,time@26,tornado@27
       protected: true
-      id: 396b862b-531f-4d53-9b57-9cedc81d57cb
+      id: 321187df-1db2-4519-b16d-67f301bac5ee
       owner: Reggie
       owner_id: b35e4648-3bf4-3ee5-a1df-a82db4f06500
       name: The Shusher

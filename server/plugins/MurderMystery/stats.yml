@@ -39,16 +39,16 @@ d86678db-a54b-3284-9ce7-5bba6bf45426:
   highest_score: 0
 8b45f39c-cb14-3b9b-9c53-f36423fea3b1:
   playername: jellybean21
-  next_level_exp: 354
-  contribution_detective: 163
-  level: 1
-  deaths: 13
-  games_played: 25
-  kills: 15
-  exp: 250
-  contribution_murderer: 1
-  wins: 11
-  highest_score: 750
+  next_level_exp: 0
+  contribution_detective: 0
+  level: 0
+  deaths: 0
+  games_played: 0
+  kills: 0
+  exp: 0
+  contribution_murderer: 0
+  wins: 0
+  highest_score: 0
   loses: 0
   pass_detective: 0
 11c85069-67a0-3659-bc67-bf50ed2f8ddb:
@@ -94,14 +94,14 @@ b35e4648-3bf4-3ee5-a1df-a82db4f06500:
   playername: cris00
   next_level_exp: 354
   level: 1
-  deaths: 0
-  games_played: 1
-  exp: 10
-  contribution_detective: 169
-  contribution_murderer: 185
+  deaths: 1
+  games_played: 3
+  exp: 30
+  contribution_detective: 188
+  contribution_murderer: 200
   highest_score: 0
-  kills: 0
-  wins: 1
+  kills: 2
+  wins: 2
 cf082672-3126-352f-bb39-02a47a4b8e5e:
   playername: jose
 cc718aa1-908b-3956-905f-59993300b324:
@@ -215,17 +215,17 @@ f0e76966-c8d8-3edf-94f7-85b37f36bebe:
   highest_score: 0
 90fe57db-9ef5-33ca-a308-6f0e48dbd918:
   playername: kingrobby101
-  next_level_exp: 354
-  level: 1
-  deaths: 3
-  games_played: 6
-  exp: 60
-  highest_score: 790
-  contribution_detective: 191
-  contribution_murderer: 309
-  wins: 2
+  next_level_exp: 0
+  level: 0
+  deaths: 0
+  games_played: 0
+  exp: 0
+  highest_score: 0
+  contribution_detective: 0
+  contribution_murderer: 0
+  wins: 0
   loses: 0
-  kills: 1
+  kills: 0
 4de04a78-340a-3894-b916-8821810320e8:
   playername: i_see_youylol
 6f2d68b6-54a4-3e98-bf6a-c5dbd9e4191e:
@@ -276,8 +276,20 @@ eb45124b-0d09-364c-9084-cf5639872565:
 1153265b-1278-385a-a13c-a172ce527ad9:
   next_level_exp: 1000
   level: 2
-  deaths: 2
-  games_played: 58
-  exp: 580
+  deaths: 3
+  games_played: 60
+  exp: 600
   playername: ULQIORRA_
   highest_score: 750
+  contribution_detective: 291
+  contribution_murderer: 1
+  kills: 1
+  wins: 1
+c4940cea-0eab-3582-8863-da49bbd42dbb:
+  playername: johnpork
+b43a088d-aac3-3e32-a87c-c313414a4dd6:
+  playername: mike_tyson
+7985c976-84eb-3b20-b941-270639588b46:
+  playername: john_pork
+a2676e7a-3ea2-3ad3-b9cb-490c3e8e590f:
+  playername: ninja_

@@ -1,8 +1,8 @@
 id: a09d9599-c777-3d52-b647-797cdc1dc256
 name: Hamzah898933_
-last_cast: 1746626141216
+last_cast: 1746812865278
 cooldown_expiration: 0
-last_death_location: -89.2310511138077,14.0,284.2314469451464,mm2,-12.900085,10.950001
+last_death_location: -470.8624514770926,74.53584062504456,-53.50459504140443,world,-190.65001,7.950001
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -350,8 +350,8 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   pickpocket:
-    cast_count: 14
-    last_cast: 1746624288367
+    cast_count: 15
+    last_cast: 1746812865278
     last_earn: 0
     cooldown_expiration: 0
   supergather:
@@ -634,12 +634,11 @@ wands:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §6Anvil§f (§3The Shusher§f)
+        display-name: §6Pickpocket§f (§3The Shusher§f)
         lore:
         - §o§aFor admins only
         - §o§3Bound to Hamzah898933_
-        - Knows 22 Spells
-        - Has 6 Materials
+        - Knows 17 Spells
         - §bManifestation
         - §bCost Reduction X
         - §bCooldown Reduction V
@@ -651,10 +650,9 @@ wands:
           HIDE_POTION_EFFECTS: null
           HIDE_ATTRIBUTES: null
           HIDE_DESTROYS: null
-        internal: H4sIAAAAAAAA/3VTu27cMBAk4rMhP2IjKVK7SFJRxul1Eq9SFaRPemFFrk6EKJEgKR8S+L/ThrpHYMBIRe5yOYPdmb0h5Ias9jCJiDwA9/IZmxE8WgmKXO4sOBeRyONoVMiSSxCjnEJG7ye0jRTkM6yZYAVjMS/LMs5EkcbtJi/jkpVc8ETwtNhEZCW5nsj9qCcXwBvc7dw2jcitQMetNF6G14dv2j4eCNyjntSviHzCrkPuGwPWS66wsSDk7MjF+il8XhnwPbkaYYGMyD3XzjcWxcwPcBfp0zoi18ZqHzBQkJW3M0bk7gTKtdKWfK1K1qZdURQ5a+l/g4h8CA24ecTXDMnC8G6ZQgcpSzZdGVfIijjPBMZVDiIWXQUlrDeYI4vIlTOolCN/oHXatnXCKEzPUtVJRcFavbcgp5eUtsCH2dRr2io5DS95nVCuNAx1SnehZ7R1RnsEVedU4bP0QZq6oKN0TioM5RtqenBYl8fzBFdRI/lgNB/Q14xa3GEQcfmbrENkQNo6SaibDdrWaj3WSXqMTqRJdgwHqdTx9hojP6eOQAX1cgzpDfXaTiB0nZRh+L32Ldgw/HnypwHezpOw2hhoFZ5FujwYjLz/DuNv6CtWsSxrIvKRa61EeHujwhur6K5z6BerZAGuDXz/HHAvp+C7cA8ArzjvTv4/iBSsvigTik/A7dyGWncuvj5viSNfDpXbnAppPT3szNIz77cZ3S9VdK912K/VgGjO/1cTjEhuf/b4+KOfXRgvIX8BKLuWAY0DAAA=
+        internal: H4sIAAAAAAAA/3WSz47TMBDGB7a7Cl0oggPnHhCnZJWmaZPwAIg73CP/mTRWHNuynV2BeBKelkm2lJUAHyyPNTPfz59nDbCG1QMzMoFr+2DQw6vPbPzO+rqpm/2+TSCJODrNIsI1k6MyCbwV1mpJ2a1HOYmorIGr3V2ewDvsOhSxdcxHJTS2tusCRrjK7/bUaRFolYT3LG9kc2iaTFRVle3locj4sayyqqmEFDspisORiLidjIRV9BMmsFKChDajNSFSGzydwscigVuJQXjlFozXn6zfLphha43+9g8kz6SawoxExRtlqJz60yu4xt9SLxnF99gGh1rD2ikxOCsGjEThWOzhZmQzBDUQNsSnPhSzDy+ct5FU8QK/OWPwiZNOuAidr4XV1sOHus4vK/1vQBADorv4YtiIcPu1x+2Xfgr9jPWGrArTiH/90PPZ/a5oRLc/5JmomzIru7zJeMe7rCyOvMBDXeYVeXOzvD7AT87EMLmUa2WGH2UqtGVDeiIb0Kc9Mp1qvFeRJiQdVQhKIyW5ngV83M/lf0xMPZ6QJmGu8OiY8mmYHHrurR0fj+fuy/lJ9jleSqIaZwN7GznzZOBkIjzb0TzQyHjrHLv8J8AvH/I8N+cCAAA=
     wand:
-      active_spell: anvil
-      active_material: grass
+      active_spell: pickpocket
       path: master
       template: admin
       bound: true
@@ -664,16 +662,15 @@ wands:
       cost_reduction: 2.0
       cooldown_reduction: 1.0
       effect_bubbles: true
-      effect_color: 879b2f55549b,879b2f55549b,879b2f55549b
+      effect_color: 880000000000,880000000000,880000000000
       effect_particle_radius: 0.2
       effect_particle_offset: 0.3
       hotbar_count: 1.0
       icon: monster_eggs:2
       keep: true
-      materials: anvil:4,dirt,grass,torch:3,water,wood
-      spells: absorb@19,anvil@18,arrowrain|2,backup@0,blink|4@1,cloak@2,gather@3,heal@4,levitate@5,missile|4@6,phase@7,phasebackup@8,pickpocket@9,regenerate@10,repair@11,superbroom@12,supergather@13,superkill,superregenerate@14,superrepair@15,time@16,tornado@17
+      spells: backup,blink|4,cloak,gather,heal,levitate,missile|4,phase,phasebackup,pickpocket,regenerate,repair,superbroom,supergather,superregenerate,superrepair,time
       protected: true
-      id: fa2916f7-8e95-43de-84ad-df8a7a06e4e9
+      id: f29cf350-c894-4f09-bfbf-426b2e584072
       owner: Hamzah898933_
       owner_id: a09d9599-c777-3d52-b647-797cdc1dc256
       name: The Shusher

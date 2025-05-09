@@ -35,10 +35,6 @@ world-settings:
       village: true
       flat-bedrock: false
     allow-block-location-tab-completion: true
-    remove-unloaded:
-      enderpearls: true
-      tnt-entities: true
-      falling-blocks: true
     game-mechanics:
       boats-drop-boats: false
       disable-player-crits: false
@@ -49,13 +45,25 @@ world-settings:
       enderpearls: false
       tnt-entities: false
       falling-blocks: false
-    player-blocking-damage-multiplier: 0.5
     fast-drain:
       lava: false
       water: false
     lava-flow-speed:
       normal: 30
       nether: 10
+    disable-teleportation-suffocation-check: false
+    player-exhaustion:
+      block-break: 0.02500000037252903
+      swimming: 0.014999999664723873
+    despawn-ranges:
+      soft: 32
+      hard: 128
+    falling-block-height-nerf: 0
+    remove-unloaded:
+      enderpearls: true
+      tnt-entities: true
+      falling-blocks: true
+    remove-invalid-mob-spawner-tile-entities: true
     optimize-explosions: false
     mob-spawner-tick-rate: 1
     cache-chunk-maps: false
@@ -69,19 +77,11 @@ world-settings:
     fishing-time-range:
       MinimumTicks: 100
       MaximumTicks: 900
-    player-exhaustion:
-      block-break: 0.02500000037252903
-      swimming: 0.014999999664723873
-    despawn-ranges:
-      soft: 32
-      hard: 128
-    falling-block-height-nerf: 0
-    remove-invalid-mob-spawner-tile-entities: true
-    disable-teleportation-suffocation-check: false
-    tnt-entity-height-nerf: 0
+    player-blocking-damage-multiplier: 0.5
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
     fix-cannons: false
+    tnt-entity-height-nerf: 0
     use-hopper-check: false
     all-chunks-are-slime-chunks: false
     allow-undead-horse-leashing: false

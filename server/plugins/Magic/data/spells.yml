@@ -584,7 +584,7 @@ portal:
   cast_count: 0
   last_cast: 0
 pickpocket:
-  cast_count: 80
+  cast_count: 82
   last_cast: 0
 simulate:
   cast_count: 0
